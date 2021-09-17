@@ -6,6 +6,9 @@
   .underline-links a {
     @apply border-b-2 no-underline opacity-100 font-medium !important;
   }
+  .underline-links-lg a {
+    @apply border-b-4 no-underline opacity-100 font-medium !important;
+  }
   a {
     @apply whitespace-nowrap;
   }

@@ -126,6 +126,7 @@ collections:
     identifier_field: name
     slug: '{{name}}'
     create: true
+    preview_path: '/{{slug}}'
     editor:
       preview: false
     fields:

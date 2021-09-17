@@ -1,5 +1,10 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 const colors = require('tailwindcss/colors')
+const MarkdownIt = require('markdown-it')
+const md = new MarkdownIt();
+md.use(require('markdown-it-bracketed-spans'))
+md.use(require('markdown-it-attrs'))
+
 
 module.exports = {
   darkMode: 'class',
@@ -119,31 +124,7 @@ module.exports = {
             },
           ],
         },
-      }),
-      // typography: {
-      //   DEFAULT: {
-      //     css: {
-      //       color: '#333',
-      //       h1: {
-      //         color: '#333',
-      //       },
-      //       a: {
-      //         color: '#3182ce',
-      //         '&:hover': {
-      //           color: '#2c5282',
-      //         },
-      //       },
-      //     },
-      //   },
-      //   dark: {
-      //     css: {
-      //       color: "#FFF",
-      //       h1: {
-      //         color: '#FFF',
-      //       },
-      //     }
-      //   }
-      // }
+      })
     },
     theme: {
 
@@ -185,12 +166,18 @@ module.exports = {
   purge: {
     content: [
       './*.html',
-      './src/**/*.{js,jsx,ts,tsx,vue}',
+      './src/**/*.{js,jsx,ts,tsx,vue,md}',
       `components/**/*.{vue,js,ts}`,
       `layouts/**/*.vue`,
       `pages/**/*.{vue,md}`,
       `plugins/**/*.{js,ts}`,
-      `nuxt.config.{js,ts}`
-    ]
+      `nuxt.config.{js,ts}`,
+    ],
+    transform: {
+      md: (content) => {
+        const rendered = md.render(content)
+        return rendered
+      }
+    }
   }
 }
