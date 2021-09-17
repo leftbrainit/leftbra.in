@@ -93,8 +93,8 @@ title: "On Your Side"
 slogan: "Your success is our success"
 ~~~
 
-There's nothing more rewarding than seeing our clients win awards, [close](https://techcrunch.com/2020/08/12/habito-completes-series-c/) [funding](https://www.zendesk.com/company/press/zendesk-announces-60-million-financing/) rounds and [create](https://www.instagram.com/p/BpJa1DSBhsW/) [awe-inspiring](https://www.brandme.co.uk/) things. Knowing we had even a small part in [helping](https://www.instagram.com/p/Bz8EI5OIf6l/) them get there is what gets us out of bed each morning.
+There's nothing more rewarding than seeing our clients win awards, close funding rounds and create awe-inspiring things. Knowing we had even a small part in helping them get there is what gets us out of bed each morning.
 
-Whatever your goals — growth, acquisition; changing the world or just making cool stuff — as your trusted partners , we'll do everything in our power to help you achieve them.
+Whatever your goals — growth, acquisition; changing the world or just making cool stuff — as your trusted partners, we'll do everything in our power to help you achieve them.
 
 :::
