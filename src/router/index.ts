@@ -5,7 +5,16 @@ const router = createRouter({
     history: createWebHistory(),
     routes,
     scrollBehavior(to, from, savedPosition) {
-        return { top: 0 }
+        if (savedPosition) {
+            return savedPosition
+        } else if (to.hash) {
+            return {
+                selector: to.hash
+            }
+        } else {
+
+            return { top: 0 }
+        }
     },
 })
 export default router
