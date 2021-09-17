@@ -1,0 +1,24 @@
+{
+    "locations": [
+        {
+            "city": "London",
+            "country": "UK",
+            "address": "145 City Road, London, EC1V 1AZ"
+        },
+        {
+            "city": "Copenhagen",
+            "country": "Denmark",
+            "address": "Flæsketorvet 68, 1711 København V"
+        },
+        {
+            "city": "Dublin",
+            "country": "Ireland",
+            "address": "11-15 Tara Street, Dublin, D02 RY83"
+        },
+        {
+            "city": "Cape Town",
+            "country": "South Africa",
+            "address": "80 Strand Street, Cape Town, 8001"
+        }
+    ]
+}

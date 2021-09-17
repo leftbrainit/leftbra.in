@@ -1,0 +1,106 @@
+<template>
+    <Popover>
+        <div class="flex items-center px-5">
+            <div class="flex-none">
+                <router-link class="p-4 font-semibold" to="/">
+                    <Logo class="text-blue-600 dark:text-gray-100 w-12" />
+                </router-link>
+            </div>
+            <div class="flex-grow flex justify-center"></div>
+            <div
+                class="hidden md:block flex-none divide-x dark:divide-white dark:divide-opacity-20"
+            >
+                <span class="pr-2">
+                    <router-link
+                        class="p-4 text-lg"
+                        v-for="route in navigation"
+                        :to="{ name: route.name }"
+                    >{{ route.niceName }}</router-link>
+                </span>
+                <a class="p-4 pl-6 text-lg font-medium" :href="dashboardBaseURL">Sign in &rarr;</a>
+            </div>
+            <div class="block md:hidden">
+                <PopoverButton
+                    class="rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+                >
+                    <span class="sr-only">Open main menu</span>
+                    <MenuIcon class="h-8 w-8" aria-hidden="true" />
+                </PopoverButton>
+            </div>
+        </div>
+        <transition
+            enter-active-class="duration-150 ease-out"
+            enter-from-class="opacity-0 scale-95"
+            enter-to-class="opacity-100 scale-100"
+            leave-active-class="duration-100 ease-in"
+            leave-from-class="opacity-100 scale-100"
+            leave-to-class="opacity-0 scale-95"
+        >
+            <PopoverPanel
+                focus
+                class="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+            >
+                <div
+                    class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden"
+                >
+                    <div class="px-5 pt-4 flex items-center justify-between">
+                        <Logo class="text-blue-600 w-8" />
+                        <div class="-mr-2">
+                            <PopoverButton
+                                class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+                            >
+                                <span class="sr-only">Close menu</span>
+                                <XIcon class="h-8 w-8" aria-hidden="true" />
+                            </PopoverButton>
+                        </div>
+                    </div>
+                    <div class="px-2 pt-4 pb-3">
+                        <router-link
+                            class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+                            v-for="route in navigation"
+                            :to="{ name: route.name }"
+                        >{{ route.niceName }}</router-link>
+                    </div>
+                    <a
+                        :href="dashboardBaseURL"
+                        class="block w-full px-5 py-3 text-center font-medium text-blue-600 bg-gray-50 hover:bg-gray-100"
+                    >Sign in &rarr;</a>
+                </div>
+            </PopoverPanel>
+        </transition>
+    </Popover>
+</template>
+
+<script setup lang="ts">
+import { inject } from "vue";
+import { SiteConfigKey } from "../symbols"
+import { useRouter } from "vue-router"
+import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
+import { MenuIcon, XIcon } from '@heroicons/vue/outline'
+
+const router = useRouter()
+const routes = router.getRoutes()
+const siteConfig = inject(SiteConfigKey)
+if (!siteConfig) {
+    throw new Error(`Could not resolve siteConfig`);
+}
+
+const routesWithNiceNames = routes.map(route => {
+    const frontmatter: any = route.meta.frontmatter
+    return {
+        name: route.name as string,
+        niceName: frontmatter.name as string
+    }
+})
+
+const navigation = siteConfig.topNavigationItems.map(itemName => {
+    const route = routesWithNiceNames.find(route => itemName === route.name)
+    return {
+        name: itemName,
+        niceName: route ? route.niceName : itemName
+    }
+})
+
+const dashboardBaseURL = siteConfig.dashboardBaseURL
+
+</script>

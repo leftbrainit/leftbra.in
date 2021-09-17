@@ -1,0 +1,151 @@
+backend:
+  name: github
+  repo: leftbrainit/leftbra.in
+local_backend: true
+media_folder: "public/assets"
+public_folder: "/assets"
+
+collections:
+  - label: "Site Data"
+    name: "site"
+    files:
+    - label: "Site Config"
+      name: "siteConfig"
+      format: 'json'
+      editor:
+        preview: false
+      file: "src/site.config.json"
+      fields:
+        - label: "Dashboard Base URL"
+          widget: "string"
+          name: "dashboardBaseURL"
+          hint: "e.g. https://dashboard.leftbrain.it"
+        - label: "Google Maps API Key"
+          widget: "string"
+          name: "googleMapsAPIKey"
+          hint: "See https://developers.google.com/maps/documentation/embed/get-started"
+        - label: "Top Navigation"
+          name: "topNavigationItems"
+          widget: "relation"
+          multiple: true
+          collection: "pages"
+          search_fields: ["name"]
+          value_field: "{{slug}}"
+          display_fields: ["name"]
+        - label: "Footer Categories"
+          name: "footerCategories"
+          widget: "list"
+          fields:
+            - label: "Category Name"
+              name: "name"
+              widget: "string"
+            - label: "Pages"
+              name: "pages"
+              widget: "relation"
+              multiple: true
+              collection: "pages"
+              required: false
+              default: []
+              search_fields: ["name"]
+              value_field: "{{slug}}"
+              display_fields: ["name"]
+            - label: "External URLs"
+              name: "externalUrls"
+              widget: "list"
+              default: []
+              collapsed: false
+              fields:
+                - label: "URL"
+                  name: "url"
+                  widget: "string"
+                - label: "Title"
+                  name: "title"
+                  widget: "string"
+        - label: "Copyright notice"
+          name: "copyrightNotice"
+          widget: "string"
+        - label: "Social Links"
+          name: "socialLinks"
+          widget: list
+          fields:
+            - label: "Title"
+              name: "title"
+              hint: "e.g. Instagram"
+              widget: "string"
+            - label: "URL"
+              name: "url"
+              widget: "string"
+            - label: "SVG Icon"
+              name: "image"
+              widget: "string"
+              hint: "Paste in a RAW SVG, starting with <svg ... (fills should use currentColor, not specific colours)"
+    - label: "Team"
+      name: "team"
+      format: 'json'
+      editor:
+        preview: false
+      file: "src/collections/team.json"
+      fields:
+        - label: "Members"
+          name: "members"
+          widget: list
+          fields:
+            - label: 'Name'
+              name: 'name'
+              widget: 'string'
+            - label: 'Position'
+              name: 'position'
+              widget: 'string'
+            - label: 'Image'
+              name: 'image'
+              widget: 'image'
+    - label: "Locations"
+      name: "locations"
+      format: 'json'
+      editor:
+        preview: false
+      file: "src/collections/locations.json"
+      fields:
+        - label: "Locations"
+          name: "locations"
+          widget: list
+          fields:
+            - label: 'City'
+              name: 'city'
+              widget: 'string'
+            - label: 'Country'
+              name: 'country'
+              widget: 'string'
+            - label: 'Address'
+              name: 'address'
+              widget: 'string'
+  - label: "Pages"
+    name: "pages"
+    folder: "src/pages"
+    format: 'frontmatter'
+    identifier_field: name
+    slug: '{{name}}'
+    create: true
+    editor:
+      preview: false
+    fields:
+      - label: 'Name'
+        name: 'name'
+        hint: 'e.g. About or Contact (use title case). The page slug will be created from this value (e.g. about).'
+        widget: 'string'
+      - label: 'Description'
+        name: 'description'
+        widget: 'string'
+      - label: 'Dark Mode'
+        name: 'dark'
+        required: false
+        widget: 'boolean'
+      - label: 'Wrap Page'
+        name: 'wrap'
+        hint: 'Add a wrapper around the page if not composing using components.'
+        required: false
+        widget: 'boolean'
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
+  

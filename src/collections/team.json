@@ -1,0 +1,89 @@
+{
+    "members": [
+        {
+            "name": "Alan Avins",
+            "position": "Head of Business Systems",
+            "image": "/assets/alan.png"
+        },
+        {
+            "name": "Charlie Naughton-Rumbo",
+            "position": "Senior Strategist",
+            "image": "/assets/charlie.jpeg"
+        },
+        {
+            "name": "Clare Lichfield",
+            "position": "Accounts",
+            "image": "/assets/clare.png"
+        },
+        {
+            "name": "Daniel Bangs",
+            "position": "Director",
+            "image": "/assets/daniel.png"
+        },
+        {
+            "name": "Dayne Deedat",
+            "position": "Support Team Lead",
+            "image": "/assets/dayne.jpeg"
+        },
+        {
+            "name": "Dustin Rhodes",
+            "position": "Head of New Business",
+            "image": "/assets/dustin.png"
+        },
+        {
+            "name": "Jason Hinrichsen",
+            "position": "Support Engineer",
+            "image": "/assets/jason.jpeg"
+        },
+        {
+            "name": "George McFadyen",
+            "position": "Senior Infra Engineer",
+            "image": "/assets/george.png"
+        },
+        {
+            "name": "Joshua Simpson",
+            "position": "Support Engineer",
+            "image": "/assets/joshua.jpeg"
+        },
+        {
+            "name": "Kris Anthony",
+            "position": "Infrastructure Team Lead",
+            "image": "/assets/kris.png"
+        },
+        {
+            "name": "Mauricio Iannini",
+            "position": "Support Engineer",
+            "image": "/assets/mauricio.png"
+        },
+        {
+            "name": "Michael Jin",
+            "position": "Director",
+            "image": "/assets/michael.png"
+        },
+        {
+            "name": "Ross Sangster",
+            "position": "Support Engineer",
+            "image": "/assets/ross.jpeg"
+        },
+        {
+            "name": "Sam O'Brien",
+            "position": "Support Engineer",
+            "image": "/assets/sam.png"
+        },
+        {
+            "name": "Steven Hartmann",
+            "position": "Senior Strategist",
+            "image": "/assets/steven.png"
+        },
+        {
+            "name": "Vitor Dias",
+            "position": "Support Engineer",
+            "image": "/assets/vitor.png"
+        },
+        {
+            "name": "Wade Wooldridge",
+            "position": "Support Engineer",
+            "image": "/assets/wade.jpeg"
+        }
+    ]
+}

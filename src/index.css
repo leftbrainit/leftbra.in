@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .underline-links a {
+    @apply border-b-2 no-underline opacity-100 font-medium !important;
+  }
+  a {
+    @apply whitespace-nowrap;
+  }
+}
