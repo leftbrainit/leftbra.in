@@ -17,7 +17,7 @@
             </div>
             <div class="mt-8">
                 <a
-                    href="#"
+                    href="mailto:hi@leftbra.in"
                     class="bg-blue-600 rounded-md px-5 py-4 text-lg font-semibold text-white shadow-md hover:shadow-xl hover:bg-blue-500"
                 >Contact New Business &rarr;</a>
             </div>
