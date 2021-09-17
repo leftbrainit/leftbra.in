@@ -43,6 +43,7 @@ const props = defineProps({
                 label: "Colour",
                 name: "colour",
                 widget: "select",
+                required: false,
                 options: ["green", "pink", "yellow"]
             }
         }

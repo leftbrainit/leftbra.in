@@ -26,7 +26,7 @@ export async function fetchVueComponentData(): Promise<VueComponentData[]> {
 
 export function buildEditorComponent(vueComponentData: VueComponentData) {
     const fields: any[] = [
-        { name: 'body', label: 'Body', widget: 'markdown', minimal: true, modes: ["rich_text"], buttons: ["bold", "italic", "link"] }
+        { name: 'body', label: 'Body', widget: 'markdown', minimal: true, modes: ["rich_text"] }
     ]
     vueComponentData.props.map(prop => {
         const defaultField = {
