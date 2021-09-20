@@ -1,26 +1,30 @@
 <template>
-    <Wrapper>
-        <div class="relative flex flex-col py-12 md:py-24">
-            <div class="flex flex-col justify-center">
-                <SectionHeading :colour="colour" :title="title" />
-                <div class="max-w-3xl text-5xl mb-3 font-medium leading-tight">
-                    <h4 v-html="slogan" />
+    <div
+        :class="colour === 'green' ? 'bg-lime-100' : colour === 'pink' ? 'bg-pink-100' : colour === 'yellow' ? 'bg-yellow-100' : ''"
+    >
+        <Wrapper>
+            <div class="relative flex flex-col py-12 md:py-24">
+                <div class="flex flex-col justify-center">
+                    <SectionHeading :colour="colour" :title="title" />
+                    <div class="max-w-3xl text-5xl mb-3 font-medium leading-tight">
+                        <h4 v-html="slogan" />
+                    </div>
+                    <Prose class="max-w-prose">
+                        <slot />
+                    </Prose>
                 </div>
-                <Prose class="max-w-prose">
-                    <slot />
-                </Prose>
-            </div>
-            <div class="grid">
-                <div class="grid grid-flow-col grid-rows-3 md:grid-rows-1 gap-8 mt-4">
-                    <SubFeature
-                        v-for="subFeature in subFeatures"
-                        v-bind="subFeature"
-                        :colour="colour"
-                    />
+                <div class="grid">
+                    <div class="grid grid-flow-col grid-rows-3 md:grid-rows-1 gap-8 mt-4">
+                        <SubFeature
+                            v-for="subFeature in subFeatures"
+                            v-bind="subFeature"
+                            :colour="colour"
+                        />
+                    </div>
                 </div>
             </div>
-        </div>
-    </Wrapper>
+        </Wrapper>
+    </div>
 </template>
 
 <script setup lang="ts">

@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
   .underline-links a {
     @apply border-b-2 no-underline opacity-100 font-medium !important;
   }

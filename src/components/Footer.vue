@@ -10,7 +10,11 @@
                     </div>
                     <div class="flex-grow w-full">
                         <div class="grid grid-flow-col grid-rows-2 md:grid-rows-1 max-w-4xl">
-                            <div v-for="category in footer" :key="`footer-${category.name}`">
+                            <div
+                                class="mb-8"
+                                v-for="category in footer"
+                                :key="`footer-${category.name}`"
+                            >
                                 <h3
                                     class="uppercase text-sm mb-3 font-bold tracking-wider text-gray-400"
                                 >{{ category.name }}</h3>

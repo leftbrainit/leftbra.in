@@ -5,7 +5,9 @@
         >
             <Navigation class="flex-none" />
             <main v-if="!wrap" class="flex-grow">
-                <slot />
+                <router-view v-slot="{ Component }">
+                    <slot />
+                </router-view>
             </main>
             <main v-else class="flex-grow py-16 md:py-36">
                 <div style="background: #FFF;"></div>

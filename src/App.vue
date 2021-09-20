@@ -16,5 +16,18 @@ export default defineComponent({
 </script>
 
 <template>
-  <router-view />
+  <router-view v-slot="{ Component }">
+    <transition
+      name="fade"
+      enter-active-class="transition  duration-200"
+      enter-from-class="transform opacity-0"
+      enter-to-class="transform opacity-100 "
+      leave-active-class="transition duration-200"
+      leave-from-class="transform opacity-100 "
+      leave-to-class="transform opacity-0"
+      mode="out-in"
+    >
+      <component :is="Component" />
+    </transition>
+  </router-view>
 </template>

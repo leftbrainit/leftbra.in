@@ -1,7 +1,7 @@
 ---
 name: Terms
 description: Terms of service for using this website
-dark: true
+dark: false
 wrap: true
 ---
 # Terms of Service
