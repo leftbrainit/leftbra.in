@@ -1,14 +1,14 @@
 <template>
-    <Wrapper class="bg-yellow-500">
-        <div class="relative flex flex-col my-6 text-center" v-for="statOption in statOptions" v-bind="statOption">
-            <div class="w-3/5 py-2 grid grid-flow-col" id="stat">
-                <div class="font-bold font-serif text-7xl italic">
-                    <h1>{{stat}}</h1>
+    <Wrapper class=" grid grid-flow-col justify-evenly border-dashed border-2 rounded">
+        <div class=" mt-6 mb-8 text-center" v-for="statOption in statOptions">
+            <div class="w-3/5 py-2" id="stat">
+                <div class="font-bold font-serif text-6xl italic">
+                    <h1>{{statOption.stat}}</h1>
                 </div>
             </div>
-            <div class="w-3/5 py-2" id="tag">
-                <div class="opacity-45">
-                    <h4>{{tag}}</h4>
+            <div class=" py-2" id="tag">
+                <div class="opacity-40">
+                    <h4>{{statOption.tag}}</h4>
                 </div>
             </div>
         </div> 
