@@ -81,7 +81,7 @@ export default defineConfig({
           if (tokens[index].nesting === 1) {
             let tagName = md.utils.escapeHtml(m[1])
             if (tagName) this[elementStoreName] = tagName
-            return `<${this[elementStoreName]}${propsString ? ' ' + propsString : ''}>\n`;
+            return `<${this[elementStoreName]}${propsString ? ' ' + propsString : ''} :frontmatter="frontmatter ? frontmatter : {}">\n`;
           } else {
             return `</${this[elementStoreName]}>\n`;
           }
@@ -92,6 +92,7 @@ export default defineConfig({
     pagesDir: "src/pages",
     extensions: ['vue', 'md'],
     importMode: "sync",
+    nuxtStyle: true,
     extendRoute(route) {
       const path = route.component.slice(1)
       const md = fs.readFileSync(path, 'utf-8')

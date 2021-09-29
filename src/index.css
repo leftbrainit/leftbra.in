@@ -12,6 +12,9 @@
   .underline-links-lg a {
     @apply border-b-4 no-underline opacity-100 font-medium !important;
   }
+  a.button {
+    @apply bg-blue-600 no-underline  rounded-md px-5 py-4 text-lg font-semibold text-white shadow-md hover:shadow-xl hover:bg-blue-500 !important;
+  }
   a {
     @apply whitespace-nowrap;
   }

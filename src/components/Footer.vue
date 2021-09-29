@@ -60,6 +60,7 @@
 import { inject } from "vue";
 import { SiteConfigKey } from "../symbols"
 import { useRouter } from "vue-router"
+import { getNiceRouteNames } from "../utilities"
 
 const router = useRouter()
 const routes = router.getRoutes()
@@ -68,13 +69,7 @@ if (!siteConfig) {
     throw new Error(`Could not resolve siteConfig`);
 }
 
-const routesWithNiceNames = routes.map(route => {
-    const frontmatter: any = route.meta.frontmatter
-    return {
-        name: route.name as string,
-        niceName: frontmatter.name as string
-    }
-})
+const routesWithNiceNames = getNiceRouteNames(routes)
 
 const footer = siteConfig.footerCategories.map(category => {
     let items = category.externalUrls.map(externalUrl => {
@@ -84,7 +79,8 @@ const footer = siteConfig.footerCategories.map(category => {
             type: 'external'
         }
     })
-    const pages = category.pages.map(routeName => {
+    const pages = category.pages.map(rawRouteName => {
+        const routeName = rawRouteName.split("/")[0]
         const route = routesWithNiceNames.find(route => routeName === route.name)
         items.push({
             to: routeName,

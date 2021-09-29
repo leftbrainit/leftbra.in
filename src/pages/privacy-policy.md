@@ -6,6 +6,7 @@ description: It is LeftBrain's policy to respect your privacy regarding any
   operate.
 dark: false
 wrap: true
+isSubPage: false
 ---
 # Privacy Policy
 

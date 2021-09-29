@@ -3,6 +3,7 @@ name: Contact
 description: Yeah contact
 dark: false
 wrap: false
+isSubPage: false
 ---
 ::: component Hero
 ~~~

@@ -9,7 +9,7 @@ export async function fetchVueComponentData(): Promise<VueComponentData[]> {
         const parts = path.split("/")
         const filename = parts[parts.length - 1]
         const componentName = filename.split('.')[0]
-        const props: VueComponentData["props"] = component.props ? Object.keys(component.props).map(propName => {
+        const props: VueComponentData["props"] = component.props ? Object.keys(component.props).filter(propName => propName !== 'frontmatter').map(propName => {
             const typeOutput = component.props[propName].type()
             let type: string = typeof typeOutput
             if (type === 'object' && Array.isArray(typeOutput)) type = 'array'
@@ -32,8 +32,12 @@ export function buildEditorComponent(vueComponentData: VueComponentData) {
         const defaultField = {
             name: prop.name, label: prop.name, widget: 'string'
         }
-        if (prop.cmsConfig && prop.cmsConfig.field) {
-            fields.push({ ...defaultField, ...prop.cmsConfig.field, name: prop.name })
+        if (prop.cmsConfig && !prop.cmsConfig.hide) {
+            if (prop.cmsConfig.field) {
+                fields.push({ ...defaultField, ...prop.cmsConfig.field, name: prop.name })
+            } else {
+                fields.push(defaultField)
+            }
         } else {
             fields.push(defaultField)
         }
@@ -70,9 +74,7 @@ export function buildEditorComponent(vueComponentData: VueComponentData) {
 ~~~
 ${propsYAML.trim()}
 ~~~
-
 ${obj.body}
-
 :::`;
         },
     }
