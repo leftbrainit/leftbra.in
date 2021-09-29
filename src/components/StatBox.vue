@@ -1,23 +1,12 @@
 <template>
-    <Wrapper class=" grid grid-flow-col justify-evenly border-dashed border-2 rounded">
-        <div class=" mt-6 mb-8 text-center" v-for="statOption in statOptions">
-            <div class="w-3/5 py-2" id="stat">
-                <div class="font-bold font-serif text-6xl italic">
-                    <h1>{{statOption.stat}}</h1>
-                </div>
-            </div>
-            <div class=" py-2" id="tag">
-                <div class="opacity-40">
-                    <h4>{{statOption.tag}}</h4>
-                </div>
-            </div>
-        </div> 
+    <Wrapper class="grid grid-flow-col justify-evenly border-dashed border-2 rounded">
+        <Stat v-for="statOption in statOptions" v-bind="statOption" />
     </Wrapper>
 </template>
 
 
 <script lang="ts" setup>
-import {computed} from 'vue'
+import { computed } from 'vue'
 
 const props = defineProps({
     statOptions: {
@@ -45,7 +34,7 @@ const props = defineProps({
             }
         }
     }
-    
+
 })
 
 </script>
