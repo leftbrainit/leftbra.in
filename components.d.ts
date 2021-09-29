@@ -20,6 +20,8 @@ declare module 'vue' {
     Prose: typeof import('./src/components/Prose.vue')['default']
     Section: typeof import('./src/components/Section.vue')['default']
     SectionHeading: typeof import('./src/components/SectionHeading.vue')['default']
+    StatBox: typeof import('./src/components/StatBox.vue')['default']
+    SubElement: typeof import('./src/components/SubElement.vue')['default']
     SubFeature: typeof import('./src/components/SubFeature.vue')['default']
     Team: typeof import('./src/components/Team.vue')['default']
     Vacancies: typeof import('./src/components/Vacancies.vue')['default']
