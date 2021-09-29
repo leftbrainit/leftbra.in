@@ -16,6 +16,15 @@ To make sure you connect with the right team, please choose an option below.
 
 :::
 
+::: component StatBox
+~~~
+statOptions:
+  - stat: "87%"
+    tag: "good vibes"
+  - stat: "64.96%"
+    tag: "made up stats"
+~~~
+
 ::: component ContactOptions
 ~~~
 contactOptions:
