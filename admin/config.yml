@@ -182,13 +182,18 @@ collections:
         name: 'isSubPage'
         widget: 'hidden'
         default: true
-      - label: 'Description'
-        name: 'description'
-        widget: 'string'
       - label: 'Salary Range'
         name: 'salaryRange'
         widget: 'string'
+        required: false
         hint: 'e.g. £50-55k'
+      - label: 'Start date'
+        name: 'startDate'
+        widget: 'datetime'
+        format: "Do MMMM YYYY"
+        required: false
+        time_format: false
+        hint: "Leave blank for 'flexible'"
       - label: 'Dark Mode'
         name: 'dark'
         default: true

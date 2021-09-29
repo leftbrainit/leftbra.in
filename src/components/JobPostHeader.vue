@@ -1,7 +1,30 @@
 <template>
     <div>
-        <h1>Position: {{ frontmatter.position }}</h1>
-        <h4>Start Date: {{ frontmatter.start }}</h4>
+        <div
+            class="text-5xl sm:text-6xl md:text-7xl font-bold sm:leading-none"
+            v-html="frontmatter.position"
+        />
+        <div class="flex gap-4 mt-4">
+            <div class="flex flex-row items-center justify-center">
+                <span class="material-icons mr-1 opacity-60">event</span>
+                <span
+                    class="opacity-90 font-medium"
+                >{{ frontmatter.startDate ? frontmatter.startDate : "Flexible" }}</span>
+            </div>
+            <div class="flex flex-row items-center justify-center">
+                <span class="material-icons mr-1 opacity-60">money</span>
+                <span
+                    class="opacity-90 font-medium"
+                >{{ frontmatter.salaryRange ? frontmatter.salaryRange : "Flexible" }}</span>
+            </div>
+            <div class="flex flex-row items-center justify-center">
+                <span class="material-icons mr-1 opacity-60">place</span>
+                <span
+                    class="opacity-90 font-medium"
+                >{{ frontmatter.location ? frontmatter.location : "Remote" }}</span>
+            </div>
+        </div>
+        <!-- {{ frontmatter }} -->
         <slot />
     </div>
 </template>

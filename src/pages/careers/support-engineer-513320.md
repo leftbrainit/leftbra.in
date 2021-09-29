@@ -1,9 +1,8 @@
 ---
 position: Junior Engineer for Diagnostics, Integrations, and Support - JEDIS
 isSubPage: true
-description: JEDIS are the backbone of our business and cover a wide range of
-  on-site, client-facing support, and project based work.
 salaryRange: £25K-£31K
+startDate: October 1st 2021
 dark: true
 location: London
 wrap: true
@@ -12,8 +11,6 @@ wrap: true
 ~~~
 {}
 ~~~
-
-Nada
 
 :::
 
