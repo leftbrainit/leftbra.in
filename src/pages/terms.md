@@ -3,6 +3,7 @@ name: Terms
 description: Terms of service for using this website
 dark: false
 wrap: true
+isSubPage: false
 ---
 # Terms of Service
 

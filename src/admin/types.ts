@@ -2,7 +2,8 @@ interface Prop {
     name: string
     type: string
     cmsConfig?: {
-        field: object
+        field?: object
+        hide?: boolean
     }
 }
 

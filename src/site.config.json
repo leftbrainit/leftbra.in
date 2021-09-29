@@ -18,7 +18,8 @@
       "name": "Company",
       "pages": [
         "about",
-        "contact"
+        "contact",
+        "careers/index"
       ],
       "externalUrls": []
     },

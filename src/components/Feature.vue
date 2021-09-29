@@ -14,7 +14,7 @@
                     </Prose>
                 </div>
                 <div class="grid">
-                    <div class="grid grid-flow-col grid-rows-3 md:grid-rows-1 gap-8 mt-4">
+                    <div class="grid grid-flow-row grid-cols-1 md:grid-cols-3 gap-8 mt-4">
                         <SubFeature
                             v-for="subFeature in subFeatures"
                             v-bind="subFeature"

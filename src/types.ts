@@ -43,3 +43,8 @@ interface Location {
 export interface Locations {
     locations: Location[]
 }
+
+export interface NiceRouteName {
+    name: string
+    niceName: string
+}

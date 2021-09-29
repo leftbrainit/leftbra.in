@@ -17,7 +17,8 @@
             </div>
             <div class="mt-8">
                 <a
-                    href="mailto:hi@leftbra.in"
+                    href="#"
+                    @click="startNewBusinessIntercomConversation"
                     class="bg-blue-600 rounded-md px-5 py-4 text-lg font-semibold text-white shadow-md hover:shadow-xl hover:bg-blue-500"
                 >Contact New Business &rarr;</a>
             </div>
@@ -27,6 +28,16 @@
 
 <script setup lang="ts">
 import { computed } from 'vue'
+
+declare global {
+    interface Window {
+        Intercom: (command: string, param?: string) => void;
+    }
+}
+
+const startNewBusinessIntercomConversation = () => {
+    window.Intercom('showNewMessage', 'Hi, I clicked on contact new business.')
+}
 
 const props = defineProps({
     title: {

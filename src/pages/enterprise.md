@@ -3,6 +3,7 @@ name: Enterprise
 description: Services for enterprise
 dark: true
 wrap: false
+isSubPage: false
 ---
 ::: component Hero
 ~~~

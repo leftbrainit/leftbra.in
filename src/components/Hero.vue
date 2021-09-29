@@ -1,7 +1,6 @@
 <template>
     <Wrapper>
         <div class="pt-10 pb-24 md:pt-28 md:pb-40">
-            <!-- <div class="py-16 md:py-36"> -->
             <h1
                 class="text-5xl sm:text-6xl md:text-7xl max-w-3xl font-bold sm:leading-none"
                 v-html="title"

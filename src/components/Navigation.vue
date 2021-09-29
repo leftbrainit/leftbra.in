@@ -77,6 +77,7 @@ import { SiteConfigKey } from "../symbols"
 import { useRouter } from "vue-router"
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
 import { MenuIcon, XIcon } from '@heroicons/vue/outline'
+import { getNiceRouteNames } from "../utilities"
 
 const router = useRouter()
 const routes = router.getRoutes()
@@ -85,21 +86,7 @@ if (!siteConfig) {
     throw new Error(`Could not resolve siteConfig`);
 }
 
-const routesWithNiceNames = routes.map(route => {
-    const frontmatter: any = route.meta.frontmatter
-    return {
-        name: route.name as string,
-        niceName: frontmatter.name as string
-    }
-})
-
-const navigation = siteConfig.topNavigationItems.map(itemName => {
-    const route = routesWithNiceNames.find(route => itemName === route.name)
-    return {
-        name: itemName,
-        niceName: route ? route.niceName : itemName
-    }
-})
+const navigation = getNiceRouteNames(routes, siteConfig.topNavigationItems)
 
 const dashboardBaseURL = siteConfig.dashboardBaseURL
 

@@ -7,14 +7,15 @@ public_folder: "/assets"
 
 collections:
   - label: "Site Data"
-    name: "site"
+    name: "data"
+    description: "Collections herein are used to store data that might be used in multiple areas of the site (e.g. Team)."
     files:
     - label: "Site Config"
       name: "siteConfig"
       format: 'json'
       editor:
         preview: false
-      file: "src/site.config.json"
+      file: "/src/site.config.json"
       fields:
         - label: "Dashboard Base URL"
           widget: "string"
@@ -84,7 +85,7 @@ collections:
       format: 'json'
       editor:
         preview: false
-      file: "src/collections/team.json"
+      file: "/src/collections/team.json"
       fields:
         - label: "Members"
           name: "members"
@@ -101,10 +102,11 @@ collections:
               widget: 'image'
     - label: "Locations"
       name: "locations"
+      label_singular: "Location"
       format: 'json'
       editor:
         preview: false
-      file: "src/collections/locations.json"
+      file: "/src/collections/locations.json"
       fields:
         - label: "Locations"
           name: "locations"
@@ -121,12 +123,17 @@ collections:
               widget: 'string'
   - label: "Pages"
     name: "pages"
-    folder: "src/pages"
+    label_singular: "Page"
+    folder: "/src/pages"
     format: 'frontmatter'
     identifier_field: name
     slug: '{{name}}'
     create: true
-    preview_path: '/{{slug}}'
+    nested:
+      depth: 100 # max depth to show in the collection tree
+    filter:
+      field: 'isSubPage'
+      value: false
     editor:
       preview: false
     fields:
@@ -134,6 +141,10 @@ collections:
         name: 'name'
         hint: 'e.g. About or Contact (use title case). The page slug will be created from this value (e.g. about).'
         widget: 'string'
+      - label: 'Sub Page'
+        name: 'isSubPage'
+        widget: 'hidden'
+        default: true
       - label: 'Description'
         name: 'description'
         widget: 'string'
@@ -149,4 +160,63 @@ collections:
       - label: 'Body'
         name: 'body'
         widget: 'markdown'
+  - label: "Vacancies"
+    name: "vacancies"
+    label_singular: "Vacancy"
+    folder: "/src/pages/careers"
+    format: 'frontmatter'
+    identifier_field: position
+    slug: '{{slug}}-{{minute}}{{second}}{{day}}'
+    filter:
+      field: 'isSubPage'
+      value: true
+    create: true
+    editor:
+      preview: false
+    fields:
+      - label: 'Position'
+        name: 'position'
+        hint: 'e.g. Senior Head of Product Awesomeness'
+        widget: 'string'
+      - label: 'Sub Page'
+        name: 'isSubPage'
+        widget: 'hidden'
+        default: true
+      - label: 'Salary Range'
+        name: 'salaryRange'
+        widget: 'string'
+        required: false
+        hint: 'e.g. £50-55k'
+      - label: 'Start date'
+        name: 'startDate'
+        widget: 'datetime'
+        format: "Do MMMM YYYY"
+        required: false
+        time_format: false
+        hint: "Leave blank for 'flexible'"
+      - label: 'Dark Mode'
+        name: 'dark'
+        default: true
+        widget: 'hidden'
+      - label: "Location"
+        name: "location"
+        widget: "relation"
+        hint: "Leave blank for Remote"
+        collection: "data"
+        file: "locations"
+        required: false
+        default: ""
+        search_fields: ["locations.*.city"]
+        display_fields: ["locations.*.city"]
+        value_field: "locations.*.city"
+      - label: 'Wrap Page'
+        name: 'wrap'
+        default: true
+        widget: 'hidden'
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
+        modes: ["rich_text"]
+        default: "::: component JobPostHeader\n~~~\n~~~\n\n \n:::\n"
+
   

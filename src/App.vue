@@ -11,23 +11,28 @@ export default defineComponent({
     provide(SiteConfigKey, siteConfig as SiteConfig)
     provide(TeamKey, team as Team)
     provide(LocationsKey, locations as Locations)
+
   }
 })
 </script>
 
 <template>
-  <router-view v-slot="{ Component }">
-    <transition
-      name="fade"
-      enter-active-class="transition  duration-200"
-      enter-from-class="transform opacity-0"
-      enter-to-class="transform opacity-100 "
-      leave-active-class="transition duration-200"
-      leave-from-class="transform opacity-100 "
-      leave-to-class="transform opacity-0"
-      mode="out-in"
+  <router-view v-slot="{ Component, route }">
+    <div
+      :class="route.meta && route.meta.frontmatter && route.meta.frontmatter.dark ? 'bg-gray-800' : 'bg-gray-100'"
     >
-      <component :is="Component" />
-    </transition>
+      <transition
+        name="fade"
+        enter-active-class="transition  duration-100"
+        enter-from-class="transform opacity-0"
+        enter-to-class="transform opacity-100 "
+        leave-active-class="transition duration-100"
+        leave-from-class="transform opacity-100 "
+        leave-to-class="transform opacity-0"
+        mode="out-in"
+      >
+        <component :is="Component" />
+      </transition>
+    </div>
   </router-view>
 </template>
