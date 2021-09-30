@@ -5,7 +5,10 @@
             <slot />
         </Prose>
         <div class="mt-12">
-            <div v-if="!vacancies.length">No current vacancies</div>
+            <div
+                class="text-lg font-semibold w-full opacity-70 rounded-xl py-4 px-8 border-2 border-dotted border-opacity-10"
+                v-if="!vacancies.length"
+            >No current vacancies. Check back soon!</div>
             <ul v-else>
                 <router-link
                     v-for="vacancy in vacancies"
@@ -13,16 +16,18 @@
                     :to="{ name: vacancy.routeName }"
                 >
                     <li
-                        class="group hover:bg-gray-600 cursor-pointer hover:shadow-2xl flex flex-row items-center mb-5 w-full bg-gray-700 rounded-xl py-4 px-8"
+                        class="group hover:bg-gray-600 cursor-pointer flex-wrap hover:shadow-2xl flex flex-col md:flex-row items-start md:items-center mb-5 w-full bg-gray-700 rounded-xl py-4 px-8 overflow-x-hidden"
                     >
-                        <div class="flex-none">
-                            <div class="text-lg font-semibold">{{ vacancy.position }}</div>
+                        <div class="flex-shrink whitespace-normal">
+                            <div class="text-lg font-semibold w-full">{{ vacancy.position }}</div>
                             <div
-                                class="text-md font-medium opacity-80"
+                                class="text-md mt-2 md:mt-0 font-medium opacity-70"
                             >{{ vacancy.city ? vacancy.city : "Remote" }}</div>
                         </div>
                         <div class="flex-grow"></div>
-                        <div class="flex-none text-gray-500 group-hover:text-white">Read more &rarr;</div>
+                        <div
+                            class="hidden md:block flex-none text-gray-500 group-hover:text-white"
+                        >Read more &rarr;</div>
                     </li>
                 </router-link>
             </ul>
