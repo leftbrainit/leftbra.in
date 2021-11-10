@@ -46,6 +46,11 @@
             "image": "/assets/hluby.jpeg"
         },
         {
+            "name": "Jazziere Blanc",
+            "position": "Support Engineer",
+            "image": "/assets/jazz.png"
+        },
+        {
             "name": "Joshua Simpson",
             "position": "Support Engineer",
             "image": "/assets/joshua.jpeg"
@@ -78,7 +83,7 @@
         {
             "name": "Ross Sangster",
             "position": "Support Engineer",
-            "image": "/assets/ross.jpeg"
+            "image": "/assets/ross.jpg"
         },
         {
             "name": "Steven Hartmann",
