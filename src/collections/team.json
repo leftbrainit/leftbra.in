@@ -41,6 +41,11 @@
             "image": "/assets/george.png"
         },
         {
+            "name": "Hluby Lebisi",
+            "position": "Support Engineer",
+            "image": "/assets/hluby.jpeg"
+        },
+        {
             "name": "Joshua Simpson",
             "position": "Support Engineer",
             "image": "/assets/joshua.jpeg"
@@ -52,7 +57,7 @@
         },
         {
             "name": "Mauricio Iannini",
-            "position": "Support Engineer",
+            "position": "JEDI",
             "image": "/assets/mauricio.png"
         },
         {
@@ -61,14 +66,14 @@
             "image": "/assets/michael.png"
         },
         {
+            "name": "Raj Ramdeo",
+            "position": "JEDI",
+            "image": "/assets/raj.png"
+        },
+        {
             "name": "Ross Sangster",
             "position": "Support Engineer",
             "image": "/assets/ross.jpeg"
-        },
-        {
-            "name": "Sam O'Brien",
-            "position": "Support Engineer",
-            "image": "/assets/sam.png"
         },
         {
             "name": "Steven Hartmann",
