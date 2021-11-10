@@ -56,6 +56,11 @@
             "image": "/assets/kris.png"
         },
         {
+            "name": "Lewis Karume",
+            "position": "Support Engineer",
+            "image": "/assets/lewis.jpg"
+        },
+        {
             "name": "Mauricio Iannini",
             "position": "JEDI",
             "image": "/assets/mauricio.png"
