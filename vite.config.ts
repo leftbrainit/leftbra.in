@@ -92,7 +92,7 @@ export default defineConfig({
     pagesDir: "src/pages",
     extensions: ['vue', 'md'],
     importMode: "sync",
-    nuxtStyle: true,
+    nuxtStyle: false,
     extendRoute(route) {
       const path = route.component.slice(1)
       const md = fs.readFileSync(path, 'utf-8')

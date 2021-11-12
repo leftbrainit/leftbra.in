@@ -3,7 +3,7 @@
         :class="colour === 'green' ? 'bg-lime-100' : colour === 'pink' ? 'bg-pink-100' : colour === 'yellow' ? 'bg-yellow-100' : ''"
     >
         <Wrapper>
-            <div class="relative flex flex-col py-12 md:py-24">
+            <div class="relative flex flex-col py-12 md:py-24 lg:py-32">
                 <div class="flex flex-col justify-center">
                     <SectionHeading :colour="colour" :title="title" />
                     <div class="max-w-3xl text-5xl mb-3 font-medium leading-tight">
