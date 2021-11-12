@@ -218,5 +218,62 @@ collections:
         widget: 'markdown'
         modes: ["rich_text"]
         default: "::: component JobPostHeader\n~~~\n~~~\n\n \n:::\n"
+  - label: "Blog Posts"
+    name: "posts"
+    label_singular: "Blog Post"
+    folder: "/src/pages/blog"
+    format: 'frontmatter'
+    identifier_field: title
+    slug: slug
+    filter:
+      field: 'isSubPage'
+      value: true
+    create: true
+    editor:
+      preview: false
+    fields:
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: 'Sub Page'
+        name: 'isSubPage'
+        widget: 'hidden'
+        default: true
+      - label: 'Publish Date'
+        name: 'publishDate'
+        widget: 'datetime'
+        format: "Do MMMM YYYY"
+        required: true
+        time_format: false
+      - label: 'Dark Mode'
+        name: 'dark'
+        default: false
+        widget: 'hidden'
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+      - label: 'Wrap Page'
+        name: 'wrap'
+        default: true
+        widget: 'hidden'
+      - label: 'Excerpt'
+        name: 'excerpt'
+        widget: 'markdown'
+        required: true
+      - label: "Author"
+        name: "authorName"
+        widget: "relation"
+        collection: "data"
+        file: "team"
+        required: true
+        default: ""
+        search_fields: ["members.*.name"]
+        display_fields: ["members.*.name"]
+        value_field: "members.*.name"
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
+        modes: ["rich_text"]
+        default: "::: component BlogPostHeader\n~~~\n~~~\n\n \n:::\n"
 
   

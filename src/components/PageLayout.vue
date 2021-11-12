@@ -50,18 +50,20 @@ export default defineComponent({
         const isSubPage = frontmatter.isSubPage ?? false
         let parentRoute: NiceRouteName | undefined = undefined
         if (isSubPage) {
-            const parentPath = route.path.split("/").slice(0, -1).join("/")
+            const parentPath = "/" + route.path.split("/").filter(path => path).slice(0, -1).join("/")
             const rawParentRoute = router.getRoutes().find(route => route.path === parentPath)
             const parentFrontmatter: any = rawParentRoute ? rawParentRoute.meta.frontmatter as object : {}
             parentRoute = rawParentRoute ? niceRouteNames.find(route => rawParentRoute.name === route.name) : undefined
             mergedFrontmatter = { ...mergedFrontmatter, ...parentFrontmatter }
         }
+        const name = mergedFrontmatter.name ?? mergedFrontmatter.name ?? route.name ?? "Page"
+        const description = mergedFrontmatter.description ?? mergedFrontmatter.excerpt
         useHead({
-            title: `${mergedFrontmatter.name} - LeftBrain`,
+            title: `${name} - LeftBrain`,
             meta: [
                 {
                     name: `description`,
-                    content: mergedFrontmatter.description,
+                    content: description,
                 },
             ],
         })

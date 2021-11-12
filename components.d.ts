@@ -4,6 +4,8 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
+    BlogPostHeader: typeof import('./src/components/BlogPostHeader.vue')['default']
+    BlogPosts: typeof import('./src/components/BlogPosts.vue')['default']
     Button: typeof import('./src/components/Button.vue')['default']
     ButtonLink: typeof import('./src/components/ButtonLink.vue')['default']
     CallToAction: typeof import('./src/components/CallToAction.vue')['default']

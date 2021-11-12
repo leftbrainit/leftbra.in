@@ -6,7 +6,7 @@ export function getNiceRouteNames(routes: RouteRecordNormalized[], routeNames?: 
         const frontmatter: any = route.meta.frontmatter
         return {
             name: route.name as string,
-            niceName: frontmatter.name as string
+            niceName: frontmatter.name as string ?? route.name as string
         }
     })
 

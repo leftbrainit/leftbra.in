@@ -19,7 +19,8 @@
       "pages": [
         "about",
         "contact",
-        "careers/index"
+        "careers/index",
+        "blog/index"
       ],
       "externalUrls": []
     },
