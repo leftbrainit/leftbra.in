@@ -9,8 +9,6 @@ ZeroTier is a highly secure software defined networking service (SDN) that allow
 
 Installing it is easy. Just download and run the installer below:
 
-
-
 ::: component ButtonLink
 ~~~
 href: "https://storage.googleapis.com/leftbrain-a057d.appspot.com/public/ZeroTierInstaller.pkg"
