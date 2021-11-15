@@ -7,13 +7,19 @@
     scroll-behavior: smooth;
   }
   .underline-links a {
-    @apply border-b-2 no-underline opacity-100 font-medium !important;
+    @apply border-b-2 no-underline opacity-100 font-medium;
   }
   .underline-links-lg a {
-    @apply border-b-4 no-underline opacity-100 font-medium !important;
+    @apply border-b-4 no-underline opacity-100 font-medium;
+  }
+  .underline-links-lg a {
+    @apply no-underline !important;
+  }
+  .underline-links a {
+    @apply border-b-2 no-underline opacity-100 font-medium !important;
   }
   a.button {
-    @apply bg-blue-600 no-underline  rounded-md px-5 py-4 text-lg font-semibold text-white shadow-md hover:shadow-xl hover:bg-blue-500 !important;
+    @apply bg-blue-600 no-underline border-none rounded-md px-5 py-4 text-lg font-semibold text-white shadow-md hover:shadow-xl hover:bg-blue-500 !important;
   }
   a {
     @apply whitespace-nowrap;

@@ -2,7 +2,7 @@
     <div class="mt-8">
         <a
             :href="href"
-            class="bg-blue-600 rounded-md px-5 py-4 text-lg font-semibold text-white shadow-md hover:shadow-xl hover:bg-blue-500"
+            class="bg-blue-600 rounded-md px-5 py-4 text-lg font-semibold border-none text-white shadow-md hover:shadow-xl hover:bg-blue-500"
         >{{ text }}</a>
     </div>
 </template>

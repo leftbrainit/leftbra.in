@@ -18,6 +18,7 @@ declare module 'vue' {
     Locations: typeof import('./src/components/Locations.vue')['default']
     Logo: typeof import('./src/components/Logo.vue')['default']
     Navigation: typeof import('./src/components/Navigation.vue')['default']
+    PageHeader: typeof import('./src/components/PageHeader.vue')['default']
     PageLayout: typeof import('./src/components/PageLayout.vue')['default']
     Prose: typeof import('./src/components/Prose.vue')['default']
     Section: typeof import('./src/components/Section.vue')['default']

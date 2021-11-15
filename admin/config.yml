@@ -224,7 +224,7 @@ collections:
     folder: "/src/pages/blog"
     format: 'frontmatter'
     identifier_field: title
-    slug: slug
+    slug: "{{slug}}"
     filter:
       field: 'isSubPage'
       value: true
@@ -275,5 +275,3 @@ collections:
         widget: 'markdown'
         modes: ["rich_text"]
         default: "::: component BlogPostHeader\n~~~\n~~~\n\n \n:::\n"
-
-  
