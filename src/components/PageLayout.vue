@@ -44,6 +44,9 @@ export default defineComponent({
         const router = useRouter()
         const niceRouteNames = getNiceRouteNames(router.getRoutes())
         let mergedFrontmatter = frontmatter
+        if (frontmatter.redirect && frontmatter.redirect.startsWith("https://")) {
+            window.location.replace(frontmatter.redirect)
+        }
         const dark = frontmatter.dark ?? false
         const wrap = frontmatter.wrap ?? false
         const colour = frontmatter.colour ?? 'green'
