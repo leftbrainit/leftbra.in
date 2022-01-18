@@ -6,8 +6,9 @@ redirect: urg
 dark: false
 wrap: true
 ---
-<div class="p-4 bg-yellow-100 border border-yellow-200 text-yellow-800">
-These are the terms of service for use of this website. Existing customers, please refer to our <a href="/ongoing-support-plans">Ongoing Support Terms</a>.
+
+<div class="p-4 bg-yellow-100 border border-yellow-200 text-yellow-800 mb-4">
+<b>Note:</b> These are the Terms Of Service for use of this website. Existing customers, please refer to our <a href="/ongoing-support-terms">Ongoing Support Terms</a>.
 </div>
 
 # Terms of Service
@@ -25,6 +26,7 @@ By accessing the website at <https://leftbra.in>, you are agreeing to be bound b
    3. attempt to decompile or reverse engineer any software contained on LeftBrain's website;
    4. remove any copyright or other proprietary notations from the materials; or
    5. transfer the materials to another person or "mirror" the materials on any other server.
+
 2. This license shall automatically terminate if you violate any of these restrictions and may be terminated by LeftBrain at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.
 
 ### 3. Disclaimer

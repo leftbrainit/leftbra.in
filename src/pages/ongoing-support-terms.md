@@ -2,9 +2,9 @@
 name: Ongoing Support Terms
 isSubPage: false
 description: Terms and Conditions for our Ongoing Support Plans
-redirect: nope
 wrap: true
 ---
+
 # LeftBrain Terms and Conditions
 
 The Client’s attention is drawn to all the provisions and particularly to Clauses 6, 7, and 14.
@@ -19,7 +19,7 @@ Client is the person, company or firm that purchases Services from LeftBrain Lt
 
 Confidential Information is each party’s business or technical information, including but not limited to any information relating to software, designs, costs, prices and names, finances, marketing plans, business opportunities, customers (actual or intended), suppliers, present future plans/ideas/intended activities, research, development or know-how that is designated by the disclosing party as “confidential” or “proprietary” or the receiving party knows or should reasonably know is confidential and/or proprietary.
 
-Fees are based on per user or project basis in accordance with LeftBrain’s support plans as published on the website at [](https://www.google.com/url?q=http://leftbrain.it/plans&sa=D&ust=1523443438254000)<https://leftbra.in/plans> or as agreed upon in advance. 
+Fees are based on per user or project basis in accordance with LeftBrain’s support plans as published on the website at [](https://www.google.com/url?q=http://leftbrain.it/plans&sa=D&ust=1523443438254000)<https://leftbra.in/plans> or as agreed upon in advance.
 
 Incidents are support requests of an urgent or time sensitive nature. These carry a response time of 1 business hour.
 
@@ -258,7 +258,7 @@ LeftBrain reserves the right to periodically review the Fees and shall provide t
 2. any loss of profits, sales, agreements or contracts, savings, business opportunities, revenue, economic loss or damage to goodwill (in each case whether arising directly or indirectly as a result of the applicable course in action); and
 3. any loss of, corruption to or alteration of any Client data, software or information.
 
-14.4 The parties expressly agree that the provisions of this Clause 14 are a reasonable allocation of risk/reward and that if any limitation or provision contained or expressly referred to in this Clause 14 is held to be invalid under any applicable statute or rule of law, it shall, to that extent, be deemed omitted. If any party becomes liable for loss or damage which would otherwise have been excluded, that liability shall be subject to the other limitations and provisions set out in this Clause14.
+   14.4 The parties expressly agree that the provisions of this Clause 14 are a reasonable allocation of risk/reward and that if any limitation or provision contained or expressly referred to in this Clause 14 is held to be invalid under any applicable statute or rule of law, it shall, to that extent, be deemed omitted. If any party becomes liable for loss or damage which would otherwise have been excluded, that liability shall be subject to the other limitations and provisions set out in this Clause14.
 
 ## 15. Force majeure
 
