@@ -1,10 +1,15 @@
 ---
 name: Terms
+isSubPage: false
 description: Terms of service for using this website
+redirect: urg
 dark: false
 wrap: true
-isSubPage: false
 ---
+<div class="p-4 bg-yellow-100 border border-yellow-200 text-yellow-800">
+These are the terms of service for use of this website. Existing customers, please refer to our <a href="/ongoing-support-plans">Ongoing Support Terms</a>.
+</div>
+
 # Terms of Service
 
 ### 1. Terms
