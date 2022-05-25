@@ -199,6 +199,11 @@ collections:
         required: false
         time_format: false
         hint: "Leave blank for 'flexible'"
+      - label: 'Redirect URL'
+        name: 'redirect'
+        widget: 'string'
+        required: false
+        hint: 'If an HTTPS url is entered, the page will redirect on load'
       - label: 'Dark Mode'
         name: 'dark'
         default: true
