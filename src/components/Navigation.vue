@@ -11,6 +11,11 @@
                 class="hidden md:block flex-none divide-x dark:divide-white dark:divide-opacity-20"
             >
                 <span class="pr-2">
+                    <a
+                        class="background-animate text-lg text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:from-pink-500 hover:to-orange-500 focus:ring-1 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-semibold rounded-full px-3.5 py-1.5 text-center mr-2 mb-2 hover:shadow-xl"
+                        href="https://careers.leftbra.in"
+                        target="_blank"
+                    >👋 We're Hiring</a>
                     <router-link
                         class="p-4 text-lg"
                         v-for="route in navigation"

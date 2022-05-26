@@ -36,6 +36,7 @@ module.exports = {
         },
         lime: colors.lime,
         teal: colors.teal,
+        orange: colors.orange
       },
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
