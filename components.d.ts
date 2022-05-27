@@ -29,6 +29,7 @@ declare module 'vue' {
     SubFeature: typeof import('./src/components/SubFeature.vue')['default']
     Team: typeof import('./src/components/Team.vue')['default']
     Vacancies: typeof import('./src/components/Vacancies.vue')['default']
+    WeAreHiring: typeof import('./src/components/WeAreHiring.vue')['default']
     Wrapper: typeof import('./src/components/Wrapper.vue')['default']
   }
 }

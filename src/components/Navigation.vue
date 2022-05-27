@@ -7,15 +7,12 @@
                 </router-link>
             </div>
             <div class="flex-grow flex justify-center"></div>
+            
             <div
                 class="hidden md:block flex-none divide-x dark:divide-white dark:divide-opacity-20"
             >
                 <span class="pr-2">
-                    <a
-                        class="background-animate text-lg text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:from-pink-500 hover:to-orange-500 focus:ring-1 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-semibold rounded-full px-3.5 py-1.5 text-center mr-2 mb-2 hover:shadow-xl"
-                        href="https://careers.leftbra.in"
-                        target="_blank"
-                    >👋 We're Hiring</a>
+                    <WeAreHiring />
                     <router-link
                         class="p-4 text-lg"
                         v-for="route in navigation"
@@ -25,12 +22,15 @@
                 <a class="p-4 pl-6 text-lg font-medium" :href="dashboardBaseURL">Sign in &rarr;</a>
             </div>
             <div class="block md:hidden">
-                <PopoverButton
-                    class="rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
-                >
-                    <span class="sr-only">Open main menu</span>
-                    <MenuIcon class="h-8 w-8" aria-hidden="true" />
-                </PopoverButton>
+                <div class="flex justify-center align-middle">
+                    <WeAreHiring class="mt-2"/>
+                    <PopoverButton
+                        class="rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+                    >
+                        <span class="sr-only">Open main menu</span>
+                        <MenuIcon class="h-8 w-8" aria-hidden="true" />
+                    </PopoverButton>
+                </div>
             </div>
         </div>
         <transition
@@ -83,6 +83,7 @@ import { useRouter } from "vue-router"
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
 import { MenuIcon, XIcon } from '@heroicons/vue/outline'
 import { getNiceRouteNames } from "../utilities"
+import WeAreHiring from "./WeAreHiring.vue";
 
 const router = useRouter()
 const routes = router.getRoutes()
