@@ -31,34 +31,19 @@
       "image": "/assets/dustin-rhodes.png"
     },
     {
-      "name": "Jason Hinrichsen",
-      "position": "Support Engineer",
-      "image": "/assets/jason.jpeg"
-    },
-    {
-      "name": "Sean Lewis",
-      "position": "Support Engineer",
-      "image": "/assets/sean-face.png"
-    },
-    {
       "name": "Hluby Lebisi",
       "position": "Support Engineer",
       "image": "/assets/hluby.jpeg"
     },
     {
-      "name": "Thaafier Kamaldien",
-      "position": "JEDI",
-      "image": "/assets/thaafier-kamaldien.png"
+      "name": "Jason Hinrichsen",
+      "position": "Support Engineer",
+      "image": "/assets/jason-png-1-.png"
     },
     {
       "name": "Joshua Simpson",
       "position": "Support Engineer",
       "image": "/assets/joshua.png"
-    },
-    {
-      "name": "Troy Twumasi",
-      "position": "Tech Support All Rounder",
-      "image": "/assets/troy-twumasi.png"
     },
     {
       "name": "Lewis Karume",
@@ -76,9 +61,19 @@
       "image": "/assets/michael.png"
     },
     {
+      "name": "Neville Denness",
+      "position": "Senior Infrastructure Support Engineer",
+      "image": "/assets/neville.png"
+    },
+    {
       "name": "Raj Ramdeo",
       "position": "JEDI",
       "image": "/assets/raj.png"
+    },
+    {
+      "name": "Sean Lewis",
+      "position": "Support Engineer",
+      "image": "/assets/sean-face.png"
     },
     {
       "name": "Steven Hartmann",
@@ -86,14 +81,19 @@
       "image": "/assets/steven.png"
     },
     {
+      "name": "Thaafier Kamaldien",
+      "position": "JEDI",
+      "image": "/assets/thaafier-kamaldien.png"
+    },
+    {
+      "name": "Troy Twumasi",
+      "position": "Tech Support All Rounder",
+      "image": "/assets/troy-twumasi.png"
+    },
+    {
       "name": "Vitor Dias",
       "position": "Support Engineer",
       "image": "/assets/vitor.png"
-    },
-    {
-      "name": "Neville Denness",
-      "position": "Senior Infrastructure Support Engineer",
-      "image": "/assets/neville.png"
     }
   ]
 }
