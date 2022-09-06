@@ -76,6 +76,11 @@
       "image": "/assets/raj.png"
     },
     {
+      "name": "Rosie Underwood",
+      "position": "Tech Support All-Rounder",
+      "image": "/assets/rosie.png"
+    },
+    {
       "name": "Sean Lewis",
       "position": "Support Engineer",
       "image": "/assets/sean-face.png"
