@@ -6,6 +6,11 @@
       "image": "/assets/alan.png"
     },
     {
+      "name": "Ben Carrick",
+      "position": "Strategist",
+      "image": "/assets/ben.png"
+    },
+    {
       "name": "Charlie Naughton-Rumbo",
       "position": "Senior Strategist",
       "image": "/assets/charlie.jpeg"
