@@ -1,6 +1,11 @@
 {
   "members": [
     {
+      "name": "Adam Casper",
+      "position": "Marketing & New Business",
+      "image": "/assets/adam-memoji.png"
+    },
+    {
       "name": "Alan Avins",
       "position": "Head of Business Systems",
       "image": "/assets/alan.png"
@@ -109,11 +114,6 @@
       "name": "Vitor Dias",
       "position": "Support Engineer",
       "image": "/assets/vitor1.png"
-    },
-    {
-      "name": "Adam Casper",
-      "position": "Marketing & New Business",
-      "image": "/assets/adam-memoji.png"
     }
   ]
 }
