@@ -4,7 +4,9 @@ isSubPage: true
 publishDate: 31st October 2022
 dark: false
 tags:
-  - remote-workflows-solutions
+  - remote
+  - workflows
+  - solutions
 wrap: true
 excerpt: A snippet into some of the great tool's we're using as a Remote team at
   LeftBrain.
