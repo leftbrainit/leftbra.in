@@ -18,7 +18,7 @@ authorName: Adam Casper
 ~~~
 Hello world! Allow me to introduce myself. I'm Adam, an Apple nerd, engineer, entrepreneur and now, I'm proud to say, an inaugural member of the Communications team here at LeftBrain!
 
-Running my own business in my home town of Cape Town, SA, I've had my eyes on LeftBrain for a while, as friends and former colleagues joined up, and evangelised about their unique culture, progressive approach to technology. The kind of place where entrepreneurial people like myself thrive - and maybe you'll too, the team is growing!
+Running my own business in my home town of Cape Town, SA, I've had my eyes on LeftBrain for a while, as friends and former colleagues joined up, and evangelised about their unique culture, progressive approach to technology. The kind of place where entrepreneurial people like myself thrive.
 
 I discovered the wonders of LeftBrain through friends, but looking from the outside in, you'd never know. With almost all new business coming through referrals, they're (as they freely admit) terrible at Marketing! Or rather, they just don't do it.
 
@@ -30,8 +30,6 @@ In 3 weeks here, the first thing that struck me, and what I'll cover today, is h
 
 So as a first post, I wanted to highlight a couple of the great tools we're using, so that others might benefit:
 
-
-
 Notion
 
 If you havent already, it’s time to put your faith in Notion.
@@ -42,8 +40,6 @@ There are other tools out there like Airtable, Trello and [Monday.com](http://Mo
 
 Try it out and if you need help maximising this tool, mail me: [adam@leftbrain.it](mailto:adam@leftbrain.it).
 
-
-
 Google Workspace
 
 I know what you’re thinking, why Google Workspace over something like Microsoft 365?
@@ -51,8 +47,6 @@ I know what you’re thinking, why Google Workspace over something like Microsof
 There is a strong case for both solutions but going Google made more sense when LeftBrain transitioned to a cloud based email solution because of the benefits with collaboration at the time (through live editing on shared files) which Microsoft only recently mastered, and a more user friendly experience. The Workspace suite is packed with hidden gems such as Meet With which allows you to see your colleagues schedule in Google Calendar before jumping on a quick Meet or Talk, or email automation when it comes to client follow ups or predictive text. I find setting up Groups really handy and cost effective when it comes to sharing an email account such as [hello@yourorganisation.com](mailto:hello@yourorganisation.com) with respective team members without having to incur extra license costs. How cool is that?
 
 Let me know some of your favourite Workspace features, or try sway me to the dark side with some 365 tricks.
-
-
 
 Calendly
 
@@ -63,8 +57,6 @@ How many times have you said that to a customer?
 With Calendly, you can save time with your scheduling and in turn free up slots in your calendar to be even more available to your network. This tool plugs in your iCal, Google Calendar and 365 Calendar so your attendees can book a meeting slot that matches your current availabilities. You can setup automations that asks invitee’s questions to find the best service for their needs, and can even add locations from in person to a video conferencing solution that suits your style. I find the pre-meeting email reminders really helpful when working at 1000 miles per hour, and the post-meeting follow up forms a great way to get feedback on your services.
 
 Ive used Timely in the past but struggled to tailor it to my needs and ended up being more cost effective as I needed to pay for each event type where Calendly only charges per user license.
-
-
 
 Slack
 
@@ -83,8 +75,6 @@ Google Workspace and Microsoft Teams are slowly catching up when it comes to cha
 How many times has a colleague asked you what is their password for just about every app under the sun? With 1Password, you can securely share team account passwords and save time trying to crack the Davinci Passcode on your own. You can autofill passwords saved in your vault across browsers, apps and devices. It really is password paradise.
 
 As 1Password Partners, you can save on your subscription by signing up through LeftBrain.
-
-
 
 There are many more tools, workflows and things we do still need to unpack, so stay tuned over the coming weeks and months. And to keep abreast of all goings on the the workplace tech world, be sure to subscribe to our newsletter.
 :::
