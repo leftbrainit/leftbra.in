@@ -234,7 +234,7 @@ collections:
     folder: "/src/pages/blog"
     format: 'frontmatter'
     identifier_field: title
-    slug: "{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
     filter:
       field: 'isSubPage'
       value: true
@@ -255,6 +255,10 @@ collections:
         format: "Do MMMM YYYY"
         required: true
         time_format: false
+      - label: 'Cover Image'
+        name: 'image'
+        widget: 'image'
+        required: false
       - label: 'Dark Mode'
         name: 'dark'
         default: false

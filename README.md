@@ -52,4 +52,4 @@ $ yarn build
 $ yarn serve
 ```
 
-To improve the experience of using Netlify CMS locally, you can also run `yarn proxy`. Without this, updating a page at http://localhost:3000/admin will publish changes directly to Github, which then need to be pulled down to your machine. When the netlify proxy is running, changes are published to your local copy of the repo, which can then be committed. 
+To improve the experience of using Netlify CMS locally, you can also run `yarn proxy`. Without this, updating a page at http://localhost:3000/admin/ will publish changes directly to Github, which then need to be pulled down to your machine. When the netlify proxy is running, changes are published to your local copy of the repo, which can then be committed. 

@@ -2,6 +2,7 @@
 title: Remote Working Tools
 isSubPage: true
 publishDate: 31st October 2022
+image: /assets/notion.png
 dark: false
 tags:
   - remote
@@ -29,14 +30,11 @@ Obviously they said yes 🙂
 In 3 weeks here, the first thing that struck me, and what I'll cover today, is how easy it's been integrating with the team, as a remote employee. In fact, I'm told that, even before remote work became a necessity, they were already operating this way.
 
 So as a first post, I wanted to highlight a couple of the great tools we're using, so that others might benefit.
-
 :::
 
-::: component Section
-~~~
-{}
-~~~
-*Notion*
+![Notion Page](/assets/notion.png "Notion")
+
+## Notion
 
 If you haven't already, it’s time to put your faith in Notion.
 
@@ -44,28 +42,13 @@ This project management gem is the best thing since the internet itself and help
 
 There are other tools out there like Airtable, Trello and Monday.com but these are less customisable and user friendly compared to Notion IMO.
 
-Try it out and if you need help maximising this tool, mail me: [adam@leftbrain.it](mailto:adam@leftbrain.it).
-
-:::
-
-::: component Section
-~~~
-{}
-~~~
-*Google Workspace*
+## Google Workspace
 
 I know what you’re thinking, why Google Workspace over something like Microsoft 365?
 
 There is a strong case for both solutions but going Google made more sense when LeftBrain transitioned to a cloud based email solution because of the benefits with collaboration at the time (through live editing on shared files) which Microsoft only recently mastered, and a more user friendly experience. The Workspace suite is packed with hidden gems such as Meet With which allows you to see your colleagues schedule in Google Calendar before jumping on a quick Meet or Talk, or email automation when it comes to client follow ups or predictive text. I find setting up Groups really handy and cost effective when it comes to sharing an email account such as hello@leftbrain.it with respective team members without having to incur extra license costs. How cool is that?
 
-Let me know some of your favourite Workspace features, or try sway me to the dark side with some 365 tricks.
-:::
-
-::: component Section
-~~~
-{}
-~~~
-*Calendly*
+## Calendly
 
 “Let me check my diary and get back to you”
 
@@ -75,13 +58,7 @@ With Calendly, you can save time with your scheduling and in turn free up slots 
 
 Ive used Timely in the past but struggled to tailor it to my needs and ended up being more cost effective as I needed to pay for each event type where Calendly only charges per user license.
 
-:::
-
-::: component Section
-~~~
-{}
-~~~
-*Slack*
+## Slack
 
 Still using jurassic email? Move to Slack for a modern take on inter-team and external communication.
 
@@ -93,24 +70,10 @@ It is also a great way to engage with customers by inviting them to a shared cha
 
 Google Workspace and Microsoft Teams are slowly catching up when it comes to chat but I still feel Slack is winning the race.
 
-:::
-
-::: component Section
-~~~
-{}
-~~~
-*1Password*
+## 1Password
 
 How many times has a colleague asked you what is their password for just about every app under the sun? With 1Password, you can securely share team account passwords and save time trying to crack the Davinci Passcode on your own. You can autofill passwords saved in your vault across browsers, apps and devices. It really is password paradise.
 
-As 1Password Partners, you can save on your subscription by signing up through LeftBrain.
+## Closing Remarks
 
-:::
-
-::: component Section
-~~~
-{}
-~~~
 There are many more tools, workflows and things we do still need to unpack, so stay tuned over the coming weeks and months. And to keep abreast of all goings on the the workplace tech world, be sure to subscribe to our newsletter.
-
-:::

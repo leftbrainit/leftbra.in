@@ -17,10 +17,11 @@
                         :class="Number(index) > 0 ? 'ml-1.5' : ''"
                     >{{ tag }}</div>
                 </div>
-                <div class="flex flex-row items-center justify-start">
+                <!-- <div class="flex flex-row items-center justify-start">
                     <span class="material-icons mr-1 opacity-60">person</span>
                     <span class="opacity-90 font-medium">{{ post.authorName }}</span>
-                </div>
+                </div> -->
+                <Avatar :name="post.authorName" />
                 <div class="flex flex-row items-center justify-start">
                     <span class="material-icons mr-1 opacity-60">event</span>
                     <span class="opacity-90 font-medium">{{ post.publishDate }}</span>
@@ -43,9 +44,7 @@ import { useRoute, useRouter } from "vue-router"
 
 const route = useRoute()
 const router = useRouter()
-
 const posts = router.getRoutes().filter(route => route.path.startsWith("/blog/")).map(route => {
-    console.log(route)
     const frontmatter: any = route.meta.frontmatter ?? {}
     frontmatter.routeName = route.name ?? ""
     const title = frontmatter.title ?? ""

@@ -32,6 +32,7 @@
     "@vue/compiler-sfc": "^3.2.6",
     "@vueuse/head": "^0.6.0",
     "autoprefixer": "^10.3.4",
+    "browserslist": "4.21.4",
     "markdown-it-container": "^3.0.0",
     "postcss": "^8.3.6",
     "tailwindcss": "^2.2.14",

@@ -4,6 +4,7 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
+    Avatar: typeof import('./src/components/Avatar.vue')['default']
     BlogPostHeader: typeof import('./src/components/BlogPostHeader.vue')['default']
     BlogPosts: typeof import('./src/components/BlogPosts.vue')['default']
     Button: typeof import('./src/components/Button.vue')['default']
