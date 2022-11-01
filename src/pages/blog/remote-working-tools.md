@@ -8,7 +8,7 @@ tags:
   - workflows
   - solutions
 wrap: true
-excerpt: A snippet into some of the great tool's we're using as a Remote team at
+excerpt: A snippet into some of the great tools we're using as a Remote team at
   LeftBrain.
 authorName: Adam Casper
 ---
