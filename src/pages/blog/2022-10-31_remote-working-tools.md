@@ -2,7 +2,7 @@
 title: Remote Working Tools
 isSubPage: true
 publishDate: 31st October 2022
-image: /assets/notion.png
+image: /assets/blog-1.1.png
 dark: false
 tags:
   - remote
