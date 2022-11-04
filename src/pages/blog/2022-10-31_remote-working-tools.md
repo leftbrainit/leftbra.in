@@ -30,9 +30,10 @@ Obviously they said yes 🙂
 In 3 weeks here, the first thing that struck me, and what I'll cover today, is how easy it's been integrating with the team, as a remote employee. In fact, I'm told that, even before remote work became a necessity, they were already operating this way.
 
 So as a first post, I wanted to highlight a couple of the great tools we're using, so that others might benefit.
+
 :::
 
-![Notion Page](/assets/notion.png "Notion")
+![Notion Page](/assets/g-workspace-header.jpeg "Notion")
 
 ## Notion
 
