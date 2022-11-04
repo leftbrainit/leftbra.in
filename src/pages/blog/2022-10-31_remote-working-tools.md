@@ -31,9 +31,10 @@ In 3 weeks here, the first thing that struck me, and what I'll cover today, is h
 
 So as a first post, I wanted to highlight a couple of the great tools we're using, so that others might benefit.
 
+
 :::
 
-![Notion Page](/assets/g-workspace-header.jpeg "Notion")
+![Notion Page](/assets/notion-header.png "Notion")
 
 ## Notion
 
