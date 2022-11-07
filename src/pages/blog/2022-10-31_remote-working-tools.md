@@ -79,7 +79,7 @@ It is also a great way to engage with customers by inviting them to a shared cha
 
 Google Workspace and Microsoft Teams are slowly catching up when it comes to chat but I still feel Slack is winning the race.
 
-![1Password Page](/assets/1pass-header-website.png "1Password")
+![1Password Page](/assets/group-7.png "1Password")
 
 ## 1Password
 
