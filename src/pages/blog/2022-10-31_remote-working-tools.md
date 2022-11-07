@@ -63,7 +63,7 @@ How many times have you said that to a customer?
 
 With Calendly, you can save time with your scheduling and in turn free up slots in your calendar to be even more available to your network. This tool plugs in your iCal, Google Calendar and 365 Calendar so your attendees can book a meeting slot that matches your current availabilities. You can setup automations that asks invitee’s questions to find the best service for their needs, and can even add locations from in person to a video conferencing solution that suits your style. I find the pre-meeting email reminders really helpful when working at 1000 miles per hour, and the post-meeting follow up forms a great way to get feedback on your services.
 
-Ive used Timely in the past but struggled to tailor it to my needs and ended up being more cost effective as I needed to pay for each event type where Calendly only charges per user license.
+I've used Timely in the past but struggled to tailor it to my needs and ended up being more cost effective as I needed to pay for each event type where Calendly only charges per user license.
 
 ![Slack Page](/assets/slack-header-web.png "Slack")
 
@@ -79,7 +79,7 @@ It is also a great way to engage with customers by inviting them to a shared cha
 
 Google Workspace and Microsoft Teams are slowly catching up when it comes to chat but I still feel Slack is winning the race.
 
-![1Password Page](/assets/group-7.png "1Password")
+![1Password Page](/assets/group-10.png "1Password")
 
 ## 1Password
 
