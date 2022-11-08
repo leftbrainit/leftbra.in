@@ -9,10 +9,12 @@ tags:
   - workflows
   - solutions
 wrap: true
-excerpt: A snippet into some of the great tools we're using as a Remote team at
-  LeftBrain. From Notion to 1Password and everything in between, our decision
-  makers have tried and tested the best of the lot in building our blue-sky tech
-  stack.
+excerpt: >-
+  A snippet into some of the great tools we're using as a Remote team at
+  LeftBrain. 
+
+
+  From Notion to 1Password and everything in between, our decision makers have tried and tested the best of the lot in building our blue-sky tech stack.
 authorName: Adam Casper
 ---
 ::: component BlogPostHeader
