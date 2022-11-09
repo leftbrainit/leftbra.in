@@ -38,6 +38,7 @@ So as a first post, I wanted to highlight a couple of the great tools we're usin
 
 
 
+
 :::
 
 ![Notion Page](/assets/notion-web-header.png "Notion")
@@ -56,7 +57,7 @@ There are other tools out there like Airtable, Trello and Monday.com but these a
 
 I know what you’re thinking, why Google Workspace over something like Microsoft 365?
 
-There is a strong case for both solutions but going Google made more sense when LeftBrain transitioned to a cloud based email solution because of the benefits with collaboration at the time (through live editing on shared files) which Microsoft only recently mastered, and a more user friendly experience. The Workspace suite is packed with hidden gems such as Meet With which allows you to see your colleagues schedule in Google Calendar before jumping on a quick Meet or Talk, or email automation when it comes to client follow ups or predictive text. I find setting up Groups really handy and cost effective when it comes to sharing an email account such as hello@leftbrain.it with respective team members without having to incur extra license costs. How cool is that?
+There is a strong case for both solutions but going Google made more sense when LeftBrain transitioned to a cloud based email solution because of the benefits with collaboration at the time (through live editing on shared files) which Microsoft only recently mastered, and a more user friendly experience. The Workspace suite is packed with hidden gems such as Meet With which allows you to see your colleagues schedule in Google Calendar before jumping on a quick Meet or Talk, or email automation when it comes to customer follow ups or predictive text. I find setting up Groups really handy and cost effective when it comes to sharing an email account such as hello@leftbrain.it with respective team members without having to incur extra license costs. How cool is that?
 
 ![Calendly Page](/assets/calendly-header-web.png "Calendly")
 
@@ -74,7 +75,7 @@ I've used Timely in the past but struggled to tailor it to my needs and ended up
 
 ## Slack
 
-Still using jurassic email? Move to Slack for a modern take on inter-team and external communication.
+Still using jurassic email? Switch to Slack for a modern take on inter-team and external communication.
 
 Don’t get me a wrong, there are still some dealings that need to be done on email when it comes customer proposals, legal stuff etc but just about everything else can and should be channeled through Slack. You can setup different channels where team members can discuss projects, day to day work requirements and more. It’s one of the reasons I fitted straight into LeftBrain. From day one I was welcomed with open arms into our canteen style channel and was greeted by my new teammates with warm wishes, banter, gifs, emojis, you name it.
 
@@ -88,7 +89,7 @@ Google Workspace and Microsoft Teams are slowly catching up when it comes to cha
 
 ## 1Password
 
-How many times has a colleague asked you what is their password for just about every app under the sun? With 1Password, you can securely share team account passwords and save time trying to crack the Davinci Passcode on your own. You can autofill passwords saved in your vault across browsers, apps and devices. It really is password paradise.
+How many times has a colleague asked you what is their password for just about every app under the sun? With 1Password, you can securely share team account passwords and save time trying to crack The Davinci Passcode on your own. You can autofill passwords saved in your vault across browsers, apps and devices. It really is password paradise.
 
 ## Closing Remarks
 
