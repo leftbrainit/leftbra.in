@@ -1,7 +1,7 @@
 ---
 title: Getting started with security
 isSubPage: true
-publishDate: 4th November 2022
+publishDate: 11th November 2022
 dark: false
 tags:
   - security
