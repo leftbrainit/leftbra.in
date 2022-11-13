@@ -16,7 +16,7 @@ excerpt: >-
 
 
 
-  From Notion to 1Password and everything in between, our decision makers have tried and tested the best of the lot in building our blue-sky tech stack.
+  From Notion to 1Password and everything in between, our decision makers have tried and tested the best of the lot in building a blue-sky tech stack.
 authorName: Adam Casper
 ---
 ::: component BlogPostHeader
