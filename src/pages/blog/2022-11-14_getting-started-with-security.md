@@ -26,7 +26,7 @@ D﻿ata breaches and cyber attacks cause sleepless nights for anyone running a b
 
 ### Certifications
 
-Cyber Essentials and ISO27001 are the leading industry standards for security but which certification is best for your business? 
+Cyber Essentials and ISO27001 are the leading industry standards for security but which certification is right for your business? 
 
 C﻿yber Essentials is a UK Government program that covers an entry level of IT security and reduces the risk of most cyber attacks by roughly 80%. Not bad, right? It's required if you are working with government, handling personal data, or providing technical services. More and more of our customers are striving towards getting their Basic and Plus certifications, to strike deals with other supply chains and organisations who only engage with compliant companies.
 
