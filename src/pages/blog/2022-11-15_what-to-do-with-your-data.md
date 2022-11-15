@@ -21,7 +21,7 @@ authorName: Adam Casper
 Today’s fast-pace digital world has made it almost impossible to remember and track things. Thankfully we are spoilt for choice when it comes to storing, sharing and collaborating with our data. The challenge now comes from deciding which solution to go with so let me help you decide on some of the best data practices for your business.
 :::
 
-![Storing page]( "Storing")
+![Storing page](/assets/group-17.png "Storing")
 
 ### Where to store
 
@@ -35,7 +35,7 @@ However, if you are easing back into or are fully in office, and deal with large
 
 I﻿m glad you asked! It's calming to see all the changes and improvements made to both cloud and physical backup technology, and how well the two can actually work together in safe-keeping your precious data. I'm particularly impressed with the new Google Drive desktop app's backup feature that replicates selected files on your computer to your cloud storage, with a click of the button. Dropbox and Onedrive include this feature too and while Dropbox seem to have this waxed, I find Onedrive can be picky over which files can or can't be backed up - good luck if you're a PST file, and please make sure there are no unwarranted spaces after file or folder names as you will receive red alert, sync errors for days. What's really neat is how Synology file servers can work hand in hand with your cloud service of choice in backing up current or archive data, giving you an additional layer of fall back should disaster strike.
 
-![Sharing page]( "Sharing")
+![Sharing page](/assets/group-15.png "Sharing")
 
 ### S﻿haring
 
@@ -65,7 +65,7 @@ Pro's - Is fast and efficient for large files that are being collaborated on. C
 
 C﻿on's - Can be hardware heavy which requires an investment in infrastructure. Our Infrastructure team has your back though in making the right move. 
 
-![Collaborating page]( "Collaborating page")
+![Collaborating page](/assets/group-18.png "Collaborating page")
 
 ### Collaborating page
 
