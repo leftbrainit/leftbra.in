@@ -21,6 +21,7 @@ authorName: Adam Casper
 Today’s fast-pace digital world has made it almost impossible to remember and track things. Thankfully we are spoilt for choice when it comes to storing, sharing and collaborating with our data. The challenge now comes from deciding which solution to go with so let me help you decide on some of the best data practices for your business.
 
 
+
 :::
 
 ![Storing page](/assets/17.png "Where to Store")
@@ -35,7 +36,7 @@ However, if you are easing back into or are fully in office, and deal with large
 
 ### W﻿hat about backups?
 
-I﻿m glad you asked! It's calming to see all the changes and improvements made to both cloud and physical backup technology, and how well the two can actually work together in safe-keeping your precious data. I'm particularly impressed with the new Google Drive desktop app's backup feature that replicates selected files on your computer to your cloud storage, with a click of the button. Dropbox and Onedrive include this feature too and while Dropbox seem to have this waxed, I find Onedrive can be picky over which files can or can't be backed up - good luck if you're a PST file, and please make sure there are no unwarranted spaces after file or folder names as you will receive red alert, sync errors for days. What's really neat is how Synology file servers can work hand in hand with your cloud service of choice in backing up current or archive data, giving you an additional layer of fall back should disaster strike.
+I﻿'m glad you asked! It's calming to see all the changes and improvements made to both cloud and physical backup technology, and how well the two can actually work together in safe-keeping your precious data. I'm particularly impressed with the new Google Drive desktop app's backup feature that replicates selected files on your computer to your cloud storage, with a click of the button. Dropbox and Onedrive include this feature too and while Dropbox seem to have this waxed, I find Onedrive can be picky over which files can or can't be backed up - good luck if you're a PST file, and please make sure there are no unwarranted spaces after file or folder names as you will receive red alert, sync errors for days. What's really neat is how Synology file servers can work hand in hand with your cloud service of choice in backing up current or archive data, giving you an additional layer of fall back should disaster strike.
 
 ![Sharing page](/assets/15.png "How to Share")
 
@@ -45,27 +46,27 @@ Sharing is caring, but only if done correctly. So which service should you use t
 
 **Dropbox**
 
-Pro's - W﻿orks well with Office files such as Word docs and Excel sheets, and even allows for editing online within Dropbox without the Microsoft Suite installed.
+Pros - W﻿orks well with Office files such as Word docs and Excel sheets, and even allows for editing online within Dropbox without the Microsoft Suite installed.
 
-C﻿on's - There is still no dedicated email solution compared to the likes of Google with Workspace and Microsoft for 365.
+C﻿ons - There is still no dedicated email solution compared to the likes of Google with Workspace and Microsoft for 365.
 
 **G﻿oogle Drive**
 
-Pro's - The shared drive feature allows you to make a range of team or department specific files that can be easily shared within our organisation. 
+Pros - The shared drive feature allows you to make a range of team or department specific files that can be easily shared within our organisation. 
 
-C﻿on's - You can create multiple versions of the same file when working with large files.
+C﻿ons - You can create multiple versions of the same file when working with large files.
 
 **OneDrive and Sharepoint**
 
-Pro's - Is great bang for your buck for the amount of storage you get as part of the 365 suite.
+Pros - Is great bang for your buck for the amount of storage you get as part of the 365 suite.
 
-C﻿on's - Can require extra steps when sharing with external non Microsoft account users. But don't worry, we can help  configure this for you, so your customer can still access the great work that you do.
+C﻿ons - Can require extra steps when sharing with external non Microsoft account users. But don't worry, we can help configure this for you, so your customer can still access the great work that you do.
 
 **S﻿ynology file server**
 
-Pro's - Is fast and efficient for large files that are being collaborated on. Creators really benefit from this.
+Pros - Is fast and efficient for large files that are being collaborated on. Creators really benefit from this.
 
-C﻿on's - Can be hardware heavy which requires an investment in infrastructure. Our Infrastructure team has your back though in making the right move. 
+C﻿ons - Can be hardware heavy which requires an investment in infrastructure. Our Infrastructure team has your back though in making the right move. 
 
 ![Collaborating page](/assets/group-18.png "Collaborating")
 
