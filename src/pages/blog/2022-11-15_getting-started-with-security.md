@@ -23,6 +23,7 @@ D﻿ata breaches and cyber attacks cause sleepless nights for anyone running a b
 
 
 
+
 :::
 
 ![Certifications page](/assets/group-11.png "Certifications")
@@ -47,9 +48,9 @@ Well, Mosyle is great for Apple environments and with the growing number of thr
 
 J﻿amF is also MacOS friendly and their Endpoint protection minimises risk from common threats like malware and potentially unwanted apps through threat prevention and remediation as well. It's time to nip Mackeeper in the bud! The remote wipe feature comes in hand if a device is lost or stolen. 
 
-T﻿here is also Duo which is a dream when it comes to guarding company devices as it easily ensures all staff are running the latest Operating System - to the point where apps stop working if not up to date, and gives an overview of each security process running such as FireVault hard drive encryption and Firewall network barriers.
+T﻿here is also Duo which is a dream when it comes to guarding company devices as it easily ensures all staff are running the latest Operating System, to the point where apps stop working if not up to date, and gives an overview of each security process running such as FireVault hard drive encryption and Firewall network barriers.
 
-InTune is cool too and our Windows users love it - and what's not to love considering there are far more infections hitting Windows PCs so there is real value knowing that you're safe by integrating with mobile threat defence services like Microsoft Defender for desktop protection. The cloud console is easy to configure and provides you with a shield across your favourite Microsoft services like 365 and Teams.
+InTune is cool too and our Windows users love it, and what's not to love considering there are far more infections hitting Windows PCs so there is real value knowing that you're safe by integrating with mobile threat defence services like Microsoft Defender for desktop protection. The cloud console is easy to configure and provides you with a shield across your favourite Microsoft services like 365 and Teams.
 
 ![Account page](/assets/group-13.png "Account protection")
 
