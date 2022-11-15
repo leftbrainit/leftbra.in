@@ -20,9 +20,10 @@ authorName: Adam Casper
 ~~~
 Today’s fast-pace digital world has made it almost impossible to remember and track things. Thankfully we are spoilt for choice when it comes to storing, sharing and collaborating with our data. The challenge now comes from deciding which solution to go with so let me help you decide on some of the best data practices for your business.
 
+
 :::
 
-![Storing page](/assets/17.png "Storing")
+![Storing page](/assets/17.png "Where to Store")
 
 ### Where to store
 
@@ -36,9 +37,9 @@ However, if you are easing back into or are fully in office, and deal with large
 
 I﻿m glad you asked! It's calming to see all the changes and improvements made to both cloud and physical backup technology, and how well the two can actually work together in safe-keeping your precious data. I'm particularly impressed with the new Google Drive desktop app's backup feature that replicates selected files on your computer to your cloud storage, with a click of the button. Dropbox and Onedrive include this feature too and while Dropbox seem to have this waxed, I find Onedrive can be picky over which files can or can't be backed up - good luck if you're a PST file, and please make sure there are no unwarranted spaces after file or folder names as you will receive red alert, sync errors for days. What's really neat is how Synology file servers can work hand in hand with your cloud service of choice in backing up current or archive data, giving you an additional layer of fall back should disaster strike.
 
-![Sharing page](/assets/15.png "Sharing")
+![Sharing page](/assets/15.png "How to Share")
 
-### S﻿haring
+### How to share
 
 Sharing is caring, but only if done correctly. So which service should you use to share company data? Let's weight up the pro's on con's of some popular tools. 
 
@@ -68,7 +69,7 @@ C﻿on's - Can be hardware heavy which requires an investment in infrastructure.
 
 ![Collaborating page](/assets/group-18.png "Collaborating")
 
-### Collaborating
+### Ways to collaborate
 
 Now that we know how to store and share our files, the next step is deciding how best we can work together with our data. Using the cloud solution of your choice, it's easy to track changes made by teammates, and if someone makes a mistake, it's possible to restore back to previous versions of the file you're working on. I find Apple's iWork suite really impressive when it comes to rolling back changes in a Time Machine inspired way within Pages, Keynote or Numbers. The 365 suite also works well when it comes to undoing changes within Excel, Word or Powerpoint by seeing who did what and when. My colleagues and I tend to work tirelessly within Google Sheets and Docs and the comments feature makes it easy to share insight into what we are trying to achieve in certain sections, should it be unclear. What also works well for us is dropping our Drive files into a Slack channel to then discuss and work together in getting the job done. If MS Teams tickles your fancy, then being able to access Onedrive and Sharepoint files within a chat Window can save time looking up your work, with the option to jump on a quick call to discuss your doings in more detail, is really helpful as well.
 
