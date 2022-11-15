@@ -17,9 +17,7 @@ authorName: Adam Casper
 ~~~
 {}
 ~~~
-Today’s fast-pace digital world has made it almost impossible to remember and track things. Thankfully we are spoilt for choice when it comes to storing, sharing and collaborating with our data. The challenge now comes from deciding which solution to go with so let me help you decide on the best data practices for your business.
-
-
+Today’s fast-pace digital world has made it almost impossible to remember and track things. Thankfully we are spoilt for choice when it comes to storing, sharing and collaborating with our data. The challenge now comes from deciding which solution to go with so let me help you decide on  some of the best data practices for your business.
 :::
 
 ![Storing page]( "Storing")
@@ -30,11 +28,13 @@ We've put a lot of thought around some of the ways our customers are storing the
 
 Particularly in remote working environments, cloud solutions like Google Drive and Dropbox take preference because of the seemless ways to access data on the go and at a relatively low cost compared to the up keeping of an on-premise server. And while physical office servers such as a Synology file server can still be accessed remotely using VPN solutions, if there is a break in connection, someone will need to return to office to resolve - or you can just call one of our on-site engineers to come out and save the day :)
 
-However, if you are easing back into or are fully in office, and deal with large files such as renders or raw images, it can be beneficial to work off a shared file server that's quicker to access compared to working from a cloud folder which varies dependent on your internet speed.
+However, if you are easing back into or are fully in office, and deal with large files such as renders or raw images, it can be beneficial to work off a shared file server that's quicker to access compared to working from an online cloud folder which varies dependent on your internet speed.
+
+ ﻿
 
 ### W﻿hat about backups?
 
-I﻿m glad you asked! It's calming to see all the changes and improvements made to both cloud and physical backup technology, and how the two can actually work together in safe-keeping your precious data. I'm particularly impressed with the new Google Drive desktop app's backup feature that replicates selected files on your computer to your cloud storage with a click of the button. Dropbox and Onedrive include this feature too and while Dropbox seem to have this waxed, I find Onedrive can be picky over which files can or can't be backed up - good luck if you're a PST file, and please make sure there are no unwarranted spaces after file or folder names as you will receive red alert, sync errors for days. What's really neat is how your Synology file server can work hand in hand with your cloud service of choice in backing up current or archive data, giving you an additional layer of fall back should disaster strike.
+I﻿m glad you asked! It's calming to see all the changes and improvements made to both cloud and physical backup technology, and how well the two can actually work together in safe-keeping your precious data. I'm particularly impressed with the new Google Drive desktop app's backup feature that replicates selected files on your computer to your cloud storage, with a click of the button. Dropbox and Onedrive include this feature too and while Dropbox seem to have this waxed, I find Onedrive can be picky over which files can or can't be backed up - good luck if you're a PST file, and please make sure there are no unwarranted spaces after file or folder names as you will receive red alert, sync errors for days. What's really neat is how Synology file servers can work hand in hand with your cloud service of choice in backing up current or archive data, giving you an additional layer of fall back should disaster strike.
 
 ![Sharing page]( "Sharing")
 
@@ -76,4 +76,4 @@ Now that we know how to store and share our files, the next step is deciding how
 
 ### C﻿losing remarks
 
-Data is core to what we do across all industries and I hope you have a better sense of some of the ways in which choosing the correct solution can benefit your business. At the rate tech companies are going, there will be a new unicorn data handling business launching tomorrow, so keep an eye out for our newsletter to see how this disrupter can take your team to the next level.
+Data is core to what we do across all industries and I hope you have a better sense of some of the ways in which choosing the correct solution can benefit your business. At the rate at which tech companies are growing, there will be a new unicorn data handling business launching tomorrow, so keep an eye out for our newsletter to see how this disrupter can take your team to the next level.
