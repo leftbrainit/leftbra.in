@@ -42,6 +42,7 @@ So as a first post, I wanted to highlight a couple of the great tools we're usin
 
 
 
+
 :::
 
 ![Notion Page](/assets/notion-web-header.png "Notion")
@@ -62,7 +63,7 @@ I know what you’re thinking, why Google Workspace over something like Microsof
 
 There is a strong case for both solutions but going Google made more sense when LeftBrain transitioned to a cloud based email solution because of the benefits with collaboration at the time (through live editing on shared files) which Microsoft only recently mastered, and a more user friendly experience. The Workspace suite is packed with hidden gems such as Meet With which allows you to see your colleagues schedule in Google Calendar before jumping on a quick Meet or Talk, or email automation when it comes to customer follow ups or predictive text. I find setting up Groups really handy and cost effective when it comes to sharing an email account such as hello@leftbrain.it with respective team members without having to incur extra license costs. How cool is that?
 
-![Calendly Page](/assets/calendly-header-web.png "Calendly")
+![Calendly Page](/assets/group-14.png "Calendly")
 
 ## Calendly
 
@@ -88,7 +89,7 @@ It is also a great way to engage with customers by inviting them to a shared cha
 
 Google Workspace and Microsoft Teams are slowly catching up when it comes to chat but I still feel Slack is winning the race.
 
-![1Password Page](/assets/group-10.png "1Password")
+![1Password Page](/assets/group-15.png "1Password")
 
 ## 1Password
 
