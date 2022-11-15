@@ -1,7 +1,7 @@
 ---
 title: Remote Working Tools
 isSubPage: true
-publishDate: 4th November 2022
+publishDate: 2nd November 2022
 image: /assets/blog-1.1.png
 dark: false
 tags:
