@@ -18,6 +18,7 @@ authorName: Adam Casper
 {}
 ~~~
 Today’s fast-pace digital world has made it almost impossible to remember and track things. Thankfully we are spoilt for choice when it comes to storing, sharing and collaborating with our data. The challenge now comes from deciding which solution to go with so let me help you decide on the best data practices for your business.
+
 :::
 
 ![Storing page]( "Storing")
@@ -30,8 +31,6 @@ Particularly in remote working environments, cloud solutions like Google Drive a
 
 However, if you are easing back into or are fully in office, and deal with large files such as renders or raw images, it can be beneficial to work off a shared file server that's quicker to access compared to working from a cloud folder which varies dependent on your internet speed.
 
-
-
 ### W﻿hat about backups?
 
 I﻿m glad you asked! It's calming to see all the changes and improvements made to both cloud and physical backup technology, and how the two can actually work together in safe-keeping your precious data. I'm particularly impressed with the new Google Drive desktop app's backup feature that replicates selected files on your computer to your cloud storage with a click of the button. Dropbox and Onedrive include this feature too and while Dropbox seem to have this waxed, I find Onedrive can be picky over which files can or can't be backed up - good luck if you're a PST file, and please make sure there are no unwarranted spaces after file or folder names as you will receive red alert, sync errors for days. What's really neat is how your Synology file server can work hand in hand with your cloud service of choice in backing up current or archive data, giving you an additional layer of fall back should disaster strike.
@@ -40,19 +39,45 @@ I﻿m glad you asked! It's calming to see all the changes and improvements made 
 
 ### S﻿haring
 
-R﻿ecent breakthroughs in MDM (Mobile Device Management) software has created a manual for success when it comes to managing and protecting customer's devices. By automating repetitive management tasks, an MDM boosts security by eliminating human error when provisioning machines for first time use and governs what employees can and can't do with their workstations from the get go. Now, which MDM should you use at your work or school?
+Sharing is caring, but only if done correctly. So which service should you use to share company data? Let's weight up the pro's on con's of some popular tools. 
 
-Well, Mosyle is great for Apple environments and with the growing number of threats targeting your Mac, these integrated security tools allow automated compliance (great for Cyber Essentials btw), prevention and remediation, without impacting performance and usability, which is a big win for our customers.
 
-J﻿amF is also MacOS friendly and their Endpoint protection minimises risk from common threats like malware and potentially unwanted apps through threat prevention and remediation as well. It's time to nip Mackeeper in the bud! The remote wipe feature comes in hand if a device is lost or stolen. 
 
-T﻿here is also Duo which is a dream when it comes to guarding company devices as it easily ensures all staff are running the latest Operating System - to the point where apps stop working if not up to date, and gives an overview of each security process running such as FireVault hard drive encryption and Firewall network barriers.
+**Dropbox**
 
-InTune is cool too and our Windows users love it - and what's not to love considering there are far more infections hitting Windows PCs so there is real value knowing that you're safe by integrating with mobile threat defence services like Microsoft Defender for desktop protection. The cloud console is easy to configure and provides you with a shield across your favourite Microsoft services like 365 and Teams.
+Pro's - W﻿orks well Office files such as Word docs and Excel sheets - and even allows for editing online within Dropbox.
+
+C﻿on's - No dedicated email solution compared to the likes of Google with Workspace and Microsoft for 365.
+
+
+
+**G﻿oogle Drive**
+
+Pro's - The shared drive feature allows you to make a range of team or department specific files that can be easily shared within our organisation. 
+
+C﻿on's - Can create multiple versions of the same file when working with large files.
+
+
+
+**OneDrive and Sharepoint**
+
+Pro's - Great bang for your buck for the amount of storage you get as part of the 365 suite.
+
+C﻿on's - Requires extra steps when sharing with external non Microsoft account users. But don't worry, we can help  configure this for you, so your customer can still access the great work that you do.
+
+
+
+**S﻿ynology file server**
+
+Pro's - fast and effective for large files that are being collaborated on. Creators really benefit from this.
+
+C﻿on's - hardware heavy which requires an investment in infrastructure. 
+
+
 
 ![Collaborating page]( "Collaborating page")
 
-### Colloborating page
+### Collaborating page
 
 T﻿hese days, most attacks are targeted at your email, app and other account services, away from your device itself, leaving you increasingly susceptible. Have no fear though as MFA (Multi-factor Authentication) provides an additional layer of verification by means of a text or sign in prompt to confirm it is in fact you trying to sign in, should your account find its way in the wrong hands. You know when you enter your Apple ID into a new device, and all your Apple gadgets start singing and dancing with an approval code? That is MFA for you. 
 
@@ -60,4 +85,4 @@ T﻿ake it one step further and there is SSO (Single Sign On) which allows you t
 
 ### C﻿losing remarks
 
-Despite what's been discussed today, there is always more to learn and implement when it comes to protecting your tech with new threats nesting every day, so stay tuned to see what else can be done to enhance your security in time.
+W﻿e are nothing without our data.
