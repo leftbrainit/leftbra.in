@@ -19,6 +19,7 @@ authorName: Adam Casper
 ~~~
 Today’s fast-pace digital world has made it almost impossible to remember and track things. Thankfully we are spoilt for choice when it comes to storing, sharing and collaborating with our data. The challenge now comes from deciding which solution to go with so let me help you decide on the best data practices for your business.
 
+
 :::
 
 ![Storing page]( "Storing")
@@ -41,15 +42,11 @@ I﻿m glad you asked! It's calming to see all the changes and improvements made 
 
 Sharing is caring, but only if done correctly. So which service should you use to share company data? Let's weight up the pro's on con's of some popular tools. 
 
-
-
 **Dropbox**
 
 Pro's - W﻿orks well Office files such as Word docs and Excel sheets - and even allows for editing online within Dropbox.
 
 C﻿on's - No dedicated email solution compared to the likes of Google with Workspace and Microsoft for 365.
-
-
 
 **G﻿oogle Drive**
 
@@ -57,15 +54,11 @@ Pro's - The shared drive feature allows you to make a range of team or departmen
 
 C﻿on's - Can create multiple versions of the same file when working with large files.
 
-
-
 **OneDrive and Sharepoint**
 
 Pro's - Great bang for your buck for the amount of storage you get as part of the 365 suite.
 
 C﻿on's - Requires extra steps when sharing with external non Microsoft account users. But don't worry, we can help  configure this for you, so your customer can still access the great work that you do.
-
-
 
 **S﻿ynology file server**
 
@@ -73,16 +66,14 @@ Pro's - fast and effective for large files that are being collaborated on. Creat
 
 C﻿on's - hardware heavy which requires an investment in infrastructure. 
 
-
-
 ![Collaborating page]( "Collaborating page")
 
 ### Collaborating page
 
-T﻿hese days, most attacks are targeted at your email, app and other account services, away from your device itself, leaving you increasingly susceptible. Have no fear though as MFA (Multi-factor Authentication) provides an additional layer of verification by means of a text or sign in prompt to confirm it is in fact you trying to sign in, should your account find its way in the wrong hands. You know when you enter your Apple ID into a new device, and all your Apple gadgets start singing and dancing with an approval code? That is MFA for you. 
+Now that we know how to store and share our files, the next step is deciding how best we can work together with our data. Using the cloud solution of your choice, it is easy to track changes made by teammates, and if someone makes a mistake, it's possible to restore back to previous versions of the file you're working on. I find Apple's iWork suite really impressive when it comes to rolling back changes in a Time Machine inspired way within Pages, Keynote or Numbers. The 365 suite also works well when it comes undoing changes within Excel, Word or Powerpoint by seeing who did what and when. My colleagues and I tend to work tirelessly within Google Sheets and Docs and the comments feature makes it easy to share insight into what we are trying to achieve in certain sections should it be unclear. What also works well for us is dropping our Drive files into our Slack channel to then discuss and work together in getting the job done. If MS Teams tickles your fancy, then being able to access Onedrive and Sharepoint files within a chat Window can save time looking up your work, with the option to jump on a quick call to discuss your doings in more detail, really helpful as well.
 
-T﻿ake it one step further and there is SSO (Single Sign On) which allows you to use on account, like your Gmail, to then sign into other services such as Slack or Notion, without having to create a new account for that service - nor remember additional passwords. Victory! Not quite, as this can create backdoors if the main account you are using to authorise additional signs is breached, which is why we use something called Okta which adds even more authentication and authorisation services for your top apps.
+
 
 ### C﻿losing remarks
 
-W﻿e are nothing without our data.
+Data is core to what we do across all industries and I hope you have a better sense of some of the ways in which choosing the correct solution can benefit your business. At the rate tech companies are going, there will be a new unicorn data handling business launching tomorrow, so keep an eye out for our newsletter to see how this disrupter can take your team to the next level.
