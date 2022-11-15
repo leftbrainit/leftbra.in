@@ -22,9 +22,10 @@ D﻿ata breaches and cyber attacks cause sleepless nights for anyone running a b
 
 
 
+
 :::
 
-![Certifications page]( "Certifications")
+![Certifications page](/assets/group-11.png "Certifications")
 
 ### Certifications
 
@@ -36,7 +37,7 @@ I﻿SO27001 is an international set of standards for handling IT security which 
 
 In short, Cyber Essentials covers the basics to create a solid foundation of cyber security practices in the UK. If you’re dealing with mostly international clients, or you're a bigger business that wants to dive deeper into security requirements, then ISO 27001 is generally a good choice. Can you have both? Of course! We see Cyber Essentials as a stepping stone to ISO27001 and encourage all our customers to invest in both of these badges.
 
-![Device page]( "Device protection")
+![Device page](/assets/group-12.png "Device protection")
 
 ### D﻿evice protection through MDM
 
@@ -50,7 +51,7 @@ T﻿here is also Duo which is a dream when it comes to guarding company devices 
 
 InTune is cool too and our Windows users love it - and what's not to love considering there are far more infections hitting Windows PCs so there is real value knowing that you're safe by integrating with mobile threat defence services like Microsoft Defender for desktop protection. The cloud console is easy to configure and provides you with a shield across your favourite Microsoft services like 365 and Teams.
 
-![Account page]( "Account protection")
+![Account page](/assets/group-13.png "Account protection")
 
 ### A﻿ccount security through MFA and SSO
 
