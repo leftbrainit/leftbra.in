@@ -5,39 +5,40 @@ publishDate: 15th November 2022
 dark: false
 tags:
   - Data
-  - collaborating
+  - collaboration
   - solution
 wrap: true
-excerpt: D﻿ata breaches and cyber attacks cause sleepless nights for anyone
-  running a business or IT department. Tap into how our new SecOps (Security
-  Operations) Team protect our customers to help keep the bad guys out.
+excerpt: Today’s fast-pace digital world has made it almost impossible to
+  remember and track things. Discover the best practices for your business when
+  it comes to storing, sharing and collaborating with your data.
 authorName: Adam Casper
 ---
 ::: component BlogPostHeader
 ~~~
 {}
 ~~~
-D﻿ata breaches and cyber attacks cause sleepless nights for anyone running a business or IT department. So we've put together a new SecOps (Security Operations) Team to protect and ensure peace of mind when it comes to our customer's device and account security. If you have any doubts over the state of your security, use this hero's checklist to help keep the bad guys out.
-
-
-
+Today’s fast-pace digital world has made it almost impossible to remember and track things. Thankfully we are spoilt for choice when it comes to storing, sharing and collaborating with our data. The challenge now comes from deciding which solution to go with so let me help you decide on the best data practices for your business.
 :::
 
-![Certifications page]( "Certifications")
+![Storing page]( "Storing")
 
-### Certifications
+### Where to store
 
-Cyber Essentials and ISO27001 are the leading industry standards for security but which certification is right for your business? 
+We've put a lot of thought around some of the ways our customers are storing their data and with the recent cloud evolution, we've mulled over whether cloud or on-premise servers are a better fit for you.
 
-C﻿yber Essentials is a UK Government program that covers an entry level of IT security and reduces the risk of most cyber attacks by roughly 80%. Not bad, right? It's required if you are working with government, handling personal data, or providing technical services. More and more of our customers are striving towards getting their Basic and Plus certifications, to strike deals with other supply chains and organisations who only engage with compliant companies.
+Particularly in remote working environments, cloud solutions like Google Drive and Dropbox take preference because of the seemless ways to access data on the go and at a relatively low cost compared to the up keeping of an on-premise server. And while physical office servers such as a Synology file server can still be accessed remotely using VPN solutions, if there is a break in connection, someone will need to return to office to resolve - or you can just call one of our on-site engineers to come out and save the day :)
 
-I﻿SO27001 is an international set of standards for handling IT security which is more in depth, covering additional areas of business which can leave you at risk. It includes all information security and accessibility such as Human Resources and Legal Compliance, compared to just having a general IT focus.  So it takes more time to build towards. And we can help you get certified by ensuring that the required documents laying out appropriate policies, records, and procedures are in place for audit, before taking a course and passing the exam
+However, if you are easing back into or are fully in office, and deal with large files such as renders or raw images, it can be beneficial to work off a shared file server that's quicker to access compared to working from a cloud folder which varies dependent on your internet speed.
 
-In short, Cyber Essentials covers the basics to create a solid foundation of cyber security practices in the UK. If you’re dealing with mostly international clients, or you're a bigger business that wants to dive deeper into security requirements, then ISO 27001 is generally a good choice. Can you have both? Of course! We see Cyber Essentials as a stepping stone to ISO27001 and encourage all our customers to invest in both of these badges.
 
-![Device page]( "Device protection")
 
-### D﻿evice protection through MDM
+### W﻿hat about backups?
+
+I﻿m glad you asked! It's calming to see all the changes and improvements made to both cloud and physical backup technology, and how the two can actually work together in safe-keeping your precious data. I'm particularly impressed with the new Google Drive desktop app's backup feature that replicates selected files on your computer to your cloud storage with a click of the button. Dropbox and Onedrive include this feature too and while Dropbox seem to have this waxed, I find Onedrive can be picky over which files can or can't be backed up - good luck if you're a PST file, and please make sure there are no unwarranted spaces after file or folder names as you will receive red alert, sync errors for days. What's really neat is how your Synology file server can work hand in hand with your cloud service of choice in backing up current or archive data, giving you an additional layer of fall back should disaster strike.
+
+![Sharing page]( "Sharing")
+
+### S﻿haring
 
 R﻿ecent breakthroughs in MDM (Mobile Device Management) software has created a manual for success when it comes to managing and protecting customer's devices. By automating repetitive management tasks, an MDM boosts security by eliminating human error when provisioning machines for first time use and governs what employees can and can't do with their workstations from the get go. Now, which MDM should you use at your work or school?
 
@@ -49,9 +50,9 @@ T﻿here is also Duo which is a dream when it comes to guarding company devices 
 
 InTune is cool too and our Windows users love it - and what's not to love considering there are far more infections hitting Windows PCs so there is real value knowing that you're safe by integrating with mobile threat defence services like Microsoft Defender for desktop protection. The cloud console is easy to configure and provides you with a shield across your favourite Microsoft services like 365 and Teams.
 
-![Account page]( "Account protection")
+![Collaborating page]( "Collaborating page")
 
-### A﻿ccount security through MFA and SSO
+### Colloborating page
 
 T﻿hese days, most attacks are targeted at your email, app and other account services, away from your device itself, leaving you increasingly susceptible. Have no fear though as MFA (Multi-factor Authentication) provides an additional layer of verification by means of a text or sign in prompt to confirm it is in fact you trying to sign in, should your account find its way in the wrong hands. You know when you enter your Apple ID into a new device, and all your Apple gadgets start singing and dancing with an approval code? That is MFA for you. 
 
