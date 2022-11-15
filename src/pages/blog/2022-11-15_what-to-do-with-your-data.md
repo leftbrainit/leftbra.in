@@ -42,35 +42,43 @@ I﻿m glad you asked! It's calming to see all the changes and improvements made 
 
 Sharing is caring, but only if done correctly. So which service should you use to share company data? Let's weight up the pro's on con's of some popular tools. 
 
+
+
 **Dropbox**
 
-Pro's - W﻿orks well Office files such as Word docs and Excel sheets - and even allows for editing online within Dropbox.
+Pro's - W﻿orks well with Office files such as Word docs and Excel sheets, and even allows for editing online within Dropbox without the Microsoft Suite installed.
 
-C﻿on's - No dedicated email solution compared to the likes of Google with Workspace and Microsoft for 365.
+C﻿on's - There is still no dedicated email solution compared to the likes of Google with Workspace and Microsoft for 365.
+
+
 
 **G﻿oogle Drive**
 
 Pro's - The shared drive feature allows you to make a range of team or department specific files that can be easily shared within our organisation. 
 
-C﻿on's - Can create multiple versions of the same file when working with large files.
+C﻿on's - You can create multiple versions of the same file when working with large files.
+
+
 
 **OneDrive and Sharepoint**
 
-Pro's - Great bang for your buck for the amount of storage you get as part of the 365 suite.
+Pro's - Is great bang for your buck for the amount of storage you get as part of the 365 suite.
 
-C﻿on's - Requires extra steps when sharing with external non Microsoft account users. But don't worry, we can help  configure this for you, so your customer can still access the great work that you do.
+C﻿on's - Can require extra steps when sharing with external non Microsoft account users. But don't worry, we can help  configure this for you, so your customer can still access the great work that you do.
+
+
 
 **S﻿ynology file server**
 
-Pro's - fast and effective for large files that are being collaborated on. Creators really benefit from this.
+Pro's - Is fast and efficient for large files that are being collaborated on. Creators really benefit from this.
 
-C﻿on's - hardware heavy which requires an investment in infrastructure. 
+C﻿on's - Can be hardware heavy which requires an investment in infrastructure. Our Infrastructure team has your back though in making the right move. 
 
 ![Collaborating page]( "Collaborating page")
 
 ### Collaborating page
 
-Now that we know how to store and share our files, the next step is deciding how best we can work together with our data. Using the cloud solution of your choice, it is easy to track changes made by teammates, and if someone makes a mistake, it's possible to restore back to previous versions of the file you're working on. I find Apple's iWork suite really impressive when it comes to rolling back changes in a Time Machine inspired way within Pages, Keynote or Numbers. The 365 suite also works well when it comes undoing changes within Excel, Word or Powerpoint by seeing who did what and when. My colleagues and I tend to work tirelessly within Google Sheets and Docs and the comments feature makes it easy to share insight into what we are trying to achieve in certain sections should it be unclear. What also works well for us is dropping our Drive files into our Slack channel to then discuss and work together in getting the job done. If MS Teams tickles your fancy, then being able to access Onedrive and Sharepoint files within a chat Window can save time looking up your work, with the option to jump on a quick call to discuss your doings in more detail, really helpful as well.
+Now that we know how to store and share our files, the next step is deciding how best we can work together with our data. Using the cloud solution of your choice, it's easy to track changes made by teammates, and if someone makes a mistake, it's possible to restore back to previous versions of the file you're working on. I find Apple's iWork suite really impressive when it comes to rolling back changes in a Time Machine inspired way within Pages, Keynote or Numbers. The 365 suite also works well when it comes undoing changes within Excel, Word or Powerpoint by seeing who did what and when. My colleagues and I tend to work tirelessly within Google Sheets and Docs and the comments feature makes it easy to share insight into what we are trying to achieve in certain sections should it be unclear. What also works well for us is dropping our Drive files into our Slack channel to then discuss and work together in getting the job done. If MS Teams tickles your fancy, then being able to access Onedrive and Sharepoint files within a chat Window can save time looking up your work, with the option to jump on a quick call to discuss your doings in more detail, really helpful as well.
 
 
 
