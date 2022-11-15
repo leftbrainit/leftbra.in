@@ -43,6 +43,7 @@ So as a first post, I wanted to highlight a couple of the great tools we're usin
 
 
 
+
 :::
 
 ![Notion Page](/assets/notion-web-header.png "Notion")
@@ -89,7 +90,7 @@ It is also a great way to engage with customers by inviting them to a shared cha
 
 Google Workspace and Microsoft Teams are slowly catching up when it comes to chat but I still feel Slack is winning the race.
 
-![1Password Page](/assets/group-15.png "1Password")
+![1Password Page](/assets/group-16.png "1Password")
 
 ## 1Password
 
