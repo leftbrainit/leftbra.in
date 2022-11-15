@@ -1,7 +1,7 @@
 ---
 title: What to do with your data
 isSubPage: true
-publishDate: 15th November 2022
+publishDate: 18th November 2022
 image: /assets/group-2.png
 dark: false
 tags:
