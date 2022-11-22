@@ -38,7 +38,7 @@ Q﻿. Lastly, what has been your favourite and least favourite thing about remot
 
 A﻿. My favourite has to be is not being stuck in traffic everyday and least favourite is not being able to connect with people face-to-face. I really miss seeing the smiles I put on their faces.
 
-![Ben's setup page]( "Ben's setup")
+![Ben's setup page](/assets/img_9941.png "Ben's setup")
 
 Going remote has allowed Ben Carrick to make the move from cold London to an island called Lošinj in Croatia and has been thriving in his new, relaxing surroundings. No wonder he has done such great work for our Client Advocates team. 
 
