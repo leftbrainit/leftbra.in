@@ -2,6 +2,7 @@
 title: Some sweet setups
 isSubPage: true
 publishDate: 21st November 2022
+image: /assets/group-3.png
 dark: false
 tags:
   - Remote
