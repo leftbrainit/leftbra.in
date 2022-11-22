@@ -1,16 +1,16 @@
 ---
-title: Some sweet setups
+title: Some sweet workstations
 isSubPage: true
 publishDate: 21st November 2022
 image: /assets/group-3.png
 dark: false
 tags:
   - Remote
-  - Work
-  - Stations
+  - Workstations
+  - Setups
 wrap: true
-excerpt: We asked the team to shed some light into their remote setups and work
-  stations. It's amazing to see the tech in use that makes remote working so
+excerpt: We asked the team to shed some light into their remote setups and
+  workstations. It's amazing to see the tech in use that makes remote working so
   seamless. Let's look at some of the most mesmerising kits.
 authorName: Adam Casper
 ---
