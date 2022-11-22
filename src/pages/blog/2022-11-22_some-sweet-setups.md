@@ -42,7 +42,7 @@ A﻿. My favourite has to be is not being stuck in traffic everyday and least fa
 
 Going remote has allowed Ben Carrick to make the move from cold London to an island called Lošinj in Croatia and has been thriving in his new, relaxing surroundings. No wonder he has done such great work for our Client Advocates team. 
 
-Q﻿. So Ben, what have you put together in your new workstation in Crotia?
+Q﻿. So Ben, what have you put together in your new workstation in Croatia?
 
 A﻿. I'm working off a MacBook Air M1 connected to a 4K LG Monitor to house the million tabs I tend to switch between. The 16GB of RAM helps a lot with my workload and with most of my work in the cloud, I could get away with the base 256GB hard drive. 
 
