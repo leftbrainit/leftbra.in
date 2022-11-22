@@ -21,7 +21,7 @@ We asked the team to shed some light into their remote setups and work stations,
 
 :::
 
-![Lewis's setup page]( "Lewis's setup")
+![Lewis's setup page](/assets/img_5962.jpg "Lewis's setup")
 
 A﻿ll the way from Johannesburg, South Africa, Lewis Karume helps our customers with all their tech support issues so they can get on with the great work that they do. How you may ask? Let's find out.
 
@@ -53,7 +53,7 @@ Q﻿. I'll be sure to put in a good word with HR! And what has been your favouri
 
 A﻿. My favourite is definitely jumping in the Adriatic Sea on my lunch breaks. It's such a treat! Least favourite would probably be missing out on all the spontaneous chats over cups of tea with the team. 
 
-![Dustin's setup page]( "Dustin's setup")
+![Dustin's setup page](/assets/img_2655.jpg "Dustin's setup")
 
 B﻿ased in London, Dustin Rhodes heads up our New Business and Projects team from the comfort of his home.  This power hungry user needs a well-equipped setup. Let's dive in.
 
