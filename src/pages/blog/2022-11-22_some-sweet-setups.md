@@ -22,9 +22,10 @@ We asked the team to shed some light into their remote setups and work stations,
 
 
 
+
 :::
 
-![Lewis's setup page]( "Lewis's setup")
+![Lewis's setup page](/assets/screenshot-2022-11-23-at-12.05.32.png "Lewis's setup")
 
 A﻿ll the way from Johannesburg, South Africa, Lewis Karume helps our customers with all their tech support issues so they can get on with the great work that they do. How you may ask? Let's find out.
 
