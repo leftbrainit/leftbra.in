@@ -21,6 +21,7 @@ authorName: Adam Casper
 We asked the team to shed some light into their remote setups and work stations, and how they've gotten on during this new approach to working. It's amazing to see some of the tech in use that makes remote working so seamless. Let's look at some of the most mesmerising kits.
 
 
+
 :::
 
 ![Lewis's setup page]( "Lewis's setup")
@@ -61,12 +62,23 @@ B﻿ased in London, Dustin Rhodes heads up our New Business and Projects team fr
 
 Q﻿. Dustin, I am totally blown away by this setup. Please walk me through it.
 
-A﻿. Under the desk is a custom built PC with a Synology DS1618+ used for LeftBrain testing. Up top is a 14" MacBook Pro M1 Pro chip that works great with my iPad Pro to extend my screen using Sidecar. The Dell 55hz 2K gaming monitor goes hand in hand with my PC used for private use, mostly gaming. I love my Philips Hue that controls all lighting in the house using Siri, and the Unifi Dream machine router with 4G failover makes sure i'm always online for when my team or customers need me. I also use Apple Airpods Pro’s for work, they great for when commuting on the tube with noise cancelling. The hydraulic standing desk that houses it all was built by me. 
+A﻿. Breakdown:
+
+* Hydraulic standing desk with an ergonomic chair for obvious health benefits.
+* Sonos speaker for podcasts and Spotify to break the silence.
+* For work, Apple MacBook Pro 14" with an external 4K monitor on the right to ensure enough space for all my windows.
+* iPad Pro with Apple Pencil for note taking and diagram drawing.
+* AirPod Pro’s for calls and meetings.
+* Underneath the desk I have a test Synology DS1618+ for replicating issues on clients setups without having to fiddle on a live system, along with new feature testing.
+* My gaming PC for personal use.
+* Connecting it all together is a Unfi Dream Machine Router with a 4G modem as a failover to ensure 100% uptime.
 
 Q﻿. I feel silly asking but is there anything else you're looking at investing in?
 
-A﻿. With the newest member of the Rhodes family being born recently, a baby monitor would be great to keep an eye on him in between meetings. The Cubo Ai Plus Smart Baby Monitor looks like a winner
+A﻿. At the moment, nothing springs to mind.
 
 Q﻿. And what has been your favourite and least favourite thing about remote working? 
 
-A﻿. My favourite is less commuting and being able to be with baby Ethan. Least favourite is working and living from the same place. I find it hard hard to switch off.
+A﻿. My favourite thing is being able to spend my breaks with Ethan, our new born.
+
+Least favourite thing is trying to find the off button as the space is associated with work and home.
