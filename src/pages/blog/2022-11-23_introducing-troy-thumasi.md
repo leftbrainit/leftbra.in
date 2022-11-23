@@ -24,7 +24,7 @@ Q﻿. Hey Troy! When you aren't visiting clients, where do you help them from?
 
 A﻿. Im currently based and working in Brixton, South London.
 
-Q﻿. And what exactly do you do for LeftBrain?
+Q﻿. And what exactly do you do at LeftBrain?
 
 A﻿. I'm part of the Tech Support All Rounder Team, or how we like to call ourselves, ET2. Our role is spread out and help across other teams which means I'm always learning new tricks.
 
