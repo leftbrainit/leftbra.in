@@ -1,7 +1,7 @@
 ---
 title: Some sweet workstations
 isSubPage: true
-publishDate: 21st November 2022
+publishDate: 18th November 2022
 image: /assets/group-3.png
 dark: false
 tags:
@@ -22,10 +22,9 @@ We asked the team to shed some light into their remote setups and work stations,
 
 
 
-
 :::
 
-![Lewis's setup page](/assets/screenshot-2022-11-23-at-12.05.32.png "Lewis's setup")
+![Lewis's setup page]( "Lewis's setup")
 
 A﻿ll the way from Johannesburg, South Africa, Lewis Karume helps our customers with all their tech support issues so they can get on with the great work that they do. How you may ask? Let's find out.
 
@@ -41,7 +40,7 @@ Q﻿. Lastly, what has been your favourite and least favourite thing about remot
 
 A﻿. My favourite has to be is not being stuck in traffic everyday and least favourite is not being able to connect with people face-to-face. I really miss seeing the smiles I put on their faces.
 
-![Ben's setup page](/assets/screenshot-2022-11-23-at-12.09.20.png "Ben's setup")
+![Ben's setup page]( "Ben's setup")
 
 Going remote has allowed Ben Carrick to make the move from cold London to an island called Lošinj in Croatia and has been thriving in his new, relaxing surroundings. No wonder he has done such great work for our Client Advocates team. 
 
