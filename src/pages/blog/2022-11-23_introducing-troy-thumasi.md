@@ -26,7 +26,7 @@ A﻿. Im currently based and working from Brixton, South London.
 
 Q﻿. And what exactly do you do at LeftBrain?
 
-A﻿. I'm part of the Tech Support All Rounder Team, or how we like to call ourselves, "ET2". Our role is spread out and we help across other teams which means I'm always learning new tricks.
+A﻿. I'm part of the Tech Support All Rounder Team. Our role is spread out and we help across other teams which means I'm always learning new tricks.
 
 Q﻿. Awesome! Are you working on anything particular right now?
 
