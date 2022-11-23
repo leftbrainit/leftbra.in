@@ -30,7 +30,7 @@ A﻿. I'm part of the Tech Support All Rounder Team, or how we like to call ours
 
 Q﻿. Awesome! Are you working on anything particular right now?
 
-A﻿. We've been doing lots of Mosyle roll outs, otherwise i've been helping Dayne and his team on the support side, and Dustin's team with projects.
+A﻿. We've been doing loads of Mosyle roll outs, an MDM which helps us manage our customers remotely. I've also been helping Dayne and his team on the support side, and Dustin's team with projects.
 
 Q. Busy guy! And when you're not putting smiles on client's faces, what do you enjoy doing in your downtime?
 
