@@ -32,7 +32,7 @@ Q﻿. Awesome! Are you working on anything particular right now?
 
 A﻿. We've been doing loads of Mosyle roll outs, an MDM (Mobile Device Manager) which helps us manage our customers' devices remotely. I've also been helping Dayne and his team on the support side, and Dustin's team with projects.
 
-Q. Busy guy! And when you're not putting smiles on client's faces, what do you enjoy doing in your downtime?
+Q. Busy guy! And when you're not putting smiles on customer's faces, what do you enjoy doing in your downtime?
 
 A﻿. I love to paint and coach football. Having weekends off helps maximise my spare time.
 
