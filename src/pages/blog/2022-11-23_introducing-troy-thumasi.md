@@ -34,11 +34,11 @@ A﻿. We've been doing lots of Mosyle roll outs, otherwise i've been helping Day
 
 Q. Busy guy! And when you're not putting smiles on client's faces, what do you enjoy doing in your downtime?
 
-A﻿. I love to paint and coach football. 
+A﻿. I love to paint and coach football. Having weekends off helps maximise my spare time.
 
 Q﻿. So tell me, what has been the best part about working here?
 
-A﻿. Being mostly a Mac environment has been awesome. I come from a Windows background and have found Mac so much easier to support. I've also really enjoyed being exposed to security solutions and hope to spread my wings there soon.
+A﻿. Being mostly a Mac environment has been awesome! I come from a Windows background and have found Mac so much easier to support. I've also really enjoyed being exposed to security solutions and hope to spread my wings there soon.
 
 Q﻿. And is there anything else you can tell me about you that makes you stand out here?
 
@@ -46,7 +46,7 @@ A﻿. Well my family is originally from Ghana, not sure if the rest of the team 
 
 Q. That's so cool! What else can you tell me about Ghana?
 
-A﻿. Well, the capital Accra is second most expensive city in Africa. And we're finally back in the World Cup this year so you can cheer us on as we represent Africa, where you're also from. 
+A﻿. Well, the capital Accra is now the second most expensive city in Africa. And we're finally back in the FIFA World Cup this year so you can cheer us on as we represent Africa, where you're also from.
 
-T﻿hat's all from Troy today. We'll be meeting other members of our family in future posts so stay tuned.
+T﻿hat's all from Troy today. We'll be meeting other members of our family in future posts so stick around.
 :::
