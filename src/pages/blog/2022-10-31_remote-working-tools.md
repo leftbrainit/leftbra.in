@@ -45,6 +45,7 @@ So as a first post, I wanted to highlight a couple of the great tools we're usin
 
 
 
+
 :::
 
 ![Notion Page](/assets/notion-web-header.png "Notion")
@@ -53,7 +54,7 @@ So as a first post, I wanted to highlight a couple of the great tools we're usin
 
 If you haven't already, it’s time to put your faith in Notion.
 
-This project management gem is the best thing since the internet itself and helps the team coordinate, collaborate and conquer their goals. Check out this [demo](https://leftbrain.notion.site/ef47b055c5f24ebf8f4e20b7f81189f9?v=62f2621cc8aa4aaf879d53e81b1ebddd) of a Project Tracker which was easily built to oversee some projects from start to finish. My favourite part about Notion is that it requires no coding or database background and can be configured to your business’s best practices. Not to mention can be easily shared with your customers. When working from all around the world, Notion is great to onboard new team members. We make use of an employee handbook which covers everything from the way we communicate to clients, applying for leave, employee benefits and anything else you can imagine that will help new recruits hit the ground running. See below how to make a new template in line with this:
+This project management gem is the best thing since the internet itself and helps the team coordinate, collaborate and conquer their goals. Check out this [demo](https://leftbrain.notion.site/ef47b055c5f24ebf8f4e20b7f81189f9?v=62f2621cc8aa4aaf879d53e81b1ebddd) of a Project Tracker which was easily built to oversee some projects from start to finish. My favourite part about Notion is that it requires no coding or database background and can be configured to your business’s best practices. Not to mention can be easily shared with your customers. When working from all around the world, Notion is great to onboard new team members. We make use of an employee handbook which covers everything from the way we communicate to customers, applying for leave, employee benefits and anything else you can imagine that will help new recruits hit the ground running. See below how to make a new template in line with this:
 
 ![Notion Template Section](/assets/group-12.1png.png "Notion Template")
 
