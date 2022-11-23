@@ -19,9 +19,10 @@ authorName: Adam Casper
 {}
 ~~~
 We asked the team to shed some light into their remote setups and workstations, and how they've gotten on during this fresh approach to working. It's amazing to see some of the tech in use that makes remote working so seamless. Let's look at some of the most mesmerising kits.
+
 :::
 
-![Lewis's setup page](/assets/screenshot-2022-11-23-at-12.05.32.png "Lewis's setup")
+![Lewis's setup page](/assets/screenshot-2022-11-24-at-00.09.43.png "Lewis's setup")
 
 A﻿ll the way from Johannesburg, Lewis Karume helps our customers with all their tech support issues so they can get on with the great work that they do. How you may ask? Let's find out.
 
@@ -37,7 +38,7 @@ Q﻿. Lastly, what has been your favourite and least favourite thing about remot
 
 A﻿. My favourite has to be is not being stuck in traffic everyday and least favourite is not being able to connect with people face-to-face. 
 
-![Ben's setup page](/assets/screenshot-2022-11-23-at-22.45.54.png "Ben's setup")
+![Ben's setup page](/assets/screenshot-2022-11-24-at-00.10.01.png "Ben's setup")
 
 Going remote has allowed Ben Carrick to make the move from cold London to an island called Lošinj in Croatia and has been thriving in his new, relaxing surroundings. No wonder he has done such great work for our Client Advocates team. 
 
