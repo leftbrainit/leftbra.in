@@ -23,6 +23,7 @@ Today’s fast-pace digital world has made it almost impossible to remember and 
 
 
 
+
 :::
 
 ![Storing page](/assets/17.png "Where to Store")
@@ -73,7 +74,7 @@ C﻿ons - Can be hardware heavy which requires an investment in infrastructure. 
 
 ### Ways to collaborate
 
-Now that we know how to store and share our files, the next step is deciding how best we can work together with our data. Using the cloud solution of your choice, it's easy to track changes made by teammates, and if someone makes a mistake, it's possible to restore back to previous versions of the file you're working on. I find Apple's iWork suite really impressive when it comes to rolling back changes in a Time Machine inspired way within Pages, Keynote or Numbers. The 365 suite also works well when it comes to undoing changes within Excel, Word or Powerpoint by seeing who did what and when. My colleagues and I tend to work tirelessly within Google Sheets and Docs and the comments feature makes it easy to share insight into what we are trying to achieve in certain sections, should it be unclear. What also works well for us is dropping our Drive files into a Slack channel to then discuss and work together in getting the job done. If MS Teams tickles your fancy, then being able to access Onedrive and Sharepoint files within a chat Window can save time looking up your work, with the option to jump on a quick call to discuss your doings in more detail, is really helpful as well.
+Now that we know how to store and share our files, the next step is deciding how best we can work together with our data. Using the cloud solution of your choice, it's easy to track changes made by teammates, and if someone makes a mistake, it's possible to restore back to previous versions of the file you're working on. I find Apple's iWork suite really impressive when it comes to rolling back changes in a Time Machine inspired way within Pages, Keynote or Numbers. The 365 suite also works well when it comes to undoing changes within Excel, Word or Powerpoint by seeing who did what and when. My colleagues and I tend to work tirelessly within Google Sheets and Docs and the comments feature makes it easy to share insight into what we are trying to achieve in certain sections, should it be unclear. And when crunching numbers on Sheets from our respective desks, being able to trace Dependents and Precedents saves time when trying to work out where totals were tallied from. What also works well for us is dropping our Drive files into a Slack channel to then discuss and work together in getting the job done. If MS Teams tickles your fancy, then being able to access Onedrive and Sharepoint files within a chat Window can save time looking up your work, with the option to jump on a quick call to discuss your doings in more detail, is really helpful as well.
 
 ### C﻿losing remarks
 
