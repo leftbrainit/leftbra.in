@@ -22,11 +22,11 @@ We are delighted to have Troy on board. Meet the man behind the Memoji and disco
 
 Q﻿. Hey Troy! When you aren't visiting clients, where do you help them from?
 
-A﻿. Im currently based and working in Brixton, South London.
+A﻿. Im currently based and working from Brixton, South London.
 
 Q﻿. And what exactly do you do at LeftBrain?
 
-A﻿. I'm part of the Tech Support All Rounder Team, or how we like to call ourselves, ET2. Our role is spread out and help across other teams which means I'm always learning new tricks.
+A﻿. I'm part of the Tech Support All Rounder Team, or how we like to call ourselves, "ET2". Our role is spread out and we help across other teams which means I'm always learning new tricks.
 
 Q﻿. Awesome! Are you working on anything particular right now?
 
