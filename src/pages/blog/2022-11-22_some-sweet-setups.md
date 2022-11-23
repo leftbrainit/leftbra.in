@@ -23,9 +23,9 @@ We asked the team to shed some light into their remote setups and workstations, 
 
 ![Lewis's setup page](/assets/screenshot-2022-11-23-at-12.05.32.png "Lewis's setup")
 
-A﻿ll the way from Johannesburg, South Africa, Lewis Karume helps our customers with all their tech support issues so they can get on with the great work that they do. How you may ask? Let's find out.
+A﻿ll the way from Johannesburg, Lewis Karume helps our customers with all their tech support issues so they can get on with the great work that they do. How you may ask? Let's find out.
 
-Q﻿. Tell me Lewis, what enables you to do such a great job for LeftBrain from the other side of the globe in SA?
+Q﻿. Tell me Lewis, what enables you to do such a great job for LeftBrain from the other side of the globe in South Africa?
 
 A﻿. I have my MacBook Air M1 to thank. This is the fastest Mac I've ever had and makes helping our customers even more of a pleasure. Being remote has lead me to run multiple apps at the same time, so I picked up a Samsung 32" Monitor to extend my screen and free up my real estate. I also have a mini DC ups to power my wifi router and fibre box for about 8 hours straight which is essential with the recent power outages we've unfortunately been experiencing. 
 
