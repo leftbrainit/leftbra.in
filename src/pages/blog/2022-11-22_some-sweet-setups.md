@@ -18,11 +18,7 @@ authorName: Adam Casper
 ~~~
 {}
 ~~~
-We asked the team to shed some light into their remote setups and work stations, and how they've gotten on during this new approach to working. It's amazing to see some of the tech in use that makes remote working so seamless. Let's look at some of the most mesmerising kits.
-
-
-
-
+We asked the team to shed some light into their remote setups and workstations, and how they've gotten on during this new approach to working. It's amazing to see some of the tech in use that makes remote working so seamless. Let's look at some of the most mesmerising kits.
 :::
 
 ![Lewis's setup page](/assets/screenshot-2022-11-23-at-12.05.32.png "Lewis's setup")
