@@ -48,5 +48,5 @@ Q. That's so cool! What else can you tell me about Ghana?
 
 A﻿. Well, the capital Accra is now the second most expensive city in Africa. And we're finally back in the FIFA World Cup this year so you can cheer us on as we represent Africa, where you're also from.
 
-T﻿hat's all from Troy today. We'll be meeting other members of our family in future posts so stick around.
+T﻿hat's all from Troy today. We'll be meeting other members of our family in future posts, so stick around.
 :::
