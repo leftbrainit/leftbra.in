@@ -34,7 +34,7 @@ A﻿. We've been doing loads of Mosyle roll outs, an MDM (Mobile Device Manager)
 
 Q. Busy guy! And when you're not putting smiles on customers' faces, what do you enjoy doing in your downtime?
 
-A﻿. I love to paint and coach football. Having weekends off helps maximise my spare time.
+A﻿. I love to paint and coach football. Having weekends off really helps maximise my spare time.
 
 Q﻿. So tell me, what has been the best part about working here?
 
