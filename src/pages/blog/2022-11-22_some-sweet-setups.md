@@ -35,7 +35,7 @@ A﻿. I have my eye on the Anker 563 10-in-1 USB C dock which allows me to conne
 
 Q﻿. Lastly, what has been your favourite and least favourite thing about remote working?
 
-A﻿. My favourite has to be is not being stuck in traffic everyday and least favourite is not being able to connect with people face-to-face. I really miss seeing the smiles I put on their faces.
+A﻿. My favourite has to be is not being stuck in traffic everyday and least favourite is not being able to connect with people face-to-face. 
 
 ![Ben's setup page](/assets/screenshot-2022-11-23-at-22.45.54.png "Ben's setup")
 
