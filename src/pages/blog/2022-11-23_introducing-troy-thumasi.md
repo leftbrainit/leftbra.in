@@ -1,7 +1,7 @@
 ---
 title: "Introducing: Troy Thumasi"
 isSubPage: true
-publishDate: 18th November 2022
+publishDate: 21st November 2022
 image: /assets/group-2.png
 dark: false
 tags:
