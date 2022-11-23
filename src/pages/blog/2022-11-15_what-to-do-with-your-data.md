@@ -22,6 +22,7 @@ Today’s fast-pace digital world has made it almost impossible to remember and 
 
 
 
+
 :::
 
 ![Storing page](/assets/17.png "Where to Store")
@@ -76,4 +77,4 @@ Now that we know how to store and share our files, the next step is deciding how
 
 ### C﻿losing remarks
 
-Data is core to what we do across all industries and I hope you have a better sense of some of the ways in which choosing the correct solution can benefit your business. At the rate at which tech companies are growing, there will be a new unicorn data handling business launching tomorrow, so keep an eye out for our newsletter to see how this disrupter can take your team to the next level.
+Data is core to what we do across all industries and I hope you have a better sense of some of the ways in which choosing the correct solution can benefit your business. At the rate at which tech companies are growing, it's likely here will be a new unicorn data handling business launching tomorrow, so keep an eye out for our newsletter to see how this disrupter can take your team to the next level.
