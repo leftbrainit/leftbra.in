@@ -7,7 +7,7 @@ dark: false
 tags:
   - Data
   - collaboration
-  - solution
+  - solutions
 wrap: true
 excerpt: Today’s fast-pace digital world has made it almost impossible to
   remember and track things. Discover the best practices for your business when
