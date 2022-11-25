@@ -36,7 +36,7 @@ Q. Busy guy! And when you're not putting smiles on customers' faces, what do you
 
 A﻿. I love to paint and coach football. Having weekends off really helps maximise my spare time.
 
-Q﻿. So tell me, what has been the best part about working here?
+Q﻿. And tell me, what has been the best part about working here?
 
 A﻿. Being mostly a Mac environment has been awesome! I come from a Windows background and have found Mac so much easier to support. I've also really enjoyed being exposed to security solutions and hope to spread my wings there soon.
 
