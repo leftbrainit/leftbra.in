@@ -42,7 +42,7 @@ A﻿. Being mostly a Mac environment has been awesome! I come from a Windows bac
 
 Q﻿. And is there anything else you can tell me about you that makes you stand out here?
 
-A﻿. Well my family is originally from Ghana, not sure if the rest of the team even knows that! You should really try visit some time. You'll enjoy the best Jollof (which is a traditional rish dish) of your life there!
+A﻿. Well my family is originally from Ghana, not sure if the rest of the team even knows that! You should really try visit some time. You'll enjoy the best Jollof (which is a traditional rice dish) of your life there!
 
 Q. That's so cool! What else can you tell me about Ghana?
 
