@@ -7,7 +7,7 @@ dark: false
 tags:
   - Team
   - Profile
-  - ET2
+  - Tech
 wrap: true
 excerpt: We are delighted to have Troy on board. Meet the man behind the Memoji
   and discover what he gets up to during and after his Tech Support All Rounder
