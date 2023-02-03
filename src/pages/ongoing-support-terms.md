@@ -3,6 +3,7 @@ name: Ongoing Support Terms
 isSubPage: false
 description: Terms and Conditions for our Ongoing Support Plans
 wrap: true
+dark: true
 ---
 
 # LeftBrain Terms and Conditions

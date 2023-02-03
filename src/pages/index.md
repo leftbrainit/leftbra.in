@@ -10,7 +10,7 @@ isSubPage: false
 title: "All Systems Go."
 ~~~
 
-LeftBrain helps ambitious teams use technology to work better: applying our unique brands of [strategic guidance](#strategic-guidance){.border-pink-500}, [human support](#human-support){.border-lime-500}, and [managed infrastructure](#managed-infrastructure){.border-yellow-500 .whitespace-nowrap}.
+LeftBrain helps ambitious teams use technology to work better: applying our unique brands of [strategic guidance](#strategic-guidance){.border-primary-500}, [human support](#human-support){.border-primary-500}, and [managed infrastructure](#managed-infrastructure){.border-primary-500 .whitespace-nowrap}.
 
 :::
 
@@ -18,7 +18,7 @@ LeftBrain helps ambitious teams use technology to work better: applying our uniq
 ~~~
 title: "Strategic Guidance"
 slogan: "Build the perfect beast"
-colour: "pink"
+colour: "green"
 subFeatures:
   - title: "Part Of The Team"
     icon: "group_add"
@@ -71,7 +71,7 @@ Getting tech support is rarely fun. Ticket numbers, long waits, missed appointme
 ~~~
 title: "Managed Infrastructure"
 slogan: "Failure is not an option"
-colour: "yellow"
+colour: "green"
 subFeatures:
   - title: "Enterprise Reliability"
     icon: "business"

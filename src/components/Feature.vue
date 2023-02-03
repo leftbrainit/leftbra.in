@@ -5,7 +5,7 @@
             <div class="relative flex flex-col py-12 md:py-24 lg:py-32">
                 <div class="flex flex-col justify-center">
                     <SectionHeading :colour="colour" :title="title" />
-                    <div class="max-w-3xl text-5xl mb-3 font-medium leading-tight">
+                    <div class="max-w-3xl text-5xl mb-3 font-medium leading-tight font-title">
                         <h4 v-html="slogan" />
                     </div>
                     <Prose class="max-w-prose">

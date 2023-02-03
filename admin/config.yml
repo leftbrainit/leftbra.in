@@ -156,7 +156,7 @@ collections:
         hint: 'If an HTTPS url is entered, the page will redirect on load'
       - label: 'Dark Mode'
         name: 'dark'
-        required: false
+        required: true
         widget: 'boolean'
       - label: 'Wrap Page'
         name: 'wrap'
@@ -262,7 +262,7 @@ collections:
         required: false
       - label: 'Dark Mode'
         name: 'dark'
-        default: false
+        default: true
         widget: 'hidden'
       - label: "Tags"
         name: "tags"

@@ -19,7 +19,7 @@
                 <a
                     href="#"
                     @click="startNewBusinessIntercomConversation"
-                    class="bg-blue-600 rounded-md px-5 py-4 text-lg font-semibold text-white shadow-md hover:shadow-xl hover:bg-blue-500"
+                    class="bg-primary-100 rounded-sm px-5 py-3 text-md border font-normal text-primary uppercase font-mono border-primary hover:shadow-primary-500/30 hover:shadow-xl"
                 >Contact New Business &rarr;</a>
             </div>
         </div>

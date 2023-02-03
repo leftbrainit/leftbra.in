@@ -2,6 +2,7 @@ import { defineConfig } from 'vite'
 import Vue from '@vitejs/plugin-vue'
 import Components from 'unplugin-vue-components/vite'
 import Pages from "vite-plugin-pages";
+import { VitePluginFonts } from 'vite-plugin-fonts'
 import Markdown from 'vite-plugin-md'
 import MarkdownItContainer from 'markdown-it-container'
 import matter from 'gray-matter'
@@ -11,6 +12,20 @@ import fs from 'fs-extra'
 export default defineConfig({
   plugins: [Vue({
     include: [/\.vue$/, /\.md$/], // <--
+  }), VitePluginFonts({
+    custom: {
+      families: [{
+        name: 'Soehne',
+        src: ['./src/assets/fonts/soehne-buch*.woff2', './src/assets/fonts/soehne-kraftig-nope*.woff2'],
+      }, {
+        name: 'Soehne Breit',
+        src: './src/assets/fonts/soehne-breit-kraftig.woff2',
+      }, {
+        name: 'Soehne Mono',
+        src: './src/assets/fonts/soehne-mono*.woff2',
+      }],
+      preload: true
+    }
   }), Markdown({
     wrapperComponent: 'PageLayout',
     customSfcBlocks: [],

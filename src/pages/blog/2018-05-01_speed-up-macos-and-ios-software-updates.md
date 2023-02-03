@@ -2,7 +2,7 @@
 title: Speed up macOS and iOS software updates
 isSubPage: true
 publishDate: 1st June 2018
-dark: false
+dark: true
 tags:
   - macos
   - caching

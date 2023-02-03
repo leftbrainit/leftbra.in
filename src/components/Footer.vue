@@ -5,7 +5,7 @@
                 <div class="flex flex-col md:flex-row items-start w-full py-5">
                     <div class="flex-none">
                         <router-link to="/">
-                            <Logo class="text-white w-12 mt-2 mb-8 md:mr-24" />
+                            <Logo class="text-white h-10 mt-2 mb-8 md:mr-24" />
                         </router-link>
                     </div>
                     <div class="flex-grow w-full">

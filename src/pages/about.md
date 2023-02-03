@@ -2,6 +2,7 @@
 name: About
 description: All about LeftBrain
 isSubPage: false
+dark: true
 ---
 ::: component Hero
 ~~~

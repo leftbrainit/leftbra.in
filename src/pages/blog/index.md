@@ -2,7 +2,7 @@
 name: Blog
 isSubPage: false
 description: Join the LeftBrain team
-dark: false
+dark: true
 wrap: false
 ---
 ::: component Hero

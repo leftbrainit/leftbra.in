@@ -3,7 +3,7 @@ name: Terms
 isSubPage: false
 description: Terms of service for using this website
 redirect: urg
-dark: false
+dark: true
 wrap: true
 ---
 

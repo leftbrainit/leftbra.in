@@ -17,12 +17,12 @@ module.exports = {
       colors: {
         primary: {
           50: '#EFF4F9',
-          100: '#E1EEFA',
+          100: '#113627',
           200: '#B1CCF3',
           300: '#759BFB',
           400: '#0005FC',
-          DEFAULT: '#0500FF',
-          500: '#0500FF',
+          DEFAULT: '#00FF94',
+          500: '#00FF94',
           600: '#0008E9',
           700: '#0110BD',
           800: '#011891',
@@ -39,9 +39,10 @@ module.exports = {
         orange: colors.orange
       },
       fontFamily: {
-        sans: ['Inter', ...defaultTheme.fontFamily.sans],
+        sans: ['Soehne', ...defaultTheme.fontFamily.sans],
+        title: ['Soehne Breit', ...defaultTheme.fontFamily.sans],
         icons: ['Material Icons'],
-        mono: ['Source Code Pro', ...defaultTheme.fontFamily.mono]
+        mono: ['Soehne Mono', ...defaultTheme.fontFamily.mono]
       },
       typography: (theme) => ({
         DEFAULT: {
@@ -133,7 +134,6 @@ module.exports = {
         default: {
           css: {
             color: theme('colors.gray.900'),
-
             a: {
               color: theme('colors.blue.500'),
               '&:hover': {
