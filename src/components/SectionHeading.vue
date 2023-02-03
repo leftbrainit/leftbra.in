@@ -2,7 +2,7 @@
     <div
         :id="computedId"
         class="text-xl uppercase mb-1 font-extrabold dark:text-gray-50"
-        :class="colour === 'green' ? 'text-lime-500' : colour === 'pink' ? 'text-pink-500' : colour === 'yellow' ? 'text-yellow-500' : 'text-blue-600'"
+        :class="colour === 'green' ? 'text-lime-500 dark:text-lime-500' : colour === 'pink' ? 'text-pink-500 dark:text-pink-500' : colour === 'yellow' ? 'text-yellow-500 dark:text-yellow-500' : ''"
     >
         <h3 v-html="title" />
     </div>

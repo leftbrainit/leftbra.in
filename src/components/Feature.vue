@@ -1,6 +1,5 @@
 <template>
     <div
-        :class="colour === 'green' ? 'bg-lime-100' : colour === 'pink' ? 'bg-pink-100' : colour === 'yellow' ? 'bg-yellow-100' : ''"
     >
         <Wrapper>
             <div class="relative flex flex-col py-12 md:py-24 lg:py-32">

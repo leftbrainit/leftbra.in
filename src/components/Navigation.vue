@@ -3,7 +3,7 @@
         <div class="flex items-center px-5">
             <div class="flex-none">
                 <router-link class="p-4 font-semibold" to="/">
-                    <Logo class="text-blue-600 dark:text-gray-100 w-12" />
+                    <Logo class="text-blue-600 dark:text-gray-100 h-10"  />
                 </router-link>
             </div>
             <div class="flex-grow flex justify-center"></div>
