@@ -7,7 +7,7 @@ isSubPage: false
 ---
 ::: component Hero
 ~~~
-title: "Technology at work [(that *works*)]{.whitespace-nowrap}"
+title: "All Systems Go."
 ~~~
 
 LeftBrain helps ambitious teams use technology to work better: applying our unique brands of [strategic guidance](#strategic-guidance){.border-pink-500}, [human support](#human-support){.border-lime-500}, and [managed infrastructure](#managed-infrastructure){.border-yellow-500 .whitespace-nowrap}.
