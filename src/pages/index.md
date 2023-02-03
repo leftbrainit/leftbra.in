@@ -1,6 +1,6 @@
 ---
 name: Home
-description: "LeftBrain provides tech support, consultancy and managed services to businesses in London, Dublin, Copenhagen and Cape Town. We specialise in Mac support, Apple devices and cloud services."
+description: "LeftBrain provides tech support, consultancy and managed services to businesses in London, Dublin, Copenhagen and Cape Town. We specialise in Mac support, Apple devices and cloud services. "
 dark: false
 wrap: false
 isSubPage: false
