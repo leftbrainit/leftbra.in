@@ -4,6 +4,7 @@ backend:
 local_backend: true
 media_folder: "public/assets"
 public_folder: "/assets"
+publish_mode: editorial_workflow
 
 collections:
   - label: "Site Data"
