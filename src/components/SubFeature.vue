@@ -2,7 +2,7 @@
     <div class="flex flex-col">
         <div class="w-3/5 py-3">
             <div
-                :class="colour === 'green' ? 'bg-primary-500' : colour === 'pink' ? 'bg-pink-500' : colour === 'yellow' ? 'bg-yellow-500' : 'bg-blue-600 dark:bg-gray-900'"
+                :class="colour === 'green' ? 'bg-primary-500' : colour === 'pink' ? 'bg-pink-500' : colour === 'yellow' ? 'bg-yellow-500' : 'bg-blue-600 dark:bg-gray-400'"
                 class="h-14 w-14 text-white  dark:text-gray-900 flex items-center justify-center rounded-xl"
             >
                 <div class="material-icons">{{ icon }}</div>

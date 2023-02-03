@@ -21,7 +21,7 @@ LeftBrain partners with enterprises and high-growth startups to make their inter
 ~~~
 title: "Staffing"
 slogan: "Support for support teams"
-colour: ""
+colour: "green"
 subFeatures:
   - title: "People On Demand"
     icon: "group_add"

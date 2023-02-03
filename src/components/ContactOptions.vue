@@ -3,7 +3,7 @@
         <div class="relative flex flex-col pb-12 md:pb-24">
             <div class="grid">
                 <div class="grid grid-flow-col grid-rows-3 md:grid-rows-1 gap-8 mt-4">
-                    <SubFeature v-for="contactOption in contactOptions" v-bind="contactOption" />
+                    <SubFeature v-for="contactOption in contactOptions" v-bind="contactOption" colour="green" />
                 </div>
             </div>
         </div>
