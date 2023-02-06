@@ -1,8 +1,9 @@
 <template>
     <Wrapper>
-        <div class="mb-20 py-10 md:py-24 lg:py-32">
-            <!-- <div class="pt-10 pb-24 md:pt-28 md:pb-40 lg:pt-36 lg:pb-"> -->
-            <h1
+        <div class="grid content-end h-1/2 mb-20 py-10 md:py-24 lg:pt-64 lg:pb-2">
+            <div class="">
+<!-- <div class="pt-10 pb-24 md:pt-28 md:pb-40 lg:pt-36 lg:pb-"> -->
+    <h1
                 class="text-5xl sm:text-6xl md:text-7xl max-w-3xl font-medium sm:leading-none font-title"
                 v-html="title"
             />
@@ -11,6 +12,14 @@
             >
                 <slot />
             </div>
+            <div class="mt-16" v-if="props.callToActionText && props.callToActionUrl">
+                <ButtonLink :text="props.callToActionText" :href="props.callToActionUrl" />
+            </div>
+            <div class="mt-16" v-else-if="props.callToActionText">
+                <ContactNewBusinessButton :text="props.callToActionText" />
+            </div>
+            </div>
+            
         </div>
     </Wrapper>
 </template>
@@ -21,6 +30,14 @@ const props = defineProps({
     title: {
         type: String,
         required: true
+    },
+    callToActionText: {
+        type: String,
+        required: false
+    },
+    callToActionUrl: {
+        type: String,
+        required: false
     }
 })
 

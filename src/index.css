@@ -20,7 +20,7 @@
     @apply border-b-2 no-underline opacity-100 font-medium;
   }
   .underline-links-lg a {
-    @apply border-b-4 no-underline opacity-100 font-medium;
+    @apply border-b-2 no-underline opacity-100 font-medium;
   }
   .underline-links-lg a {
     @apply no-underline !important;

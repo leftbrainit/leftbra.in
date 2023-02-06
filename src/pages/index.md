@@ -8,6 +8,7 @@ isSubPage: false
 ::: component Hero
 ~~~
 title: "All Systems Go."
+callToActionText: "Contact New Business &rarr;"
 ~~~
 
 LeftBrain helps ambitious teams use technology to work better: applying our unique brands of [strategic guidance](#strategic-guidance){.border-primary-500}, [human support](#human-support){.border-primary-500}, and [managed infrastructure](#managed-infrastructure){.border-primary-500 .whitespace-nowrap}.

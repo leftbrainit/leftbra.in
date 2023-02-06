@@ -10,6 +10,7 @@ declare module 'vue' {
     Button: typeof import('./src/components/Button.vue')['default']
     ButtonLink: typeof import('./src/components/ButtonLink.vue')['default']
     CallToAction: typeof import('./src/components/CallToAction.vue')['default']
+    ContactNewBusinessButton: typeof import('./src/components/ContactNewBusinessButton.vue')['default']
     ContactOptions: typeof import('./src/components/ContactOptions.vue')['default']
     Feature: typeof import('./src/components/Feature.vue')['default']
     Footer: typeof import('./src/components/Footer.vue')['default']

@@ -15,29 +15,13 @@
                     <slot />
                 </Prose>
             </div>
-            <div class="mt-8">
-                <a
-                    href="#"
-                    @click="startNewBusinessIntercomConversation"
-                    class="bg-primary-100 rounded-sm px-5 py-3 text-md border font-normal text-primary uppercase font-mono border-primary hover:shadow-primary-500/30 hover:shadow-xl"
-                >Contact New Business &rarr;</a>
-            </div>
+            <ContactNewBusinessButton :text="'Contact New Business &rarr;'"/>
         </div>
     </Wrapper>
 </template>
 
 <script setup lang="ts">
 import { computed } from 'vue'
-
-declare global {
-    interface Window {
-        Intercom: (command: string, param?: string) => void;
-    }
-}
-
-const startNewBusinessIntercomConversation = () => {
-    window.Intercom('showNewMessage', 'Hi, I clicked on contact new business.')
-}
 
 const props = defineProps({
     title: {
