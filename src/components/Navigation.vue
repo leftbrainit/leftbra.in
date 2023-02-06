@@ -12,7 +12,7 @@
                 class="hidden md:block flex-none divide-x dark:divide-white dark:divide-opacity-20"
             >
                 <span class="pr-2">
-                    <WeAreHiring />
+                    <!-- <WeAreHiring /> -->
                     <router-link
                         class="p-4 text-lg"
                         v-for="route in navigation"
@@ -23,7 +23,7 @@
             </div>
             <div class="block md:hidden">
                 <div class="flex justify-center align-middle">
-                    <WeAreHiring class="mt-2"/>
+                    <!-- <WeAreHiring class="mt-2"/> -->
                     <PopoverButton
                         class="rounded-md p-2 inline-flex items-center justify-center text-gray-200 hover:text-gray-300 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary-500"
                     >
