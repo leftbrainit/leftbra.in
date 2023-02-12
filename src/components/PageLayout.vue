@@ -1,18 +1,18 @@
 <template>
     <div :class="dark ? `dark` : ``">
-        <!-- <HeaderAnimation /> -->
+        <!-- <HeaderAnimation  /> -->
         
         <div
-            :class="` text-gray-800 dark:text-gray-100 min-h-screen flex bg-fixed flex-col antialiased z-10`"
+            :class="`bg-primary-50 text-gray-800 dark:text-gray-100 min-h-screen flex bg-fixed flex-col antialiased z-10`"
             
         >
 
         <div class="z-10">
             <Navigation class="flex-none z-10" />
-            <main class="flex-grow z-10 " :class="wrap ? 'py-12 md:py-32' : ''">
+            <main class="flex-grow z-10" :class="wrap ? 'py-12 md:py-32' : ''">
                 <div
                     v-if="isSubPage && parentRoute"
-                    class=" z-10 max-w-5xl m-auto px-4 mb-4 text-lg opacity-60 font-semibold"
+                    class=" z-10  max-w-7xl m-auto px-4 mb-4 text-lg opacity-60 font-semibold"
                 >
                     <router-link
                         :to="{ name: parentRoute.name }"

@@ -1,12 +1,16 @@
 <template>
     <div>
-        <div ref="bgRef" class="fixed top-0 bottom-0 left-0 right-0 bg-red-500/50 z-0 bg-cover bg-center" style="background-image: url('assets/space-bg-01.jpg')" v-motion
+        <div  ref="bgRef" class="fixed top-0 bottom-0 left-0 right-0 bg-red-500/50 z-0 bg-center backdrop-opacity-10   brightness-[.4] grayscale" style="background-image: url('assets/space-bg-01.jpg')" v-motion
         :initial="{
+          opacity: 0,
+          scale:1
+        }"
+        :enter="{
           opacity: 1,
           scale:1
         }"
         >
-            <svg  width="100%" height="100%" viewBox="0 0 1322 754" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg  width="100%" height="100%" viewBox="0 0 1322 754" class="hidden" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <!-- <rect  width="100%" height="100%" fill="black"/> -->
             <circle v-motion
         :initial="{
@@ -87,7 +91,7 @@ let ticking = false;
 function doSomething(scrollPos: number) {
   // Do something with the scroll position
   console.log({scrollPos, porop: motionProperties.x})
-  bgMotionProperties.scale = 1 + (scrollPos/5000)
+  bgMotionProperties.scale = 1 + (scrollPos/3000)
   if (scrollPos > 4) {
       motionProperties.opacity = 0.4 - (scrollPos/1000)
     
@@ -96,7 +100,7 @@ function doSomething(scrollPos: number) {
     
   }
 }
-doSomething(window.scrollY)
+// doSomething(window.scrollY)
 document.addEventListener("scroll", (event) => {
   lastKnownScrollPosition = window.scrollY;
 

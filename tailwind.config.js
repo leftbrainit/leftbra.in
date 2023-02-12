@@ -16,7 +16,7 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          50: '#EFF4F9',
+          50: '#0C211B',
           100: '#113627',
           200: '#B1CCF3',
           300: '#759BFB',
@@ -32,7 +32,7 @@ module.exports = {
         current: 'currentColor',
         gray: {
           '850': '#1F1F1F',
-          ...colors.trueGray
+          ...colors.neutral
         },
         lime: colors.lime,
         teal: colors.teal,
@@ -164,8 +164,8 @@ module.exports = {
     require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/forms')
   ],
-  purge: {
-    content: [
+  content: {
+    files: [
       './*.html',
       './src/**/*.{js,jsx,ts,tsx,vue,md}',
       `components/**/*.{vue,js,ts}`,
@@ -180,5 +180,22 @@ module.exports = {
         return rendered
       }
     }
-  }
+  },
+  // purge: {
+  //   content: [
+  //     './*.html',
+  //     './src/**/*.{js,jsx,ts,tsx,vue,md}',
+  //     `components/**/*.{vue,js,ts}`,
+  //     `layouts/**/*.vue`,
+  //     `pages/**/*.{vue,md}`,
+  //     `plugins/**/*.{js,ts}`,
+  //     `nuxt.config.{js,ts}`,
+  //   ],
+  //   transform: {
+  //     md: (content) => {
+  //       const rendered = md.render(content)
+  //       return rendered
+  //     }
+  //   }
+  // }
 }

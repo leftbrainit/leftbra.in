@@ -1,6 +1,6 @@
 <template>
     <Wrapper>
-        <div class="grid content-end h-1/2 mb-20 py-10 md:py-24 lg:pt-64 lg:pb-2">
+        <div v-motion-fade class="grid content-end h-1/2 mb-20 py-10 md:py-24 lg:pt-64 lg:pb-2">
             <div class="">
 <!-- <div class="pt-10 pb-24 md:pt-28 md:pb-40 lg:pt-36 lg:pb-"> -->
     <h1
@@ -8,6 +8,7 @@
                 v-html="title"
             />
             <div
+
                 class="prose prose-xl dark:prose-light max-w-3xl text-xl md:text-2xl mt-5 opacity-90 underline-links-lg md:leading-relaxed font-normal font-sans"
             >
                 <slot />

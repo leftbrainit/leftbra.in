@@ -1,5 +1,7 @@
 ---
 title: Powering Awesomeness With Technology
+customerName: WrongBrain Ltd
+coverImage: /assets/219A5113.jpg
 isSubPage: true
 publishDate: 8th Feb
 dark: true
