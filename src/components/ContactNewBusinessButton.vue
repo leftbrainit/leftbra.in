@@ -10,10 +10,6 @@
 
 <script setup lang="ts">
 const props = defineProps({
-    href: {
-        type: String,
-        required: true
-    },
     text: {
         type: String,
         default: "Contact New Business &rarr;"

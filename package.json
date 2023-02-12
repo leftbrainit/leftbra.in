@@ -11,6 +11,9 @@
   "dependencies": {
     "@headlessui/vue": "^1.4.1",
     "@heroicons/vue": "^1.0.4",
+    "@vueuse/core": "^9.12.0",
+    "@vueuse/gesture": "2.0.0-beta.1",
+    "@vueuse/motion": "2.0.0-beta.12",
     "js-yaml": "^4.1.0",
     "markdown-it": "^12.2.0",
     "markdown-it-attrs": "^4.0.0",

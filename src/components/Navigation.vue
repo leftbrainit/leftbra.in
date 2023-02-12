@@ -61,14 +61,14 @@
                     </div>
                     <div class="px-2 pt-4 pb-3">
                         <router-link
-                            class="block px-3 py-2 rounded-md text-base font-medium text-gray-200 hover:text-gray-900 hover:bg-gray-50"
+                            class="block px-3 py-2 rounded-md text-base font-medium text-gray-200 hover:text-gray-50 hover:bg-gray-800"
                             v-for="route in navigation"
                             :to="{ name: route.name }"
                         >{{ route.niceName }}</router-link>
                     </div>
                     <a
                         :href="dashboardBaseURL"
-                        class="block w-full px-5 py-3 text-center font-medium text-primary-500 bg-gray-950 hover:bg-gray-100"
+                        class="block w-full px-5 py-3 text-center font-medium text-primary-500 bg-gray-950 hover:bg-gray-800"
                     >Sign in &rarr;</a>
                 </div>
             </PopoverPanel>

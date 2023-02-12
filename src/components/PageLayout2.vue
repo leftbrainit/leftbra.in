@@ -1,38 +1,38 @@
 <template>
     <div :class="dark ? `dark` : ``">
-        <!-- <HeaderAnimation /> -->
-        
         <div
-            :class="` text-gray-800 dark:text-gray-100 min-h-screen flex bg-fixed flex-col antialiased z-10`"
-            
+        :class="`z-1 bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-100 min-h-screen flex flex-col antialiased bg-fixed`"
+        style="background-image: url('assets/space-bg-01.jpg')"
         >
 
-        <div class="z-10">
-            <Navigation class="flex-none z-10" />
-            <main class="flex-grow z-10 " :class="wrap ? 'py-12 md:py-32' : ''">
+         
+        <div class="bg-gray-900/70">
+            <Navigation class="flex-none z-1 " />
+            <main class="flex-grow" :class="wrap ? 'py-12 md:py-32' : ''">
                 <div
                     v-if="isSubPage && parentRoute"
-                    class=" z-10 max-w-5xl m-auto px-4 mb-4 text-lg opacity-60 font-semibold"
+                    class="max-w-5xl m-auto px-4 mb-4 text-lg opacity-60 font-semibold"
                 >
                     <router-link
                         :to="{ name: parentRoute.name }"
                     >&larr; Back to {{ parentRoute.niceName }}</router-link>
                 </div>
-                <Wrapper v-if="wrap" class="z-10 prose prose-xl dark:prose-light dark:prose-xl">
+                <Wrapper v-if="wrap" class="prose prose-xl dark:prose-light dark:prose-xl">
                     <slot />
                 </Wrapper>
                 <div v-else>
                     <slot />
                 </div>
             </main>
-            <Footer class="flex-none z-10" />
-        </div>
+            <Footer class="flex-none" />
         </div>
     </div>
+        </div>
+    <!-- </div> -->
 </template>
 
 <script lang="ts">
-import { defineComponent, computed, ref } from "vue";
+import { defineComponent, computed } from "vue";
 import { useHead } from '@vueuse/head'
 import { useRoute, useRouter, RouteRecordNormalized } from "vue-router"
 import { getNiceRouteNames } from "../utilities"
@@ -67,7 +67,6 @@ export default defineComponent({
         }
         const name = mergedFrontmatter.name ?? mergedFrontmatter.name ?? route.name ?? "Page"
         const description = mergedFrontmatter.description ?? mergedFrontmatter.excerpt
-
         useHead({
             title: `${name} - LeftBrain`,
             meta: [
