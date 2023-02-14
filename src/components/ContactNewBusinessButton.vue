@@ -17,6 +17,7 @@ const props = defineProps({
 })
 
 const startNewBusinessIntercomConversation = () => {
+    //@ts-ignore
     window.Intercom('showNewMessage', 'Hi, I clicked on contact new business.')
 }
 </script>

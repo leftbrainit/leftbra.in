@@ -90,12 +90,16 @@ let ticking = false;
 
 function doSomething(scrollPos: number) {
   // Do something with the scroll position
+  //@ts-ignore
   console.log({scrollPos, porop: motionProperties.x})
+  //@ts-ignore
   bgMotionProperties.scale = 1 + (scrollPos/3000)
   if (scrollPos > 4) {
+    //@ts-ignore
       motionProperties.opacity = 0.4 - (scrollPos/1000)
-    
+    //@ts-ignore
     motionProperties.x = scrollPos / 10 
+    //@ts-ignore
     bgMotionProperties.opacity = 1 - (scrollPos/500)
     
   }
