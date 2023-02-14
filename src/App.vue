@@ -11,9 +11,6 @@ export default defineComponent({
     provide(SiteConfigKey, siteConfig as SiteConfig)
     provide(TeamKey, team as Team)
     provide(LocationsKey, locations as Locations)
-    return {
-      dark: true
-    }
   }
 })
 </script>
@@ -21,7 +18,7 @@ export default defineComponent({
 <template>
   <router-view v-slot="{ Component, route }">
     <div
-      :class="dark ? 'bg-gray-800' : 'bg-gray-100'"
+      class="bg-primary-50"
     >
       <transition
         name="fade"
