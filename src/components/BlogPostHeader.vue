@@ -5,13 +5,15 @@
         v-html="frontmatter.title"
         />
         <div class="flex flex-col md:flex-row md:gap-4 mt-3 mb-4">
-            <div class="flex flex-row items-center justify-start">
+            <Tags :tags="frontmatter.tags" />
+            <!-- <div class="flex flex-row items-center justify-start">
+                <Tag v-for="(tag, index) in frontmatter.tags" :tag="tag"/>
                 <div
                     class="rounded bg-primary-500/90 text-primary-50 py-0.5 px-2 text-sm font-mono uppercase"
                     v-for="(tag, index) in frontmatter.tags"
                     :class="Number(index) > 0 ? 'ml-1.5' : ''"
                 >{{ tag }}</div>
-            </div>
+            </div> -->
             <Avatar :name="frontmatter.authorName" />
             <div class="flex flex-row items-center justify-start">
                 <span class="material-icons mr-1 opacity-60">event</span>

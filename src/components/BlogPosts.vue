@@ -1,8 +1,8 @@
 <template>
-    <Wrapper>
+    <Wrapper tight>
         <div class="pb-16" v-for="post in posts">
             <div
-                class="opacity-90 text-4xl md:max-w-3xl sm:text-5xl md:text-6xl font-bold sm:leading-none"
+                class="opacity-90 text-3xl font-title sm:text-5xl md:text-5xl sm:leading-none"
             >
                 <router-link
                     class="whitespace-normal"
@@ -10,13 +10,15 @@
                 >{{ post.title }}</router-link>
             </div>
             <div class="flex flex-col md:flex-row md:gap-4 mt-4 mb-4">
-                <div class="flex flex-row items-center justify-start">
+                <Tags :tags="post.tags" />
+                <!-- <div class="flex flex-row items-center justify-start">
+                    <Tag v-for="(tag, index) in post.tags" :tag="tag"/>
                     <div
                         class="rounded-full bg-green-400 text-gray-50 py-0.5 px-2 text-sm font-semibold uppercase"
                         v-for="(tag, index) in post.tags"
                         :class="Number(index) > 0 ? 'ml-1.5' : ''"
                     >{{ tag }}</div>
-                </div>
+                </div> -->
                 <!-- <div class="flex flex-row items-center justify-start">
                     <span class="material-icons mr-1 opacity-60">person</span>
                     <span class="opacity-90 font-medium">{{ post.authorName }}</span>

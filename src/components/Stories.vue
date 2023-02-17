@@ -17,6 +17,9 @@
                                 <div class="text-md opacity-70 mb-2 md:mt-0 font-mono uppercase">{{ story.customerName }}
                                 </div>
                                 <div class="text-3xl pb-4 font-title w-full">{{ story.title }}</div>
+                                <div>
+                                    <Tags :tags="story.tags" />
+                                </div>
 
                             </div>
                             <!-- <div class="pt-4 text-lg font-medium text-white/70">
@@ -54,12 +57,14 @@ const stories = router.getRoutes().filter(route => route.path.startsWith("/custo
     const customerName = frontmatter.customerName ?? ""
     const excerpt = frontmatter.excerpt ?? ""
     const coverImage = frontmatter.coverImage ?? ""
+    const tags = frontmatter.tags ?? []
     return {
         routeName: route.name,
         title,
         customerName,
         excerpt,
-        coverImage
+        coverImage,
+        tags
     }
 })
 

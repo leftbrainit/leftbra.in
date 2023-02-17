@@ -33,6 +33,8 @@ declare module 'vue' {
     Stories: typeof import('./src/components/Stories.vue')['default']
     SubElement: typeof import('./src/components/SubElement.vue')['default']
     SubFeature: typeof import('./src/components/SubFeature.vue')['default']
+    Tag: typeof import('./src/components/Tag.vue')['default']
+    Tags: typeof import('./src/components/Tags.vue')['default']
     Team: typeof import('./src/components/Team.vue')['default']
     Vacancies: typeof import('./src/components/Vacancies.vue')['default']
     WeAreHiring: typeof import('./src/components/WeAreHiring.vue')['default']

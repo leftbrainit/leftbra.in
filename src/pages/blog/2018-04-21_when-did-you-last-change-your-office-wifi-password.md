@@ -17,14 +17,8 @@ excerpt: The age old proverb, “*A chain is only as strong as its weakest link*
   and visits etc.
 authorName: Michael Jin
 ---
-::: component BlogPostHeader
-~~~
-{}
-~~~
 
-:::
-
-# …(and how RADIUS can help)
+…(and how RADIUS can help)
 
 The age old proverb, “*A chain is only as strong as its weakest link*”, certainly applies to network security. With so much attention spent on encryption, securing user endpoints, anti-phising software, can you remember the last time you changed your office WiFi password? And come to think of it, how many staff members have joined and left since then, not to mention your various guests and clients that might have joined your network during meetings and visits etc.
 

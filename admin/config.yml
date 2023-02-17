@@ -228,7 +228,7 @@ collections:
         name: 'body'
         widget: 'markdown'
         modes: ["rich_text"]
-        default: "::: component JobPostHeader\n~~~\n~~~\n\n \n:::\n"
+        default: ""
   - label: "Blog Posts"
     name: "posts"
     label_singular: "Blog Post"

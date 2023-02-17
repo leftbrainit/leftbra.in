@@ -18,7 +18,10 @@
                         :to="{ name: parentRoute.name }"
                     >&larr; Back to {{ parentRoute.niceName }}</router-link>
                 </div>
-                <Wrapper v-if="wrap" class="z-10 prose prose-xl dark:prose-light dark:prose-xl">
+                <Wrapper v-if="isSubPage" >
+                    <BlogPostHeader :frontmatter="frontmatter" />
+                </Wrapper>
+                <Wrapper v-if="wrap" tight class="z-10 prose prose-xl dark:prose-light dark:prose-xl max-w-4xl">
                     <slot />
                 </Wrapper>
                 <div v-else>

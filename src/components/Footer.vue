@@ -1,7 +1,7 @@
 <template>
     <div class="bg-black/60 text-gray-50">
         <Wrapper>
-            <footer class="divide-y divide-white divide-opacity-20 mt-2">
+            <footer class="divide-y divide-white divide-opacity-20 mt-2 w-full m-auto">
                 <div class="flex flex-col md:flex-row items-start w-full py-5">
                     <div class="flex-none">
                         <router-link to="/">

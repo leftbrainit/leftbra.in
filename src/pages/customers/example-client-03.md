@@ -16,12 +16,6 @@ excerpt: Content Caching (built into macOS High Sierra) is an oft ignored
   Internet each and every time.
 authorName: Michael Jin
 ---
-::: component BlogPostHeader
-~~~
-{}
-~~~
-
-:::
 
 Sometimes in life you just have to write some case study content.
 
