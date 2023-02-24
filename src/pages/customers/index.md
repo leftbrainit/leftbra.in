@@ -1,5 +1,5 @@
 ---
-name: Customer Stories
+name: Stories
 isSubPage: false
 description: Stories from LeftBrain Customers
 dark: true

@@ -290,3 +290,40 @@ collections:
         widget: 'markdown'
         modes: ["rich_text"]
         default: "::: component BlogPostHeader\n~~~\n~~~\n\n \n:::\n"
+  - label: "Services"
+    name: "services"
+    label_singular: "Service"
+    folder: "/src/pages/services"
+    format: 'frontmatter'
+    identifier_field: title
+    slug: "{{slug}}"
+    filter:
+      field: 'isSubPage'
+      value: true
+    create: true
+    editor:
+      preview: false
+    fields:
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: 'Sub Page'
+        name: 'isSubPage'
+        widget: 'hidden'
+        default: true
+      - label: 'Dark Mode'
+        name: 'dark'
+        default: true
+        widget: 'hidden'
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+      - label: 'Excerpt'
+        name: 'excerpt'
+        widget: 'markdown'
+        required: true
+      - label: 'Icon'
+        name: 'icon'
+        widget: 'string'
+        required: true
+        hint: 'See https://fonts.google.com/icons e.g. waving_hand'

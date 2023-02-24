@@ -11,7 +11,7 @@ title: "All Systems Go."
 callToActionText: "Schedule A Call &rarr;"
 ~~~
 
-LeftBrain helps ambitious teams use technology to work better: applying our unique brands of [strategic guidance](#strategic-guidance){.border-primary-500}, [human support](#human-support){.border-primary-500}, and [managed infrastructure](#managed-infrastructure){.border-primary-500 .whitespace-nowrap}.
+LeftBrain equips elite teams with internal technology that’s secure, reliable and easy to use. We make that our mission, so you can focus on yours.
 
 :::
 

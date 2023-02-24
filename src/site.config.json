@@ -2,7 +2,7 @@
   "dashboardBaseURL": "https://dashboard.leftbrain.it",
   "googleMapsAPIKey": "AIzaSyDuj314L6_J7CY3xQBtqjU7S8Pp32dlDaM",
   "topNavigationItems": [
-    "enterprise",
+    "services",
     "customers",
     "blog",
     "about",
@@ -11,7 +11,8 @@
   "footerCategories": [
     {
       "pages": [
-        "enterprise"
+        "enterprise",
+        "customers"
       ],
       "externalUrls": [],
       "name": "Services"

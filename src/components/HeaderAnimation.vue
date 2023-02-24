@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div  ref="bgRef" class="fixed top-0 bottom-0 left-0 right-0 bg-red-500/50 z-0 bg-center backdrop-opacity-10   brightness-[.4] grayscale" style="background-image: url('assets/space-bg-01.jpg')" v-motion
+        <div  ref="bgRef" class="fixed top-0 bottom-0 left-0 right-0 bg-red-500/50 z-0 bg-center bg-cover" style="background-image: url('assets/space-bg-01.jpg')" v-motion
         :initial="{
           opacity: 0,
           scale:1
@@ -10,7 +10,7 @@
           scale:1
         }"
         >
-            <svg  width="100%" height="100%" viewBox="0 0 1322 754" class="hidden" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg  width="100%" height="100%" viewBox="0 0 1322 754" class="" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <!-- <rect  width="100%" height="100%" fill="black"/> -->
             <circle v-motion
         :initial="{
@@ -18,14 +18,14 @@
           x: -50,
         }"
         :enter="{
-          opacity: 0.4,
+          opacity: 1,
           x: 0,
           transition: {
             x: planetEnterTransition,
             scale: planetScaleTransition
           },
-            }"  cx="308.5" cy="352.5" r="252.5" fill="#D9D9D9"/>
-                <circle v-motion ref="target"  :initial="{
+            }"  cx="1308.5" cy="1352.5" r="1252.5" class="" fill="black"/>
+                <circle v-motion ref="target"   :initial="{
           opacity: 0,
           x: 50,
         }"
@@ -37,7 +37,7 @@
             scale: planetScaleTransition
           }
           
-            }"  cx="1032" cy="339" r="130" fill="#D9D9D9"/>
+            }"  cx="1032" cy="339" r="130" class="hidden" fill="#D9D9D9"/>
             <circle v-motion
             :initial="{
           opacity: 0,
@@ -51,7 +51,7 @@
             scale: planetScaleTransition
           }
           
-            }" cx="823" cy="106" r="56" fill="#D9D9D9"/>
+            }" cx="823" cy="106" r="56"  class="hidden" fill="#D9D9D9"/>
             </svg>
     
         </div>
