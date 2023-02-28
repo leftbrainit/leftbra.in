@@ -14,7 +14,7 @@
                         <div class="flex flex-row justify-start">
                             <div class="grid w-2/5 mt-8">
                                 <div class="grid items-start content-start gap-8 mt-4">
-                                    <SubFeature v-for="subFeature in subFeatures" v-bind="subFeature" :colour="colour" />
+                                    <Service v-for="service in services" v-bind="service" />
                                 </div>
                             </div>
                             <div
@@ -35,7 +35,10 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
+import { useRoute, useRouter } from "vue-router"
+
+const route = useRoute()
+const router = useRouter()
 
 const props = defineProps({
     title: {
@@ -82,7 +85,7 @@ const props = defineProps({
                 collection: "services",
                 search_fields: ["services.*.title"],
                 display_fields: ["services.*.title"],
-                value_field: "services.*.title"
+                value_field: "services.*.slug"
             }
         }
     },
@@ -114,6 +117,24 @@ const props = defineProps({
                 ]
             }
         }
+    }
+})
+
+const services = router.getRoutes().filter(route => (route.name as string).includes("services-")).filter(route => props.services.includes((route.name as string).split("services-")[1])).map(route => {
+    console.log(props.services, route)
+    const frontmatter: any = route.meta.frontmatter ?? {}
+    const title = frontmatter.title ?? ""
+    const excerpt = frontmatter.excerpt ?? ""
+    const coverImage = frontmatter.coverImage ?? ""
+    const icon = frontmatter.icon ?? ""
+    const tags = frontmatter.tags ?? []
+    return {
+        routeName: route.name,
+        title,
+        excerpt,
+        coverImage,
+        tags,
+        icon
     }
 })
 </script>

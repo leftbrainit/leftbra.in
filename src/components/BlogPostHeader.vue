@@ -16,7 +16,7 @@
             </div> -->
             <Avatar :name="frontmatter.authorName" />
             <div class="flex flex-row items-center justify-start">
-                <span class="material-icons mr-1 opacity-60">event</span>
+                <span class="material-symbols-outlined mr-1 opacity-60">event</span>
                 <span class="opacity-90 font-medium">{{ frontmatter.publishDate }}</span>
             </div>
         </div>

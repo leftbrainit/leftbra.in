@@ -20,12 +20,12 @@
                     >{{ tag }}</div>
                 </div> -->
                 <!-- <div class="flex flex-row items-center justify-start">
-                    <span class="material-icons mr-1 opacity-60">person</span>
+                    <span class="material-symbols-outlined mr-1 opacity-60">person</span>
                     <span class="opacity-90 font-medium">{{ post.authorName }}</span>
                 </div> -->
                 <Avatar :name="post.authorName" />
                 <div class="flex flex-row items-center justify-start">
-                    <span class="material-icons mr-1 opacity-60">event</span>
+                    <span class="material-symbols-outlined mr-1 opacity-60">event</span>
                     <span class="opacity-90 font-medium">{{ post.publishDate }}</span>
                 </div>
             </div>

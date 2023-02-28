@@ -10,13 +10,16 @@
             <div class="material-symbols-outlined text-primary-500">{{ icon }}</div>
         </div>
         <div>
-            <div class="text-2xl font-bold">
+            <div class="text-2xl font-title">
                 <h2>{{ title }}</h2>
             </div>
             <div
                 class="prose prose-md dark:prose-light sm:leading-relaxed opacity-80 underline-links"
-                v-html="body"
+                v-html="excerpt"
             />
+            <!-- <div
+                                class="hidden text-md mt-1.5 md:block flex-none text-white/60 font-semibold">
+                                Read more <span class="group-hover:pl-2  transition-all">&rarr;</span></div> -->
         </div>
     </div>
 </template>
@@ -31,10 +34,7 @@ const props = defineProps({
         type: String,
         default: 'emoji_emotions'
     },
-    colour: {
-        type: String
-    },
-    body: {
+    excerpt: {
         type: String,
         required: true
     }
