@@ -1,34 +1,26 @@
 <template>
-    <div>
+    <div
+    >
         <Wrapper>
-            <div class=" relative flex flex-col py-12 md:py-24 lg:py-32 border-b border-gray-500/50">
-                <div class="flex flex-row justify-center">
-                    <div>
-                        <SectionHeading :colour="colour" :title="title" />
-                        <div class="max-w-3xl text-5xl mb-3 font-medium leading-tight font-title">
-                            <h4 v-html="slogan" />
-                        </div>
-                        <Prose class="max-w-prose">
-                            <slot />
-                        </Prose>
-                        <div class="flex flex-row justify-start">
-                            <div class="grid w-2/5 mt-8">
-                                <div class="grid items-start content-start gap-8 mt-4">
-                                    <SubFeature v-for="subFeature in subFeatures" v-bind="subFeature" :colour="colour" />
-                                </div>
-                            </div>
-                            <div
-                                class="mt-2 not-prose pb-2 md:w-3/5 flex flex-col items-start justify-start 'md:float-right md:pl-5 ">
-                                <img class="rounded-lg " :src="image" alt="" />
-                            </div>
-                        </div>
+            <div class="relative flex flex-col py-12 md:py-24 lg:py-32 border-b border-gray-500/50">
+                <div class="flex flex-col justify-center">
+                    <SectionHeading :colour="colour" :title="title" />
+                    <div class="max-w-3xl text-5xl mb-3 font-medium leading-tight font-title">
+                        <h4 v-html="slogan" />
                     </div>
-                    <!-- <div
-                        class=" mt-2 not-prose pb-2 md:w-1/2 flex flex-col items-start justify-start 'md:float-right md:pl-5 ">
-                        <img class="rounded-lg " :src="image" alt="" />
-                    </div> -->
+                    <Prose class="max-w-prose">
+                        <slot />
+                    </Prose>
                 </div>
-                
+                <div class="grid">
+                    <div class="grid grid-flow-row grid-cols-1 md:grid-cols-3 gap-8 mt-4">
+                        <SubFeature
+                            v-for="subFeature in subFeatures"
+                            v-bind="subFeature"
+                            :colour="colour"
+                        />
+                    </div>
+                </div>
             </div>
         </Wrapper>
     </div>
@@ -56,33 +48,6 @@ const props = defineProps({
                 widget: "select",
                 required: false,
                 options: ["green", "pink", "yellow"]
-            }
-        }
-    },
-    image: {
-        type: String,
-        required: true,
-        cmsConfig: {
-            field: {
-                label: "Image",
-                name: "image",
-                widget: "string",
-                required: true
-            }
-        }
-    },
-    services: {
-        type: Array,
-        required: false,
-        cmsConfig: {
-            field: {
-                label: "Services",
-                name: "services",
-                widget: "relation",
-                collection: "services",
-                search_fields: ["services.*.title"],
-                display_fields: ["services.*.title"],
-                value_field: "services.*.title"
             }
         }
     },
