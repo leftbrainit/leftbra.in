@@ -15,13 +15,30 @@ We've designed a range of modular services that can be customised, combined and 
 
 :::
 
+::: component ServiceCategory
+~~~
+title: "Information Security"
+slogan: "Stay safe without slowing down"
+colour: green
+image: /assets/219A5113.jpg
+services:
+  - security-governance
+  - incident-response
+  - iso27001-certification
+  - cyber-essentials-certification
+~~~
+
+Getting tech support is rarely fun. Ticket numbers, long waits, missed appointments, "your call is important to us", bleh. Our Support team work to reduce friction, and make it as easy as possible for the people we support to get help when they need it.
+
+:::
 
 ::: component ServiceCategory
 ~~~
 title: "Human Support"
 slogan: "By humans: for humans"
-colour: "green"
+colour: green
 image: /assets/219A5113.jpg
+align: right
 services:
   - responsive-helpdesk
   - regular-office-visits
@@ -29,10 +46,7 @@ services:
   - training
 ~~~
 
-
-
 Getting tech support is rarely fun. Ticket numbers, long waits, missed appointments, "your call is important to us", bleh. Our Support team work to reduce friction, and make it as easy as possible for the people we support to get help when they need it.
-
 
 :::
 

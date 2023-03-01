@@ -1,8 +1,8 @@
 <template>
     <div>
         <Wrapper>
-            <div class=" relative flex flex-col py-12 md:py-24 lg:py-32 border-b border-gray-500/50">
-                <div class="flex flex-row justify-center">
+            <div class="transition relative flex flex-col py-12 md:py-24 lg:py-32 noborder-b border-gray-500/50">
+                <div class="flex flex-row justify-center" :class="align === 'left' ? '': 'flex-row-reverse'">
                     <div>
                         <SectionHeading :colour="colour" :title="title" />
                         <div class="max-w-3xl text-5xl mb-3 font-medium leading-tight font-title">
@@ -12,16 +12,17 @@
                             <slot />
                         </Prose>
                         <div class="flex flex-row justify-start">
-                            <div class="grid w-2/5 mt-8">
-                                <div class="grid items-start content-start gap-8 mt-4">
-                                    <Service v-for="service in services" v-bind="service" />
+                            <div class="grid w-full">
+                                <div class="transition grid items-start content-start gap-4 mt-4">
+                                    <Service v-for="(service, index) in services" v-bind="service" :selected="selectedService === index" @click="selectedService = index" />
                                 </div>
                             </div>
-                            <div
-                                class="mt-2 not-prose pb-2 md:w-3/5 flex flex-col items-start justify-start 'md:float-right md:pl-5 ">
-                                <img class="rounded-lg " :src="image" alt="" />
-                            </div>
                         </div>
+                    </div>
+                    <div
+                        class="mt-2 not-prose pb-2 md:w-4/5 flex flex-col items-start justify-start  -mt-12"
+                        :class="align === 'left' ? 'md:-mr-18 md:pl-12': 'md:-ml-18 md:pr-12'">
+                        <img class="rounded-lg " :src="image" alt="" />
                     </div>
                     <!-- <div
                         class=" mt-2 not-prose pb-2 md:w-1/2 flex flex-col items-start justify-start 'md:float-right md:pl-5 ">
@@ -36,9 +37,11 @@
 
 <script setup lang="ts">
 import { useRoute, useRouter } from "vue-router"
-
+import {ref} from "vue"
 const route = useRoute()
 const router = useRouter()
+
+const selectedService = ref(0)
 
 const props = defineProps({
     title: {
@@ -117,6 +120,10 @@ const props = defineProps({
                 ]
             }
         }
+    },
+    align: {
+        type: String,
+        default: 'left'
     }
 })
 

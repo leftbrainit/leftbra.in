@@ -1,20 +1,19 @@
 <template>
-    <div class="flex flex-row items-start">
-        <div class=" mr-3 mt-1.5">
-            <!-- <div
-                :class="colour === 'green' ? 'bg-primary-500' : colour === 'pink' ? 'bg-pink-500' : colour === 'yellow' ? 'bg-yellow-500' : 'bg-blue-600 dark:bg-gray-400'"
-                class="h-14 w-14 text-white  dark:text-gray-900 flex items-center justify-center rounded-xl"
-            >
-                <div class="material-symbols-outlined">{{ icon }}</div>
-            </div> -->
-            <div class="material-symbols-outlined text-primary-500">{{ icon }}</div>
-        </div>
-        <div>
-            <div class="text-2xl font-title">
-                <h2>{{ title }}</h2>
+    <div class="transition p-4 flex flex-row items-start group border border-white/10 hover:bg-black/20 transition-all cursor-pointer flex-wrap hover:shadow-2xl flex flex-col md:flex-col items-start md:items-start w-full bg-black/10 rounded-xl overflow-x-hidden">
+
+        <div class="w-full">
+            <div class="flex flex-row w-full">
+
+                <div class="material-symbols-outlined text-primary-500 mr-2 mt-0.5">{{ icon }}</div>
+                <div class=" text-xl font-medium flex-grow">
+                    <h2>{{ title }}</h2>
+                </div>
+                <div class="transition material-symbols-outlined text-primary-500 mr-2 mt-0.5" :class="selected ? 'rotate-180' : ''">expand_less</div>
             </div>
             <div
-                class="prose prose-md dark:prose-light sm:leading-relaxed opacity-80 underline-links"
+                v-if="selected"
+                class="transition prose prose-md dark:prose-light sm:leading-relaxed opacity-80 underline-links"
+                
                 v-html="excerpt"
             />
             <!-- <div
@@ -37,6 +36,10 @@ const props = defineProps({
     excerpt: {
         type: String,
         required: true
+    },
+    selected: {
+        type: Boolean,
+        default: false
     }
 })
 </script>
