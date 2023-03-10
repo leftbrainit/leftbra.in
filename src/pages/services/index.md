@@ -15,42 +15,89 @@ We've designed a range of modular services that can be customised, combined and 
 
 :::
 
-::: component ServiceCategory
+::: component Feature
+~~~
+title: "Strategic Guidance"
+slogan: "Build the perfect beast"
+colour: "green"
+subFeatures:
+  - title: "Part Of The Team"
+    icon: "group_add"
+    body: "Each of our strategists partner with a small portfolio of clients, building up a deep understanding of their businesses."
+  - title: "Roadmap Ownership"
+    icon: "alt_route"
+    body: "We take ownership of your tech roadmap, advocating and pushing for change whenever its needed."
+  - title: "LeftBrain Labs™"
+    icon: "science"
+    body: "We continually play, test and verify new products, services and processes to ensure they're truly Brainworthy™"
+~~~
+
+
+
+Technology that's too complicated, poorly chosen or just plain broken, kills productivity and makes people sad. Our Strategists partner with our clients to create **beautifully simple** workplace technology experiences for their teams, so they always have the right set of tools, ready to get to work whenever (and wherever) they are.
+
+:::
+
+::: component ImageSection
+~~~
+portraitImage: /assets/219A4875.jpg
+landscapeImage: /assets/219A5113.jpg
+portraitFirst: true
+~~~
+
+:::
+
+::: component Feature
 ~~~
 title: "Information Security"
 slogan: "Stay safe without slowing down"
-colour: green
-image: /assets/219A5113.jpg
-services:
-  - security-governance
-  - incident-response
-  - iso27001-certification
-  - cyber-essentials-certification
+colour: "green"
+subFeatures:
+  - title: "Security Governance"
+    icon: "assured_workload"
+    body: "Keep your organisation secure and compliant with a Virtual Chief Security Officer overseeing your internal systems."
+  - title: "Certification"
+    icon: "approval"
+    body: "Implement systems and processes to get your organisation certified in and compliant with ISO 27001/Cyber Essentials Plus."
+  - title: "Incident Response"
+    icon: "emergency_home"
+    body: "Respond to security and infrastructure alerts, detect and manage incidents – providing onsite personnel when required."
 ~~~
 
-Getting tech support is rarely fun. Ticket numbers, long waits, missed appointments, "your call is important to us", bleh. Our Support team work to reduce friction, and make it as easy as possible for the people we support to get help when they need it.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+:::
+
+::: component ImageSection
+~~~
+portraitImage: /assets/219A4970.jpg
+landscapeImage: /assets/219A5485.jpg
+portraitFirst: false
+~~~
 
 :::
 
-::: component ServiceCategory
+::: component Feature
 ~~~
-title: "Human Support"
-slogan: "By humans: for humans"
-colour: green
-image: /assets/219A5113.jpg
-align: right
-services:
-  - responsive-helpdesk
-  - regular-office-visits
-  - elastic-tech-team
-  - training
+title: "Managed Infrastructure"
+slogan: "Failure is not an option"
+colour: "green"
+subFeatures:
+  - title: "Enterprise Reliability"
+    icon: "business"
+    body: "We work to achieve enterprise level reliability and performance, on a small business budget."
+  - title: "Monitoring & Alerts"
+    icon: "monitor_heart"
+    body: "From our virtual network operations centre, we ensure we notice problems before our clients need to report them."
+  - title: "LeftBrain Dashboard"
+    icon: "dashboard"
+    body: "View status boards, reports, and check everything is running smoothly in the LeftBrain Dashboard."
 ~~~
 
-Getting tech support is rarely fun. Ticket numbers, long waits, missed appointments, "your call is important to us", bleh. Our Support team work to reduce friction, and make it as easy as possible for the people we support to get help when they need it.
+Our Infrastructure team manage thousands of devices, on premise networks, cloud environments and SaaS apps: ensuring every component is secure, reliable and perfectly integrated.
 
 :::
 
-::: component Services
+::: component ServicesAtoZ
 
 :::
 
