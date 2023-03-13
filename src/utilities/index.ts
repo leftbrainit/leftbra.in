@@ -20,3 +20,10 @@ export function getNiceRouteNames(routes: RouteRecordNormalized[], routeNames?: 
 
     return routeNames ? routeNames.map(buildRouteNames) : routesWithNiceNames
 }
+
+export const springTransition = {
+    type: 'spring',
+    stiffness: 30,
+    damping: 15,
+    mass: 2,
+}

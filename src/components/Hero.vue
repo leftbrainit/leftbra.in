@@ -1,6 +1,6 @@
 <template>
     <Wrapper tight>
-        <div v-motion-fade class="grid content-end h-1/2 mb-20 py-10 md:py-24 lg:pt-64 lg:pb-2">
+        <div v-motion-slide-top class="grid content-end h-1/2 mb-20 py-10 md:py-24 lg:pt-64 lg:pb-2">
             <div class="">
 <!-- <div class="pt-10 pb-24 md:pt-28 md:pb-40 lg:pt-36 lg:pb-"> -->
             <h6 v-if="subtitle" v-html="subtitle" class="text-lg text-primary-500 uppercase font-mono font-medium pb-3"/>

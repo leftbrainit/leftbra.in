@@ -11,16 +11,21 @@
                     <h2 class="text-4xl font-title">A – Z of Services</h2>
                 </div>
             </div>
-            <div class="grid gap-16 grid-cols-3 py-12">
+            <div class="grid gap-16 md:grid-cols-3 py-12">
                 <ol v-for="serviceGroup in serviceGroups">
                     <h3 class="font-mono font-semibold text-xl text-primary-500 pb-3">{{ serviceGroup.title }}</h3>
                     <div class="divide-white/10 divide-y">
-                        <li class="py-3 w-full flex" v-for="service in serviceGroup.services">
-                                <div class="flex-grow">
-                                    {{ service.title }}
-                                </div>
+                        
+                        <div v-for="service in serviceGroup.services">
+                        <!-- <router-link v-for="service in serviceGroup.services" :to="{ name: service.routeName }"> -->
+                        <li v-motion-pop-visible class="py-3 w-full flex" >
+                            <div class="flex-grow">
+                                {{ service.title }}
+                            </div>
                             <div v-if="service.icon" class=" material-symbols-outlined text-white/40">{{ service.icon }}</div>
                         </li>
+                        <!-- </router-link> -->
+                        </div>
                     </div>
                 </ol>
             </div>
@@ -63,16 +68,16 @@ const services = router.getRoutes().filter(route => route.path.startsWith("/serv
 const serviceGroups = computed(() => {
     const groups = [
         {
-            title: "A – K",
-            letters: ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]
+            title: "A – I",
+            letters: ["a", "b", "c", "d", "e", "f", "g", "h", "i"]
         },
         {
-            title: "L – S",
-            letters: ["l", "m", "n", "o", "p", "q", "r", "s"]
+            title: "J – R",
+            letters: ["j", "k", "l", "m", "n", "o", "p", "q", "r"]
         },
         {
-            title: "T – Z",
-            letters: ["t", "u", "v", "w", "x", "y", "z"]
+            title: "S – Z",
+            letters: ["s", "t", "u", "v", "w", "x", "y", "z"]
         }
     ]
     return groups.map(group => {

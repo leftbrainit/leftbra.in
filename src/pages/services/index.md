@@ -76,6 +76,43 @@ portraitFirst: false
 
 :::
 
+
+::: component Feature
+~~~
+title: "Human Support"
+slogan: "By humans: for humans"
+colour: "green"
+subFeatures:
+  - title: "Responsive Helpdesk"
+    icon: "forum"
+    body: "Friendly, responsive help for your team, whether it’s a problem or just a “how do I…” question. Via our desktop chat app, phone or email."
+  - title: "Regular Office Visits"
+    icon: "waving_hand"
+    body: "A LeftBrainer at your office to keep your team and their systems happy: quarterly, monthly, weekly or even daily."
+  - title: "Elastic Tech Team"
+    icon: "group_add"
+    body: "Dedicated tech staff for your internal tech team. Onsite or remote, as often as you need: scale up or down on demand."
+~~~
+
+
+
+Getting tech support is rarely fun. Ticket numbers, long waits, missed appointments, "your call is important to us", bleh. Our Support team work to reduce friction, and make it as easy as possible for the people we support to get help when they need it.
+
+
+
+
+:::
+
+
+::: component ImageSection
+~~~
+portraitImage: /assets/219A4875.jpg
+landscapeImage: /assets/219A5113.jpg
+portraitFirst: true
+~~~
+
+:::
+
 ::: component Feature
 ~~~
 title: "Managed Infrastructure"
@@ -101,3 +138,12 @@ Our Infrastructure team manage thousands of devices, on premise networks, cloud 
 
 :::
 
+::: component CallToAction
+~~~
+title: "Next Steps"
+slogan: "Let’s get started..."
+~~~
+
+There isn’t a cookie cutter solution to workplace technology. We take time to understand your business, your systems and your ways of working before putting together a bespoke tech roadmap to achieve your goals. But first, let’s schedule a quick call to determine how we can help you, and our team will take care of the rest.
+
+:::

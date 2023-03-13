@@ -15,7 +15,7 @@
                     <slot />
                 </Prose>
             </div>
-            <ContactNewBusinessButton :text="'Contact New Business &rarr;'"/>
+            <ContactNewBusinessButton :text="'Schedule A Call &rarr;'"/>
         </div>
     </Wrapper>
 </template>
