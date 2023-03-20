@@ -18,6 +18,7 @@ We've designed a range of modular services that can be customised, combined and 
 ::: component Feature
 ~~~
 title: "Strategic Guidance"
+anchor: "strategy"
 slogan: "Build the perfect beast"
 colour: "green"
 subFeatures:
@@ -50,6 +51,7 @@ portraitFirst: true
 ::: component Feature
 ~~~
 title: "Information Security"
+anchor: "security"
 slogan: "Stay safe without slowing down"
 colour: "green"
 subFeatures:
@@ -81,6 +83,7 @@ portraitFirst: false
 ~~~
 title: "Human Support"
 slogan: "By humans: for humans"
+anchor: "support"
 colour: "green"
 subFeatures:
   - title: "Responsive Helpdesk"
@@ -117,6 +120,7 @@ portraitFirst: true
 ~~~
 title: "Managed Infrastructure"
 slogan: "Failure is not an option"
+anchor: "infrastructure"
 colour: "green"
 subFeatures:
   - title: "Enterprise Reliability"

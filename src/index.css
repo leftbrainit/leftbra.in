@@ -25,15 +25,21 @@
   .underline-links-lg a {
     @apply no-underline !important;
   }
+  .highlight-links-lg a {
+    @apply text-primary-500 no-underline opacity-100 font-medium;
+  }
+  .highlight-links-lg a {
+    @apply no-underline !important;
+  }
   .underline-links a {
     @apply border-b-2 no-underline opacity-100 font-medium !important;
   }
   a.button {
     @apply bg-blue-600 no-underline border-none rounded-md px-5 py-4 text-lg font-semibold text-white shadow-md hover:shadow-xl hover:bg-blue-500 !important;
   }
-  a {
+  /* a {
     @apply whitespace-nowrap;
-  }
+  } */
 
   .background-animate {
     background-size: 400%;

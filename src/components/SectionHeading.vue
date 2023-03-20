@@ -18,7 +18,7 @@ const props = defineProps({
     },
     colour: {
         type: String,
-        default: 'blue'
+        default: 'green'
     },
     id: {
         type: String,

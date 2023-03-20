@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div  ref="bgRef" class="fixed top-0 bottom-0 left-0 right-0 bg-red-500/50 z-0 bg-center bg-cover" style="background-image: url('/assets/219A5113.jpg')" v-motion
+        <div  ref="bgRef" class="fixed top-0 bottom-0 left-0 right-0 bg-primary-100 z-0 bg-center bg-cover" :style="`background-image: url(${props.headerImageUrl}); box-shadow: inset 0 0 100vh 20vh rgba(25,25,15,0.7)`" v-motion
         :initial="{
           opacity: 0,
           scale:0.8
@@ -10,50 +10,6 @@
           scale:1
         }"
         >
-            <svg  width="100%" height="100%" viewBox="0 0 1322 754" class="" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <!-- <rect  width="100%" height="100%" fill="black"/> -->
-            <circle v-motion
-        :initial="{
-          opacity: 0,
-          y: -50,
-        }"
-        :enter="{
-          opacity: 0.8,
-          y: 0,
-          transition: {
-            y: planetEnterTransition,
-            scale: planetScaleTransition
-          },
-            }"  cx="661.5" cy="1600.5" r="1552.5" class="" fill="black"/>
-                <circle v-motion ref="target"   :initial="{
-          opacity: 0,
-          x: 50,
-        }"
-        :enter="{
-          opacity:0.4,
-          x: 0,
-          transition: {
-            x: planetEnterTransition,
-            scale: planetScaleTransition
-          }
-          
-            }"  cx="1032" cy="339" r="130" class="hidden" fill="#D9D9D9"/>
-            <circle v-motion
-            :initial="{
-          opacity: 0,
-          x: 700,
-        }"
-        :enter="{
-          opacity: 0.4,
-          x: 0,
-          transition: {
-            x: {...planetEnterTransition, delay: 800},
-            scale: planetScaleTransition
-          }
-          
-            }" cx="823" cy="106" r="56"  class="hidden" fill="#D9D9D9"/>
-            </svg>
-    
         </div>
 
     </div>
@@ -63,6 +19,12 @@
 import {ref} from 'vue'
 import {useSpring, useMotionProperties} from '@vueuse/motion'
 
+const props = defineProps({
+    headerImageUrl: {
+        type: String,
+        required: true
+    }
+})
 const planetEnterTransition = {
       type: 'spring',
       stiffness: 30,

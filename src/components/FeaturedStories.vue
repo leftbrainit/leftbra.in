@@ -1,15 +1,13 @@
 <template>
     <Wrapper>
-        <Prose class="max-w-prose">
-            <slot />
-        </Prose>
-        <div class="mt-12">
-            <div class="text-lg font-semibold w-full opacity-70 rounded-xl py-4 px-8 border-2 border-dotted border-opacity-10"
-                v-if="!stories.length">No customer stories. Check back soon!</div>
-            <ul v-else class="grid md:grid-cols-2 gap-8 place-items-stretch">
-                <StoryCard v-for="story in stories" v-bind="story" />
-            </ul>
-        </div>
+        <SectionHeading class="mt-8" :title="title"/>
+        <div class="max-w-4xl text-3xl mb-3 font-medium leading-tight opacity-80 pb-8">
+                    <h4 >Testhig sndfkjsdnf skdfjnsdf skdjfns fksjdnfsdfj kj Thhe adnskj askjdnas dkjnajsd kajnsdjna asjdnk</h4>
+
+                </div>
+        <ul class="grid md:grid-cols-3 gap-8 place-items-stretch">
+            <StoryCard v-for="story in stories" v-bind="story" :tags="[]" />
+        </ul>
     </Wrapper>
 </template>
 
@@ -23,7 +21,7 @@ const router = useRouter()
 const props = defineProps({
     title: {
         type: String,
-        default: "Vacancies"
+        default: "Customer Stories"
     }
 })
 

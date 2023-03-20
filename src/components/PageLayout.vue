@@ -1,7 +1,7 @@
 <template>
     <div :class="dark ? `dark` : ``">
         <!-- <HeaderAnimation  /> -->
-        
+        <HeaderImage v-if="frontmatter.headerImageUrl" :headerImageUrl="frontmatter.headerImageUrl" />
         <div
             :class="`bg-primary-50 text-gray-800 dark:text-gray-100 min-h-screen flex bg-fixed flex-col antialiased z-10`"
             

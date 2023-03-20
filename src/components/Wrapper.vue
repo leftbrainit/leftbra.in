@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-start items-start m-auto px-4 max-w-7xl" >
+    <div class="flex justify-start items-start m-auto px-5 max-w-7xl" >
         <div class="" :class="props.tight ? 'max-w-4xl' : 'w-full'">
             <slot  />
         </div>

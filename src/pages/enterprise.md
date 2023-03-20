@@ -4,6 +4,8 @@ description: Services for enterprise
 dark: true
 wrap: false
 isSubPage: false
+headerImageUrl: /assets/globe-1.png
+
 ---
 ::: component Hero
 ~~~
