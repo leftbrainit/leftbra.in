@@ -1,6 +1,6 @@
 <template>
     <div 
-    >   <div v-if="props.anchor" :id="props.anchor">#{{props.anchor}}</div>
+    >   <div v-if="props.anchor" :id="props.anchor"></div>
         <Wrapper>
             <div class="relative flex flex-col py-12 md:py-24 lg:py-32 noborder-b border-gray-500/50">
                 <div class="flex flex-col justify-center">
