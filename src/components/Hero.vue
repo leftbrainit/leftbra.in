@@ -9,8 +9,8 @@
             />
             <div
 
-                class="prose prose-xl dark:prose-light nomax-w-3xl text-xl md:text-2xl mt-4 mb-8 opacity-90 underline-links-lg md:leading-relaxed font-normal font-sans"
-            >
+            class="prose prose-xl max-w-4xl text-xl md:text-2xl opacity-100 pt-4 pb-8 text-white/90 highlight-links-lg md:leading-relaxed font-normal font-sans">
+            
                 <slot />
             </div>
             <div class="" v-if="props.callToActionText && props.callToActionUrl">

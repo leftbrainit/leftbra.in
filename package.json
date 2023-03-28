@@ -21,7 +21,7 @@
     "markdown-it-front-matter": "^0.2.3",
     "rollup-plugin-polyfill-node": "^0.7.0",
     "vue": "^3.2.47",
-    "vue-router": "4"
+    "vue-router": "^4.1.6"
   },
   "devDependencies": {
     "@netlify/plugin-sitemap": "^0.8.1",

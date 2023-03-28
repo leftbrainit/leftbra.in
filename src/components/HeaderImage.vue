@@ -53,7 +53,7 @@ let ticking = false;
 function doSomething(scrollPos: number) {
   // Do something with the scroll position
   //@ts-ignore
-  console.log({scrollPos, porop: motionProperties.x})
+  // console.log({scrollPos, porop: motionProperties.x})
   //@ts-ignore
   bgMotionProperties.scale = 1 + (scrollPos/3000)
   if (scrollPos > 4) {

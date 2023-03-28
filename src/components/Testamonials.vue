@@ -3,7 +3,7 @@
         <Wrapper class=" ">
             <div class="w-full border-t border-white/10"></div>
             <div
-                class="prose prose-xl dark:prose-light max-w-4xl text-xl md:text-2xl pt-16 pb-12 opacity-90 highlight-links-lg md:leading-relaxed font-normal font-sans">
+                class="prose prose-xl max-w-4xl text-xl md:text-2xl text-white/90 pt-16 pb-12 highlight-links-lg md:leading-relaxed font-normal font-sans">
                 <slot />
             </div>
             <div class="grid grid-cols-3 gap-8 content-start">

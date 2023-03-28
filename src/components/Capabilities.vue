@@ -1,7 +1,7 @@
 <template>
     <Wrapper class=" py-12 md:py-24">
         <div
-            class="prose prose-xl max-w-4xl text-white/80 text-xl md:text-2xl pt-24 pb-12 opacity-90 highlight-links-lg md:leading-relaxed font-normal font-sans">
+        class="prose prose-xl max-w-4xl text-xl md:text-2xl text-white/90 pt-16 pb-12 highlight-links-lg md:leading-relaxed font-normal font-sans">
             <slot />
         </div>
         <div class="grid grid-cols-2 gap-14">

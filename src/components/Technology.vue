@@ -10,7 +10,7 @@
         <Wrapper>
             <div class="noborder-2 border-green-500 pb-16 ">
                 <div class="noborder border-green-500 nooverflow-hidden min-h-[45em] flex items-center">
-                    <div v-for="(feature, index) in features" :class="index === selected ? 'opacity-100' : ''" class="transition-all opacity-0 z-20 noshadow-2xl noshadow-black rounded-tl-xl rounded-bl-2xl absolute right-0 ml-96 overflow-hidden w-[65%] h-[45em]" :style="`background-image: url(${feature.imageUrl}); background-size: auto 100%; background-position: left; background-repeat: no-repeat;`">
+                    <div v-for="(feature, index) in features" :class="index === selected ? 'opacity-100' : ''" class="transition-all opacity-0 z-20 noshadow-2xl noshadow-black rounded-tl-xl rounded-bl-2xl absolute right-0 md:ml-96 lg:ml-[10] overflow-hidden md:w-[65%] lg:w-[55%] h-[45em]" :style="`background-image: url(${feature.imageUrl}); background-size: auto 100%; background-position: left; background-repeat: no-repeat;`">
                         <!-- <img class="nw-[80em] h-fit rounded-xl ml-8" :src="features[selected].imageUrl" alt=""> -->
                     </div>
                     <div class="noborder border-red-500">
