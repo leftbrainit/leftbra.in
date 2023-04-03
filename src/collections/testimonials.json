@@ -1,0 +1,49 @@
+{
+  "testimonials": [
+    {
+      "authorName": "Ayala Levine",
+      "authorAvatarUrl": "/assets/zendesk-testimonial-author.png",
+      "authorJobTitle": "Director, Global IT Operations",
+      "companyName": "Zendesk, Inc.",
+      "companyLogoUrl": "/assets/zendesk.svg",
+      "body": "Hiring LeftBrain has been one of the best decisions I’ve made at Zendesk. They’re incredibly clever and technically knowledgable yet completely personable and embody our culture in every way. Thank you guys for helping my team shine!",
+      "position": "featured"
+    },
+    {
+      "authorName": "Celine Smith",
+      "authorAvatarUrl": "/assets/1516555986739.jpg",
+      "authorJobTitle": "Managing Director",
+      "companyName": "BrandMe",
+      "companyLogoUrl": "/assets/zendesk.svg",
+      "body": "We love LeftBrain! Our IT has never run better since they took over. They have the answer for every IT and techie question we ever have. Their response time is super fast and to top it all, they are all really lovely people.",
+      "position": "column1"
+    },
+    {
+      "authorName": "Poppy Bryanton",
+      "authorAvatarUrl": "/assets/1517426463721.jpg",
+      "authorJobTitle": "Integration Manager",
+      "companyName": "Brainlabs",
+      "companyLogoUrl": "/assets/brainlabs.png",
+      "body": "What stood out to us about LeftBrain was that they could offer bespoke tech solutions that were right for our processes, our users and our clients. We spoke to various other IT providers, but they offered a one-size-fits-all approach.",
+      "position": "column2"
+    },
+    {
+      "authorName": "Gary Clewlow",
+      "authorAvatarUrl": "/assets/1516871694263.jpg",
+      "authorJobTitle": "IT Service Manager",
+      "companyName": "New Look",
+      "companyLogoUrl": "/assets/download.png",
+      "body": "I've worked with LeftBrain for many years. The team really understands our working environment and does a great job of recommending what we need, when we need it. They resolve issues pretty darn quickly!",
+      "position": "column3"
+    },
+    {
+      "authorName": "Carl Pearse",
+      "authorAvatarUrl": "/assets/1643050359329.jpg",
+      "authorJobTitle": "Chief Technology Officer",
+      "companyName": "Super Payments",
+      "companyLogoUrl": "/assets/zendesk.svg",
+      "body": "We were very pleased with the onboarding process, controls and ongoing operations. LeftBrain is a high calibre and responsive team.",
+      "position": "column3"
+    }
+  ]
+}

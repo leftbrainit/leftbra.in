@@ -1,18 +1,18 @@
 <template>
     <figure v-motion v-motion-slide-visible-once-bottom class="rounded-xl bg-primary-100/50 border border-white/10 backdrop-blur-sm p-8">
-        <img class="w-18 self-start pb-6" v-if="testamonial.position === 'featured'" :src="testamonial.companyLogoUrl" alt="" />
+        <img class="w-18 self-start pb-6" v-if="testimonial.position === 'featured'" :src="testimonial.companyLogoUrl" alt="" />
         <blockquote class="text-lg leading-8 text-white/80">
-            <p class="">“{{ testamonial.body }}”</p>
+            <p class="">“{{ testimonial.body }}”</p>
             <div>
 
             </div>
         </blockquote>
         <figcaption class="mt-10 flex items-center gap-x-3">
-            <img class="h-12 border border-black/70  w-12 rounded-full bg-gray-800" :src="testamonial.authorAvatarUrl"
+            <img class="h-12 border border-black/70  w-12 rounded-full bg-gray-800" :src="testimonial.authorAvatarUrl"
                 alt="" />
             <div class="text-base">
-                <div class="font-semibold text-lg text-white">{{ testamonial.authorName }}</div>
-                <div class=" text-gray-400">{{ testamonial.authorJobTitle }}, {{ testamonial.companyName }}
+                <div class="font-semibold text-lg text-white">{{ testimonial.authorName }}</div>
+                <div class=" text-gray-400">{{ testimonial.authorJobTitle }}, {{ testimonial.companyName }}
                 </div>
             </div>
         </figcaption>
@@ -20,7 +20,7 @@
 </template>
 
 <script setup lang="ts">
-const testamonial = defineProps({
+const testimonial = defineProps({
     position: {
         type: String
     },

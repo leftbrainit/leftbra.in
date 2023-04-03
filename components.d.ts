@@ -51,6 +51,8 @@ declare module 'vue' {
     Technology: typeof import('./src/components/Technology.vue')['default']
     Testamonial: typeof import('./src/components/Testamonial.vue')['default']
     Testamonials: typeof import('./src/components/Testamonials.vue')['default']
+    Testimonial: typeof import('./src/components/Testimonial.vue')['default']
+    Testimonials: typeof import('./src/components/Testimonials.vue')['default']
     TrustedBy: typeof import('./src/components/TrustedBy.vue')['default']
     Vacancies: typeof import('./src/components/Vacancies.vue')['default']
     WeAreHiring: typeof import('./src/components/WeAreHiring.vue')['default']

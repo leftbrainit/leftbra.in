@@ -3,14 +3,16 @@ import { provide, defineComponent } from 'vue'
 import siteConfig from "./site.config.json"
 import team from "./collections/team.json"
 import locations from "./collections/locations.json"
-import { SiteConfigKey, TeamKey, LocationsKey } from "./symbols"
-import { SiteConfig, Team, Locations } from "./types"
+import testimonials from "./collections/testimonials.json"
+import { SiteConfigKey, TeamKey, LocationsKey, TestimonialsKey } from "./symbols"
+import { SiteConfig, Team, Locations, Testimonials } from "./types"
 
 export default defineComponent({
   setup() {
     provide(SiteConfigKey, siteConfig as SiteConfig)
     provide(TeamKey, team as Team)
     provide(LocationsKey, locations as Locations)
+    provide(TestimonialsKey, testimonials as Testimonials)
   }
 })
 </script>

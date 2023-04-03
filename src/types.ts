@@ -48,3 +48,17 @@ export interface NiceRouteName {
     name: string
     niceName: string
 }
+
+interface Testimonial {
+    authorName: string
+    authorAvatarUrl: string
+    authorJobTitle: string
+    companyName: string
+    companyLogoUrl: string
+    body: string
+    position: string
+}
+
+export interface Testimonials {
+    testimonials: Testimonial[]
+}

@@ -17,7 +17,7 @@ LeftBrain equips elite teams with internal technology that’s secure, reliable 
 
 :::
 
-::: component Testamonials
+::: component Testimonials
 ~~~
 ~~~
 We work with ambitious startups, world leading brands and everything in between. What [our customers](/customers) share is a desire to give their team the absolute best.

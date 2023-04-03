@@ -122,6 +122,41 @@ collections:
             - label: 'Address'
               name: 'address'
               widget: 'string'
+    - label: "Testimonials"
+      name: "testimonials"
+      label_singular: "Testimonial"
+      format: 'json'
+      editor:
+        preview: false
+      file: "/src/collections/testimonials.json"
+      fields:
+        - label: "Testimonials"
+          name: "testimonials"
+          widget: list
+          fields:
+            - label: 'Author Full Name'
+              name: 'authorName'
+              widget: 'string'
+            - label: 'Author Job Title'
+              name: 'authorJobTitle'
+              widget: 'string'
+            - label: 'Author Avatar'
+              name: 'authorAvatarUrl'
+              widget: 'image'
+            - label: 'Company Name'
+              name: 'companyName'
+              widget: 'string'
+            - label: 'Company Logo'
+              name: 'companyLogoUrl'
+              widget: 'image'
+              required: false
+            - label: 'Body'
+              name: 'body'
+              widget: 'string'
+            - label: 'Position'
+              name: 'position'
+              widget: 'select'
+              options: ['featured', 'column1', 'column2', 'column3']
   - label: "Pages"
     name: "pages"
     label_singular: "Page"
