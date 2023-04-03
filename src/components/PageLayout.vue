@@ -1,9 +1,10 @@
 <template>
-    <div :class="dark ? `dark` : ``">
+    <div class="bg-primary-50 bg-center bg-cover" :style="`background-image: url(/assets/gradient-5.svg);background-attachment: fixed;`" :class="dark ? `dark` : ``">
+
         <!-- <HeaderAnimation  /> -->
         <HeaderImage v-if="frontmatter.headerImageUrl" :headerImageUrl="frontmatter.headerImageUrl" />
         <div
-            :class="`bg-primary-50 text-gray-800 dark:text-gray-100 min-h-screen flex bg-fixed flex-col antialiased z-10`"
+            :class="`nobg-primary-50 text-gray-800 dark:text-gray-100 min-h-screen flex bg-fixed flex-col antialiased z-10`"
             
         >
 

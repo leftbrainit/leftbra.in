@@ -1,5 +1,8 @@
 <template>
-    <div class="bg-cover nobg-center" :style="`background-image: url(/assets/globe-1.png);background-size: auto 100%; background-position: right; background-repeat: no-repeat;`">
+    <!-- <div class="bg-cover nobg-center" :style="`background-image: url(/assxxxets/80.png);background-size: auto 100%; background-position: right; background-repeat: no-repeat;`"> -->
+        <!-- <div class="bg-center bg-cover" :style="`background-image: url(/assets/gradient-5.svg);background-attachment: fixed;`">
+    <div class="bg-repeat" :style="`background-image: url(/assets/noise-1.svg);background-attachment: fixed;`"> -->
+    <div class=" smy-20  my-12 md:my-24 overflow-hidden bg-coverss" :style="`background-image: url(/assets/globe-2.png);background-size: auto 100%; background-position: right; background-repeat: no-repeat;`">
         <Wrapper class=" ">
             <div class="w-full border-t border-white/10"></div>
             <div
@@ -30,7 +33,9 @@
                 </div>
             </div>
         </Wrapper>
-    </div>
+    <!-- </div>
+    </div>-->
+    </div> 
 </template>
 
 <script setup lang="ts">

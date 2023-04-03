@@ -27,7 +27,7 @@ We work with ambitious startups, world leading brands and everything in between.
 ::: component Capabilities
 ~~~
 ~~~
-We work with ambitious startups, world leading brands and everything in between. What [our customers](/customers) share is a desire to give their team the absolute best.
+We work with ambitious startups, world leading brands and everything in between. What [our capabilities](/capabilities) share is a desire to give their team the absolute best.
 
 :::
 

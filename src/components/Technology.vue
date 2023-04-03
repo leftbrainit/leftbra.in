@@ -1,6 +1,16 @@
 <template>
-    <div class="bg-purple-800 smy-20  py-12 md:py-24 overflow-hidden" :style="`background-image: url(/assets/wave-1.png);background-size: 100%; background-position: top; background-repeat: no-repeat;`">
-
+    <div v-motion
+        :initial="{
+          opacity: 0,
+          scale:0.8
+        }"
+        :enter="{
+          opacity: 1,
+          scale:1
+        }" class="bg-center bg-cover" :style="`background-image: url(/assets/gradient-4.svg)`">
+    <!-- <div class="bg-repeat" :style="`background-image: url(/assets/noise-1.svg)`"> -->
+    <div class=" smy-20  py-12 md:py-24 overflow-hidden bg-cover" :style="`background-image: url(/assets/globe-2.png);background-attachment: fixed;`">
+        
         <Wrapper>
             <div
                 class="prose prose-xl max-w-4xl text-xl md:text-2xl opacity-100 pb-8 text-white highlight-links-lg md:leading-relaxed font-normal font-sans">
@@ -15,8 +25,8 @@
                     </div>
                     <div class="noborder border-red-500">
                         <div v-for="(feature, index) in features"
-                            class=" cursor-pointer transition-all z-10 rounded-lg border border-white/0 -ml-8 px-8 scale-100 py-5 my-3 pr-96 hover:border hover:scale-105 hover:border-white/20 hover:bg-white/10"
-                            :class="index === selected ? ' border-white/20 bg-white/10' : 'bg-white/0'"
+                            class=" cursor-pointer  transition-all z-10 rounded-lg border border-white/0 -ml-8 px-8 scale-100 py-5 my-3 pr-96 hover:backdrop-blur-sm hover:border hover:scale-105 hover:border-white/20 hover:bg-white/10"
+                            :class="index === selected ? ' border-white/20 bg-white/10 backdrop-blur-sm' : 'bg-white/0'"
                             >
                             
                             <div @click="selected = index" class="cursor-pointer">
@@ -32,6 +42,8 @@
             </div>
         </Wrapper>
     </div>
+    <!-- </div> -->
+    </div>
 </template>
 
 <script setup lang="ts">
@@ -39,7 +51,7 @@ import {ref} from "vue"
 const selected = ref(0)
 const features = [
     {
-        title: "Track Yo Shit",
+        title: "Everything In One Place",
         description: "Our strategy team make all the things that are strategic easy to understand fun and funky and stupid. You’re stupid.",
         imageUrl: "/assets/dashboard-1.png"
     },
