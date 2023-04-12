@@ -10,7 +10,7 @@ wrap: false
 title: "Customer Stories"
 ~~~
 
-We’re on a mission to change the face of technology at work. Our team are as far from the archetypal lazy, obstenate IT guy, as we are from other IT companies.
+LeftBrain has provided hundreds of ambitious teams with workplace technology. Here are just a few of our bespoke tech solutions, enabling businesses to grow and people to thrive.
 
 :::
 

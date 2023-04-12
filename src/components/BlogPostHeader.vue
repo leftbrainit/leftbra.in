@@ -4,6 +4,7 @@
         class="text-5xl sm:text-6xl md:text-7xl font-medium sm:leading-none font-title"
         v-html="frontmatter.title"
         />
+        
         <div class="flex flex-col md:flex-row md:gap-4 mt-3 mb-4">
             <Tags :tags="frontmatter.tags" />
             <!-- <div class="flex flex-row items-center justify-start">
@@ -20,6 +21,10 @@
                 <span class="opacity-90 font-medium">{{ frontmatter.publishDate }}</span>
             </div>
         </div>
+        <div class="mt-6 w-full rounded-2xl h-[600px] bg-cover bg-center" :style="`background-image: url(${frontmatter.coverImage});`" v-if="frontmatter.coverImage">
+            <!-- <img class="rounded-2xl w-full" :src="frontmatter.coverImage" alt=""> -->
+        </div>
+        
         <div class="flex flex-col md:flex-row md:gap-4 -mb-10 -mt-10" v-if="frontmatter.image">
             <img :src="frontmatter.image" :alt="frontmatter.title">
         </div>

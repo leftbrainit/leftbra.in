@@ -158,7 +158,7 @@ collections:
               widget: 'select'
               options: ['featured', 'column1', 'column2', 'column3']
     - label: "Capabilities"
-      name: "Capabilities"
+      name: "capabilities"
       label_singular: "Capability"
       format: 'json'
       editor:
@@ -176,7 +176,7 @@ collections:
               name: 'description'
               widget: 'string'
             - label: 'Anchor Tag'
-              name: 'link'
+              name: 'id'
               widget: 'string'
             - label: 'Card Background Image'
               name: 'backgroundImageUrl'
@@ -233,69 +233,6 @@ collections:
       - label: 'Body'
         name: 'body'
         widget: 'markdown'
-  - label: "Vacancies"
-    name: "vacancies"
-    label_singular: "Vacancy"
-    folder: "/src/pages/careers"
-    format: 'frontmatter'
-    identifier_field: position
-    slug: '{{slug}}-{{minute}}{{second}}{{day}}'
-    filter:
-      field: 'isSubPage'
-      value: true
-    create: true
-    editor:
-      preview: false
-    fields:
-      - label: 'Position'
-        name: 'position'
-        hint: 'e.g. Senior Head of Product Awesomeness'
-        widget: 'string'
-      - label: 'Sub Page'
-        name: 'isSubPage'
-        widget: 'hidden'
-        default: true
-      - label: 'Salary Range'
-        name: 'salaryRange'
-        widget: 'string'
-        required: false
-        hint: 'e.g. £50-55k'
-      - label: 'Start date'
-        name: 'startDate'
-        widget: 'datetime'
-        format: "Do MMMM YYYY"
-        required: false
-        time_format: false
-        hint: "Leave blank for 'flexible'"
-      - label: 'Redirect URL'
-        name: 'redirect'
-        widget: 'string'
-        required: false
-        hint: 'If an HTTPS url is entered, the page will redirect on load'
-      - label: 'Dark Mode'
-        name: 'dark'
-        default: true
-        widget: 'hidden'
-      - label: "Location"
-        name: "location"
-        widget: "relation"
-        hint: "Leave blank for Remote"
-        collection: "data"
-        file: "locations"
-        required: false
-        default: ""
-        search_fields: ["locations.*.city"]
-        display_fields: ["locations.*.city"]
-        value_field: "locations.*.city"
-      - label: 'Wrap Page'
-        name: 'wrap'
-        default: true
-        widget: 'hidden'
-      - label: 'Body'
-        name: 'body'
-        widget: 'markdown'
-        modes: ["rich_text"]
-        default: ""
   - label: "Blog Posts"
     name: "posts"
     label_singular: "Blog Post"
@@ -352,6 +289,48 @@ collections:
         search_fields: ["members.*.name"]
         display_fields: ["members.*.name"]
         value_field: "members.*.name"
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
+        modes: ["rich_text"]
+        default: "::: component BlogPostHeader\n~~~\n~~~\n\n \n:::\n"
+  - label: "Customer Stories"
+    name: "customers"
+    label_singular: "Story"
+    folder: "/src/pages/customers"
+    format: 'frontmatter'
+    identifier_field: title
+    slug: "{{slug}}"
+    filter:
+      field: 'isSubPage'
+      value: true
+    create: true
+    editor:
+      preview: false
+    fields:
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: 'Sub Page'
+        name: 'isSubPage'
+        widget: 'hidden'
+        default: true
+      - label: 'Cover Image'
+        name: 'coverImage'
+        widget: 'image'
+        required: false
+      - label: 'Dark Mode'
+        name: 'dark'
+        default: true
+        widget: 'hidden'
+      - label: 'Wrap Page'
+        name: 'wrap'
+        default: true
+        widget: 'hidden'
+      - label: 'Excerpt'
+        name: 'excerpt'
+        widget: 'markdown'
+        required: true
       - label: 'Body'
         name: 'body'
         widget: 'markdown'

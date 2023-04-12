@@ -16,6 +16,7 @@ declare module 'vue' {
     Card: typeof import('./src/components/Card.vue')['default']
     ContactNewBusinessButton: typeof import('./src/components/ContactNewBusinessButton.vue')['default']
     ContactOptions: typeof import('./src/components/ContactOptions.vue')['default']
+    CoverImage: typeof import('./src/components/CoverImage.vue')['default']
     Feature: typeof import('./src/components/Feature.vue')['default']
     FeaturedStories: typeof import('./src/components/FeaturedStories.vue')['default']
     Footer: typeof import('./src/components/Footer.vue')['default']

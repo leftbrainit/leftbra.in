@@ -20,6 +20,10 @@ const story = defineProps({
         type: String,
         required: true
     },
+    excerpt: {
+        type: String,
+        required: false
+    },
     tags: {
         type: Array<string>,
         required: false

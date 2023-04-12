@@ -3,6 +3,7 @@
 
         <!-- <HeaderAnimation  /> -->
         <HeaderImage v-if="frontmatter.headerImageUrl" :headerImageUrl="frontmatter.headerImageUrl" />
+        <!-- <CoverImage v-if="frontmatter.coverImage" :headerImageUrl="frontmatter.coverImage" /> -->
         <div
             :class="`nobg-primary-50 text-gray-800 dark:text-gray-100 min-h-screen flex bg-fixed flex-col antialiased z-10`"
             
