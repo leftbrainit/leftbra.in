@@ -13,7 +13,7 @@
         </div>
         <div
             class="prose prose-md dark:prose-light sm:leading-relaxed opacity-80 underline-links"
-            v-html="body"
+            v-html="body ? body: excerpt"
         />
     </div>
 </template>
@@ -33,7 +33,11 @@ const props = defineProps({
     },
     body: {
         type: String,
-        required: true
+        required: false
+    },
+    excerpt: {
+        type: String,
+        required: false
     }
 })
 </script>
