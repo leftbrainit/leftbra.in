@@ -62,3 +62,15 @@ interface Testimonial {
 export interface Testimonials {
     testimonials: Testimonial[]
 }
+
+interface Capability {
+    title: string
+    description: string
+    backgroundImageUrl: string
+    link: string
+    services: string[]
+}
+
+export interface Capabilities {
+    capabilities: Capability[]
+}

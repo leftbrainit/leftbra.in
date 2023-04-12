@@ -1,0 +1,48 @@
+{
+  "capabilities": [
+    {
+      "title": "Strategy",
+      "description": "Our business strategists get to know your team, ways of working and business goals before building and delivering on your bespoke tech roadmap.",
+      "backgroundImageUrl": "/assets/219A4970.jpg",
+      "link": "strategy",
+      "services": [
+        "roadmap-ownership",
+        "auditing-&-documentation",
+        "knowledge-base-dev"
+      ]
+    },
+    {
+      "title": "Security",
+      "description": "Our information security team is highly qualified and equipped to ensure your systems are secure, scalable and certified.",
+      "backgroundImageUrl": "/assets/219A5485.jpg",
+      "link": "security",
+      "services": [
+        "security-governance",
+        "iso27001-certification",
+        "incident-response"
+      ]
+    },
+    {
+      "title": "Support",
+      "description": "Our rapid response helpdesk and team of engineers are on hand to give you the tech support you need, when you need it.",
+      "backgroundImageUrl": "/assets/219A4875.jpg",
+      "link": "support",
+      "services": [
+        "responsive-helpdesk",
+        "regular-office-visits",
+        "elastic-tech-team"
+      ]
+    },
+    {
+      "title": "Infrastructure",
+      "description": "Our infrastructure team makes sure your devices, networks and cloud environments are secure, reliable and perfectly integrated.",
+      "backgroundImageUrl": "/assets/219A6049.jpg",
+      "link": "infrastructure",
+      "services": [
+        "nocode-&-automation",
+        "unifi-wifi-networks",
+        "google-workspace"
+      ]
+    }
+  ]
+}

@@ -12,7 +12,8 @@
                 <!-- <h3 class="uppercase text-primary-500 font-mono font-semibold text-xs mb-1">Services</h3> -->
                 <ul>
                     <li class="text-lg font-semibold pt-0.5 opacity-90" v-for="service in services">
-                        {{ service.title }}
+                        <span v-if="service && service.title">{{ service.title }}</span>
+                        
                     </li>
                 </ul>
             </div>
@@ -25,6 +26,9 @@
 </template>
 
 <script setup lang="ts">
+import { useRoute, useRouter } from "vue-router"
+const router = useRouter()
+
 const capability = defineProps({
     title: {
         type: String,
@@ -46,4 +50,23 @@ const capability = defineProps({
         type: Array<any>
     }
 },)
+
+const allServices = router.getRoutes().filter(route => route.path.startsWith("/services/")).sort((a, b) => (a.path > b.path) ? 1 : -1).map(route => {
+    const frontmatter: any = route.meta.frontmatter ?? {}
+    const title = frontmatter.title ?? ""
+    const excerpt = frontmatter.excerpt ?? ""
+    const coverImage = frontmatter.coverImage ?? ""
+    const icon = frontmatter.icon ?? ""
+    const tags = frontmatter.tags ?? []
+    return {
+        routeName: route.name,
+        title,
+        excerpt,
+        coverImage,
+        tags,
+        icon,
+        path: route.path
+    }
+})
+const services = capability.services.map(slug => allServices.find(service => service.path.includes(slug)))
 </script> 

@@ -157,6 +157,38 @@ collections:
               name: 'position'
               widget: 'select'
               options: ['featured', 'column1', 'column2', 'column3']
+    - label: "Capabilities"
+      name: "Capabilities"
+      label_singular: "Capability"
+      format: 'json'
+      editor:
+        preview: false
+      file: "/src/collections/capabilities.json"
+      fields:
+        - label: "Capabilities"
+          name: "capabilities"
+          widget: list
+          fields:
+            - label: 'Title'
+              name: 'title'
+              widget: 'string'
+            - label: 'Description'
+              name: 'description'
+              widget: 'string'
+            - label: 'Anchor Tag'
+              name: 'link'
+              widget: 'string'
+            - label: 'Card Background Image'
+              name: 'backgroundImageUrl'
+              widget: 'image'
+            - label: "Featured Services"
+              name: "services"
+              widget: "relation"
+              multiple: true
+              collection: "services"
+              search_fields: ["title"]
+              value_field: "{{slug}}"
+              display_fields: ["title"]
   - label: "Pages"
     name: "pages"
     label_singular: "Page"

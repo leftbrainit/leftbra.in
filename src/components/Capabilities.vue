@@ -17,7 +17,19 @@
 </template>
 
 <script setup lang="ts">
-const capabilities = [
+
+
+import { inject } from "vue";
+import { CapabilitiesKey } from "../symbols"
+
+
+const {capabilities} = inject(CapabilitiesKey)
+
+if (!capabilities) {
+throw new Error(`Could not resolve capabilities data`);
+}
+
+const capabilitiesOld = [
     {
         title: "Strategy",
         description: "Our strategy team make all the things that are strategic easy to understand fun and funky and stupid. You’re stupid.",

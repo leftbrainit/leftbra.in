@@ -4,8 +4,9 @@ import siteConfig from "./site.config.json"
 import team from "./collections/team.json"
 import locations from "./collections/locations.json"
 import testimonials from "./collections/testimonials.json"
-import { SiteConfigKey, TeamKey, LocationsKey, TestimonialsKey } from "./symbols"
-import { SiteConfig, Team, Locations, Testimonials } from "./types"
+import capabilities from "./collections/capabilities.json"
+import { SiteConfigKey, TeamKey, LocationsKey, TestimonialsKey, CapabilitiesKey } from "./symbols"
+import { SiteConfig, Team, Locations, Testimonials, Capabilities } from "./types"
 
 export default defineComponent({
   setup() {
@@ -13,6 +14,7 @@ export default defineComponent({
     provide(TeamKey, team as Team)
     provide(LocationsKey, locations as Locations)
     provide(TestimonialsKey, testimonials as Testimonials)
+    provide(CapabilitiesKey, capabilities as Capabilities)
   }
 })
 </script>
