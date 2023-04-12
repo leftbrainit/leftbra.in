@@ -18,7 +18,7 @@
                         
                         <div v-for="service in serviceGroup.services">
                         <!-- <router-link v-for="service in serviceGroup.services" :to="{ name: service.routeName }"> -->
-                        <li v-motion-pop-visible class="py-3 w-full flex" >
+                        <li class="py-3 w-full flex" >
                             <div class="flex-grow">
                                 {{ service.title }}
                             </div>

@@ -11,8 +11,6 @@
   "footerCategories": [
     {
       "pages": [
-        "enterprise",
-        "customers"
       ],
       "externalUrls": [],
       "name": "Services"
@@ -35,7 +33,7 @@
           "title": "Help Centre"
         },
         {
-          "url": "https://dashboard.leftbrain.it",
+          "url": "https://dashboard.leftbra.in",
           "title": "Dashboard"
         }
       ],
@@ -51,7 +49,7 @@
       ]
     }
   ],
-  "copyrightNotice": "&copy; 2021 LeftBrain Ltd. All rights reserved.",
+  "copyrightNotice": "&copy; 2023 LeftBrain Ltd. All rights reserved.",
   "socialLinks": [
     {
       "title": "Instagram",

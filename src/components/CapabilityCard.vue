@@ -1,5 +1,5 @@
 <template>
-    <router-link class="" :to="`/services#${capability.link}`">
+    <router-link class="" :to="`/services#${capability.id}`">
     <div
         class="rounded-xl flex flex-col place-content-between p-8 group noborder h-96 border-white bg-center bg-cover scale-100  hover:shadow-2xl  shadow-primary-500/50 hover:shadow-white/50 transition-all hover:scale-105 cursor-pointer"
         :style="`background-image: url(${capability.backgroundImageUrl}); box-shadow: inset 0 0 300px 120px rgba(25,25,15,0.9)`">
@@ -38,7 +38,7 @@ const capability = defineProps({
         type: String,
         required: true
     },
-    link: {
+    id: {
         type: String,
         required: true
     },

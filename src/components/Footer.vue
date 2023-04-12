@@ -26,7 +26,7 @@
                                     >
                                         <router-link
                                             v-if="item.type === 'page'"
-                                            :to="{ name: item.to }"
+                                            :to="item.to"
                                         >{{ item.title }}</router-link>
                                         <a v-else :href="item.to">{{ item.title }}</a>
                                     </li>
@@ -49,7 +49,8 @@
                     </div>
                     <p
                         class="mt-8 text-base text-gray-400 md:mt-0 md:order-1"
-                    >&copy; 2021 LeftBrain Ltd. All rights reserved.</p>
+                        v-html="siteConfig.copyrightNotice"
+                    />
                 </div>
             </footer>
         </Wrapper>
@@ -58,7 +59,7 @@
 
 <script setup lang="ts">
 import { inject } from "vue";
-import { SiteConfigKey } from "../symbols"
+import { SiteConfigKey, CapabilitiesKey } from "../symbols"
 import { useRouter } from "vue-router"
 import { getNiceRouteNames } from "../utilities"
 
@@ -70,6 +71,12 @@ if (!siteConfig) {
 }
 
 const routesWithNiceNames = getNiceRouteNames(routes)
+
+const {capabilities} = inject(CapabilitiesKey)
+
+if (!capabilities) {
+throw new Error(`Could not resolve capabilities data`);
+}
 
 const footer = siteConfig.footerCategories.map(category => {
     let items = category.externalUrls.map(externalUrl => {
@@ -88,6 +95,15 @@ const footer = siteConfig.footerCategories.map(category => {
             type: 'page'
         })
     })
+    if (category.name === "Services") {
+        capabilities.forEach(capability => {
+        items.push({
+            to: `/services#${capability.id}`,
+            title: capability.title,
+            type: 'page'
+        })
+    })
+    }
     return {
         name: category.name,
         items: items.sort((a, b) => {
