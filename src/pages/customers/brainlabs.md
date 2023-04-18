@@ -5,8 +5,10 @@ coverImage: /assets/zero-touch-security-brainlabs.png
 isSubPage: true
 dark: true
 services:
-  - macos
-  - caching
+  - onoffboarding
+  - iso27001-certification
+  - responsive-helpdesk
+  - training
 wrap: true
 excerpt: Brainlabs are a fast-growing, global agency on the forefront of tech innovation. They asked LeftBrain to build secure and scalable systems, to seamlessly integrate their new acquisitions and onboard new team members.
 ---
@@ -63,3 +65,9 @@ authorJobTitle: "Integration Manager"
 :::
 
 The love is mutual! Here at LeftBrain, we are incredibly proud to continue on this journey with Brainlabs, as they have gone from having little workplace infrastructure through to having their own in-house IT team, and robust set of core systems. We are poised and ready to help with the new and evolving challenges they face on their path to world domination.
+
+::: component NextSteps
+~~~
+~~~
+
+:::

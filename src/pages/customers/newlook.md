@@ -2,11 +2,14 @@
 title: Mac-based security and systems that “just seem to work” for New Look
 customerName: New Look
 coverImage: /assets/mac-security-new-look.jpeg
+companyLogoUrl: "/assets/new-look-logo.png"
 isSubPage: true
 dark: true
 services:
-  - macos
-  - caching
+  - onoffboarding
+  - elastic-tech-team
+  - regular-office-visits
+  - synology-file-sharing
 wrap: true
 excerpt: New Look has over 900 stores globally, with a vision to “inspire that New Look feeling”. Although they have an in-house team delivering cutting edge Windows based technology, they brought LeftBrain on board to give their Mac estate a much needed makeover.
 ---
@@ -41,3 +44,9 @@ Having delivered so successfully over the years, New Look asked LeftBrain to ove
 “This photography studio project went really well,” says James. “I’ve got to be honest, for such a complex piece of work I expected there to be more issues. The occasional thing crops up and is dealt with quickly, but generally everything just seems to work, which is what you want!”
 
 LeftBrain continues to oversee the workplace technology for all of New Look’s Mac based devices and systems, keeping them up to date with the latest security guidelines and offering highly personal user support with twice weekly office visits. Our engineers also visit their of “I really do recommend LeftBrain,” says Gary. “We’ve got another project we’re hoping to work on with them later this year, and continue to have peace of mind that our new Mac starters have the prep, kit and support that they need”. 
+
+::: component NextSteps
+~~~
+~~~
+
+:::

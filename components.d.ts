@@ -42,6 +42,7 @@ declare module 'vue' {
     ServiceCategory: typeof import('./src/components/ServiceCategory.vue')['default']
     Services: typeof import('./src/components/Services.vue')['default']
     ServicesAtoZ: typeof import('./src/components/ServicesAtoZ.vue')['default']
+    Sidebar: typeof import('./src/components/Sidebar.vue')['default']
     StandFirst: typeof import('./src/components/StandFirst.vue')['default']
     Stat: typeof import('./src/components/Stat.vue')['default']
     StatBox: typeof import('./src/components/StatBox.vue')['default']

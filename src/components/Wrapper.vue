@@ -3,6 +3,10 @@
         <div class="" :class="props.tight ? 'max-w-4xl' : 'w-full'">
             <slot  />
         </div>
+        <div class="flex-grow ">
+                <slot name="sidebar" />
+        </div>
+
     </div>
 </template>
 

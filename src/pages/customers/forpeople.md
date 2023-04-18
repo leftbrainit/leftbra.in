@@ -2,11 +2,15 @@
 title: Cyber Essentials Plus certification and tech support for Forpeople
 customerName: Forpeople
 coverImage: /assets/cyber-essentials-forpeople.jpg
+companyLogoUrl: "/assets/forpeople-logo.svg"
 isSubPage: true
 dark: true
 services:
-  - macos
-  - caching
+  - cyber-essentials-certification
+  - auditing-&-documentation
+  - elastic-tech-team
+  - responsive-helpdesk
+  - security-governance
 wrap: true
 excerpt: Forpeople is a creative studio based in London and Amsterdam. LeftBrain worked to ensure their workplace infrastructure passed Cyber Essentials Plus and their team were supported with our rapid response helpdesk.
 ---
@@ -24,3 +28,9 @@ Previously, Forpeople had their own internal workplace tech team, but found when
 ## Cyber security and outsourced tech support
 
 With their certification in place, we continue to support the team in London and Amsterdam to keep them in line with the latest cyber requirements. This requires us to always be ahead of the game, looking out for the latest security threats specific to their business. We also provide ongoing support for their cloud based infrastructure at a high level, working hand-in-hand with their in-house tech team so their creatives can focus on coming up with the visionary ideas they are here to make real!
+
+::: component NextSteps
+~~~
+~~~
+
+:::

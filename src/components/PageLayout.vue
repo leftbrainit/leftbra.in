@@ -9,7 +9,7 @@
             
         >
 
-        <div class="z-10">
+        <div class="z-10 flex flex-col min-h-screen">
             <Navigation class="flex-none z-10" />
             <main class="flex-grow z-10" :class="wrap ? 'py-12 md:py-32' : ''">
                 <div
@@ -25,6 +25,9 @@
                 </Wrapper>
                 <Wrapper v-if="wrap" tight class="z-10 prose prose-xl dark:prose-light dark:prose-xl max-w-4xl">
                     <slot />
+                    <template v-slot:sidebar>
+                        <Sidebar :frontmatter="frontmatter" />
+                    </template>
                 </Wrapper>
                 <div v-else>
                     <slot />

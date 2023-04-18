@@ -26,7 +26,9 @@
       "externalUrls": []
     },
     {
-      "pages": [],
+      "pages": [
+        "customers"
+      ],
       "externalUrls": [
         {
           "url": "https://intercom.help/leftbrain/en/",
@@ -37,7 +39,7 @@
           "title": "Dashboard"
         }
       ],
-      "name": "Support"
+      "name": "Resources"
     },
     {
       "externalUrls": [],

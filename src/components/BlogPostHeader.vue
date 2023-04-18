@@ -1,11 +1,11 @@
 <template>
-    <div>
+    <div class="">
         <div
         class="text-5xl sm:text-6xl md:text-7xl font-medium sm:leading-none font-title"
         v-html="frontmatter.title"
         />
         
-        <div class="flex flex-col md:flex-row md:gap-4 mt-3 mb-4">
+        <div class="flex flex-col md:flex-row md:gap-4 mt-3 mb-4 ">
             <Tags :tags="frontmatter.tags" />
             <!-- <div class="flex flex-row items-center justify-start">
                 <Tag v-for="(tag, index) in frontmatter.tags" :tag="tag"/>

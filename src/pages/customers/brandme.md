@@ -2,11 +2,16 @@
 title: Cloud migration and remote working for BrandMe’s creative team
 customerName: BrandMe
 coverImage: /assets/cloud-migration-brandme-taste-the-difference.jpg
+companyLogoUrl: "/assets/brandme-logo.png"
 isSubPage: true
 dark: true
 services:
-  - macos
-  - caching
+  - google-workspace
+  - cyber-essentials-certification
+  - security-governance
+  - regular-office-visits
+  - responsive-helpdesk
+  - incident-response
 wrap: true
 excerpt: BrandMe is an independent award-winning branding and packaging design agency based in Covent Garden. During the pandemic, they worked with LeftBrain to migrate their onsite server to Google Drive and ensure their systems were Cyber Essentials certified.
 ---

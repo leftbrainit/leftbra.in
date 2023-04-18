@@ -2,11 +2,14 @@
 title: Certified cyber security and scalable tech systems for Super Payments
 customerName: Super Payments
 coverImage: /assets/cyber-security-super-payments.png
+companyLogoUrl: /assets/super-payments-logo.svg
 isSubPage: true
 dark: true
 services:
-  - macos
-  - caching
+  - roadmap-ownership
+  - auditing-&-documentation
+  - responsive-helpdesk
+  - security-governance
 wrap: true
 excerpt: Super Payments believe that their simple Super app can save shoppers and businesses billions each year. LeftBrain provided their team with scalable and secure workplace technology, so they can get on with achieving this mission.
 ---
@@ -58,3 +61,8 @@ With their devices and cloud-based systems up and running, we now work with Supe
 
 Carl says: “I would highly recommend the LeftBrain team. They are fast, responsive and knowledgeable. Their help desk is easy to contact and issues are resolved quickly. In fact, I don’t hear much about our workplace tech, which is a good reflection that things are working well!”
 
+::: component NextSteps
+~~~
+~~~
+
+:::
