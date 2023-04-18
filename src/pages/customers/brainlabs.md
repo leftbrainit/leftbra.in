@@ -71,3 +71,12 @@ The love is mutual! Here at LeftBrain, we are incredibly proud to continue on th
 ~~~
 
 :::
+
+::: component StoriesReadNext
+~~~
+relatedStories:
+  - forpeople
+  - super-payments
+~~~
+
+:::

@@ -47,6 +47,7 @@ declare module 'vue' {
     Stat: typeof import('./src/components/Stat.vue')['default']
     StatBox: typeof import('./src/components/StatBox.vue')['default']
     Stories: typeof import('./src/components/Stories.vue')['default']
+    StoriesReadNext: typeof import('./src/components/StoriesReadNext.vue')['default']
     StoryCard: typeof import('./src/components/StoryCard.vue')['default']
     SubElement: typeof import('./src/components/SubElement.vue')['default']
     SubFeature: typeof import('./src/components/SubFeature.vue')['default']

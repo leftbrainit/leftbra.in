@@ -16,7 +16,7 @@
 <script setup lang="ts">
 import { inject } from "vue";
 import { useRoute, useRouter } from "vue-router"
-
+import {getPagesByRoute} from "../utilities"
 const route = useRoute()
 const router = useRouter()
 
@@ -26,22 +26,22 @@ const props = defineProps({
         default: "Vacancies"
     }
 })
-
-const stories = router.getRoutes().filter(route => route.path.startsWith("/customers/")).map(route => {
-    const frontmatter: any = route.meta.frontmatter ?? {}
-    const title = frontmatter.title ?? ""
-    const customerName = frontmatter.customerName ?? ""
-    const excerpt = frontmatter.excerpt ?? ""
-    const coverImage = frontmatter.coverImage ?? ""
-    const tags = frontmatter.tags ?? []
-    return {
-        routeName: route.name,
-        title,
-        customerName,
-        excerpt,
-        coverImage,
-        tags
-    }
-})
+const stories = getPagesByRoute("/customers/")
+// const stories = router.getRoutes().filter(route => route.path.startsWith("/customers/")).map(route => {
+//     const frontmatter: any = route.meta.frontmatter ?? {}
+//     const title = frontmatter.title ?? ""
+//     const customerName = frontmatter.customerName ?? ""
+//     const excerpt = frontmatter.excerpt ?? ""
+//     const coverImage = frontmatter.coverImage ?? ""
+//     const tags = frontmatter.tags ?? []
+//     return {
+//         routeName: route.name,
+//         title,
+//         customerName,
+//         excerpt,
+//         coverImage,
+//         tags
+//     }
+// })
 
 </script>

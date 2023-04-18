@@ -66,3 +66,12 @@ Carl says: “I would highly recommend the LeftBrain team. They are fast, respon
 ~~~
 
 :::
+
+::: component StoriesReadNext
+~~~
+relatedStories:
+  - brainlabs
+  - newlook
+~~~
+
+:::

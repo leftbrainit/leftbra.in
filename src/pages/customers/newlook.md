@@ -50,3 +50,12 @@ LeftBrain continues to oversee the workplace technology for all of New Look’s 
 ~~~
 
 :::
+
+::: component StoriesReadNext
+~~~
+relatedStories:
+  - forpeople
+  - brandme
+~~~
+
+:::

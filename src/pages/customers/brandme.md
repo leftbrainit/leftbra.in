@@ -59,3 +59,12 @@ Since the pandemic, BrandMe has kept a flexible working policy with many of thei
 ~~~
 
 :::
+
+::: component StoriesReadNext
+~~~
+relatedStories:
+  - brainlabs
+  - forpeople
+~~~
+
+:::

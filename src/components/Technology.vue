@@ -64,7 +64,7 @@ const features = [
     {
         title: "Get Help Fast",
         description: "Chat live with our team, read help articles and manage your devices and services from the comfort of your desktop.",
-        imageUrl: "/assets/dashboard-3.png"
+        imageUrl: "/assets/messenger-screenshot.png"
     },
     {
         title: "Manage Your Account",

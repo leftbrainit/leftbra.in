@@ -34,3 +34,12 @@ With their certification in place, we continue to support the team in London and
 ~~~
 
 :::
+
+::: component StoriesReadNext
+~~~
+relatedStories:
+  - brainlabs
+  - super-payments
+~~~
+
+:::
