@@ -52,23 +52,23 @@ const selected = ref(0)
 const features = [
     {
         title: "Everything In One Place",
-        description: "Our strategy team make all the things that are strategic easy to understand fun and funky and stupid. You’re stupid.",
+        description: "View, organise and understand your users, devices, services and infrastructure in our Dashboard.",
         imageUrl: "/assets/dashboard-1.png"
     },
     {
-        title: "Check Yo Bizniss",
-        description: "Our strategy team make all the things that are strategic easy to understand fun and funky and stupid. You’re stupid.",
+        title: "Share Knowledge",
+        description: "Company admins and tech people can collaborate with the LeftBrain team on documentation, and share help articles with their teams.",
         imageUrl: "/assets/dashboard-2.png",
         new: true
     },
     {
-        title: "Monitor Yo Tings",
-        description: "Our strategy team make all the things that are strategic easy to understand fun and funky and stupid. You’re stupid.",
+        title: "Get Help Fast",
+        description: "Chat live with our team, read help articles and manage your devices and services from the comfort of your desktop.",
         imageUrl: "/assets/dashboard-3.png"
     },
     {
-        title: "Check Yo Bizniss",
-        description: "Our strategy team make all the things that are strategic easy to understand fun and funky and stupid. You’re stupid.",
+        title: "Manage Your Account",
+        description: "View and pay your invoices, add or remove services and manage your account, in our billing portal.",
         imageUrl: "/assets/dashboard-3.png"
     }
 ]

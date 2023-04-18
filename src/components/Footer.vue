@@ -26,7 +26,7 @@
                                     >
                                         <router-link
                                             v-if="item.type === 'page'"
-                                            :to="item.to"
+                                            :to="{ name: item.to, hash: item.hash }"
                                         >{{ item.title }}</router-link>
                                         <a v-else :href="item.to">{{ item.title }}</a>
                                     </li>
@@ -83,6 +83,7 @@ const footer = siteConfig.footerCategories.map(category => {
         return {
             to: externalUrl.url,
             title: externalUrl.title,
+            hash: null,
             type: 'external'
         }
     })
@@ -92,13 +93,15 @@ const footer = siteConfig.footerCategories.map(category => {
         items.push({
             to: routeName,
             title: route ? route.niceName : routeName,
+            hash: null,
             type: 'page'
         })
     })
     if (category.name === "Services") {
         capabilities.forEach(capability => {
         items.push({
-            to: `/services#${capability.id}`,
+            to: "services",
+            hash: `#${capability.id}`,
             title: capability.title,
             type: 'page'
         })

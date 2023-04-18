@@ -1,6 +1,6 @@
 <template>
     <figure v-motion v-motion-slide-visible-once-bottom class="not-prose clear-both rounded-xl bg-primary-100/50 border border-white/10 backdrop-blur-sm p-8">
-        <img class="w-18 self-start pb-6" v-if="testimonial.position === 'featured'" :src="testimonial.companyLogoUrl" alt="" />
+        <img class="h-12 self-start pb-6" v-if="testimonial.companyLogoUrl" :src="testimonial.companyLogoUrl" alt="" />
         <blockquote class="q text-white/80" :class="testimonial.size === 'lg' ? 'text-lg leading-8' : 'text-2xl leading-10'">
             <slot class="q"><p v-html="testimonial.body"></p></slot>
             

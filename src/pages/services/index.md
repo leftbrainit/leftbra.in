@@ -40,7 +40,8 @@ capability: "security"
 slogan: "Stay safe without slowing down"
 ~~~
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+Keeping your company and your data secure is a constant battle. Our Information Security Team take a holistic, flexible and modern approach, creating and evolving a bespoke security architecture for each environment.
+
 :::
 
 ::: component ImageSection

@@ -34,8 +34,6 @@ Let’s imagine every staff member has their own unique WiFi password to join th
 
 It can be, but it also doesn’t have to be. We’ve helped our clients roll out RAIDUS authentication with very little additional investment, more often than not, the equipment and software required is already built into the existing network infrastructure (one of the perks of having your IT support partners handle everything). Once setup, everything works like normal WiFi. In fact, it’s completely transparent to the end user as all macOS and iOS devices support RADIUS and will auto join the network.
 
-![Screen Shot 2018-05-21 at 12.08.22](https://leftbrain.it/assets/Screen%20Shot%202018-05-21%20at%2012.08.22.png)*Within the UniFi controller, enabling RADIUS is as simple as turning it on and defining an authentication server.*
-
 For a typical office, we’ll normally deploy three wireless networks:
 
 1. The main company WiFi. This can only be logged on via RADIUS authentication. Access to company data is only available via this network.

@@ -11,6 +11,14 @@ wrap: true
 excerpt: BrandMe is an independent award-winning branding and packaging design agency based in Covent Garden. During the pandemic, they worked with LeftBrain to migrate their onsite server to Google Drive and ensure their systems were Cyber Essentials certified.
 ---
 
+::: component StandFirst
+~~~
+~~~
+
+LeftBrain has been working with BrandMe for over ten years. During the pandemic, our teams worked together to transition their traditional office workspace in Covent Garden to a more flexible, cloud-based environment so staff could work from home.
+
+:::
+
 “I’m really proud of the work we do,” explains Celine Smith, Managing Director of BrandMe. “We created the original Taste the Difference brand for Sainsbury's in 1999, and have been brand guardians ever since, seeing its value grow to one billion pounds. More recently, we relaunched the nakd raw fruit & nut bar and have been doing lots of work for them." 
 
 LeftBrain have been looking after BrandMe’s workplace technology for almost ten years, designing and building their infrastructure, visiting their offices twice a week, and ensuring all their employees receive excellent support through our help desk. “We fell in love with LeftBrain from the beginning,” Celine says. “They were recommended to us by our Finance Consultant, and we found that they matched the collaborative way we worked: it felt like their engineers were part of the team.”
@@ -23,10 +31,6 @@ LeftBrain’s team of information security engineers managed a complete overhaul
 
 “The project went really well,” Celine says. “It was seamless, we never had any loss of efficiency. LeftBrain were super quick to respond to all the challenges, and were in constant contact with us finding ways to improve things.”
 
-## Rapid-response help desk and ongoing support
-
-Since the pandemic, BrandMe has kept a flexible working policy with many of their employees working from home on Mondays and Fridays. We continue to support the team with regular site visits, our rapid-response end user support and ongoing security monitoring. 
-
 ::: component Testimonial
 ~~~
 size: "xl"
@@ -36,5 +40,17 @@ authorJobTitle: "Managing Director"
 companyName: "BrandMe"
 ~~~
 We love LeftBrain! Our IT has never run better since they took over. They have the answer for every IT and techie question we ever have. Their response time is super fast and to top it all, they are all really lovely people.
+
+:::
+
+
+## Rapid-response help desk and ongoing support
+
+Since the pandemic, BrandMe has kept a flexible working policy with many of their employees working from home on Mondays and Fridays. We continue to support the team with regular site visits, our rapid-response end user support and ongoing security monitoring. 
+
+
+::: component NextSteps
+~~~
+~~~
 
 :::

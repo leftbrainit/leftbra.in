@@ -11,7 +11,13 @@ wrap: true
 excerpt: Brainlabs are a fast-growing, global agency on the forefront of tech innovation. They asked LeftBrain to build secure and scalable systems, to seamlessly integrate their new acquisitions and onboard new team members.
 ---
 
+::: component StandFirst
+~~~
+~~~
+
 [Brainlabs](https://www.brainlabsdigital.com/) are on a mission to build the biggest digital-first media agency in the world. They hire the top talent in the industry, and give them the right training, tools and culture to do their best work. That’s why LeftBrain was brought on board – to ensure their workplace infrastructure was scalable, secure and easy to use.
+
+:::
 
 ::: component InlineImage
 ~~~

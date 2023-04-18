@@ -11,7 +11,13 @@ wrap: true
 excerpt: Super Payments believe that their simple Super app can save shoppers and businesses billions each year. LeftBrain provided their team with scalable and secure workplace technology, so they can get on with achieving this mission.
 ---
 
+::: component StandFirst
+~~~
+~~~
+
 Super Payments has a vision to disrupt the payment system as we know it, and offer free payments to businesses and more rewarding shopping for members. At LeftBrain, we love challenging the status quo and were delighted to help Super Payments carry out their mission with a scalable and secure workplace technology.
+
+:::
 
 ::: component InlineImage
 ~~~
