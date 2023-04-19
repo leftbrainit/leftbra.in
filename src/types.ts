@@ -69,6 +69,7 @@ interface Capability {
     backgroundImageUrl: string
     link: string
     id: string
+    icon: string
     services: string[]
 }
 

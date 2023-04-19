@@ -28,25 +28,36 @@ export const springTransition = {
     mass: 2,
 }
 
-export function getPagesByRoute(routeStartsWith: string) {
+interface GetPagesByRouteOptions {
+    sort:  "asc" | "desc"
+}
+
+export function getPagesByRoute(routeStartsWith: string, options: GetPagesByRouteOptions = { sort: "asc" }) {
     const router = useRouter()
-    return router.getRoutes().filter(route => route.path.startsWith(routeStartsWith)).map(route => {
+    const pages = router.getRoutes().filter(route => route.path.startsWith(routeStartsWith)).map(route => {
         const frontmatter: any = route.meta.frontmatter ?? {}
         const title = frontmatter.title ?? ""
         const customerName = frontmatter.customerName ?? ""
+        const authorName = frontmatter.authorName ?? ""
         const excerpt = frontmatter.excerpt ?? ""
         const coverImage = frontmatter.coverImage ?? ""
+        const capability = frontmatter.capability ?? ""
         const tags = frontmatter.tags ?? []
         const icon = frontmatter.icon ?? ""
         return {
+            ...frontmatter,
             routeName: route.name,
             title,
             customerName,
             excerpt,
             coverImage,
+            capability,
             tags,
             icon,
-            path: route.path
+            path: route.path,
+            authorName
         }
     })
+    if (options.sort === "asc") return pages.sort((a, b) => (a.path > b.path) ? 1 : -1)
+    else return pages.sort((a, b) => (a.path > b.path) ? -1 : 1)
 }

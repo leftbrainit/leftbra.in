@@ -9,7 +9,7 @@
     "proxy": "npx netlify-cms-proxy-server"
   },
   "dependencies": {
-    "@headlessui/vue": "^1.4.1",
+    "@headlessui/vue": "^1.7.13",
     "@heroicons/vue": "^1.0.4",
     "@vueuse/core": "^9.12.0",
     "@vueuse/motion": "2.0.0-beta.12",

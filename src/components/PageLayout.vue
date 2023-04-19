@@ -10,7 +10,7 @@
         >
 
         <div class="z-10 flex flex-col min-h-screen">
-            <Navigation class="flex-none z-10" />
+            <Navigation class="flex-none z-30" />
             <main class="flex-grow z-10" :class="wrap ? 'py-12 md:py-32' : ''">
                 <div
                     v-if="isSubPage && parentRoute"

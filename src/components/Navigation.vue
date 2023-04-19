@@ -45,12 +45,12 @@
         >
             <PopoverPanel
                 focus
-                class="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+                class="absolute z-30 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
             >
                 <div
-                    class="rounded-lg shadow-md bg-gray-900 ring-1 ring-black ring-opacity-5 overflow-hidden"
+                    class="rounded-lg z-30 shadow-md bg-gray-900 ring-1 ring-black ring-opacity-5 overflow-hidden"
                 >
-                    <div class="px-5 pt-4 flex items-center justify-between">
+                    <div class="px-5 z-30 pt-4 flex items-center justify-between">
                         <Logo class="text-gray-100 h-8" />
                         <div class="-mr-2">
                             <PopoverButton
@@ -61,16 +61,16 @@
                             </PopoverButton>
                         </div>
                     </div>
-                    <div class="px-2 pt-4 pb-3">
+                    <div class="px-2 z-30 pt-4 pb-3">
                         <router-link
-                            class="block px-3 py-2 rounded-md text-base font-medium text-gray-200 hover:text-gray-50 hover:bg-gray-800"
+                            class="block z-30 px-3 py-2 rounded-md text-base font-medium text-gray-200 hover:text-gray-50 hover:bg-gray-800"
                             v-for="route in navigation"
                             :to="{ name: route.name }"
                         >{{ route.niceName }}</router-link>
                     </div>
                     <a
                         :href="dashboardBaseURL"
-                        class="block w-full px-5 py-3 text-center font-medium text-primary-500 bg-gray-950 hover:bg-gray-800"
+                        class="block z-30 w-full px-5 py-3 text-center font-medium text-primary-500 bg-gray-950 hover:bg-gray-800"
                     >Sign in &rarr;</a>
                 </div>
             </PopoverPanel>

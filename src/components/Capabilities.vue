@@ -8,7 +8,7 @@
         class="prose prose-xl max-w-4xl text-xl md:text-2xl text-white/90 pt-16 pb-12 highlight-links-lg md:leading-relaxed font-normal font-sans">
             <slot />
         </div>
-        <div class="grid grid-cols-2 gap-14">
+        <div class="grid md:grid-cols-2 gap-14">
             <CapabilityCard v-for="capability in capabilities" v-bind="capability" />
         </div>
     </Wrapper>

@@ -4,7 +4,7 @@
         <img class="c"  :src="teamMember?.image" alt="">
         </span>
         <span v-else class="material-symbols-outlined mr-1 opacity-60">person</span>
-        <span class="opacity-90 font-medium">{{ props.name }}</span>
+        <span class="not-prose leading-tight text-[1rem] font-medium text-white/70">{{ props.name }}</span>
     </div>
 </template>
 

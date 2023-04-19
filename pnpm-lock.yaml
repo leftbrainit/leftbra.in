@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@headlessui/vue': ^1.4.1
+  '@headlessui/vue': ^1.7.13
   '@heroicons/vue': ^1.0.4
   '@netlify/plugin-sitemap': ^0.8.1
   '@tailwindcss/aspect-ratio': ^0.4.2
@@ -42,7 +42,7 @@ specifiers:
   vue-tsc: ^1.0.24
 
 dependencies:
-  '@headlessui/vue': 1.7.8_vue@3.2.47
+  '@headlessui/vue': 1.7.13_vue@3.2.47
   '@heroicons/vue': 1.0.6_vue@3.2.47
   '@vueuse/core': 9.12.0_vue@3.2.47
   '@vueuse/motion': 2.0.0-beta.12_vue@3.2.47
@@ -144,8 +144,8 @@ packages:
     dev: true
     optional: true
 
-  /@headlessui/vue/1.7.8_vue@3.2.47:
-    resolution: {integrity: sha512-J83kAz3drFjndXz/AOoxmgzVo/MtSNFFn/K9qhSSJ8EGhmRfwdJLhZ0W4NSrw6A10JxhXDlkjoV0UxOiBLr5iQ==}
+  /@headlessui/vue/1.7.13_vue@3.2.47:
+    resolution: {integrity: sha512-obG5TdPdBDfs+jiA1mY29LPFqyJl93Q90EL86ontfRe1B6XvbjPkx+x1aAC5DA18bXbb0Juni1ayDbXo0w1u0A==}
     engines: {node: '>=10'}
     peerDependencies:
       vue: ^3.2.0

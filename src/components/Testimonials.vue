@@ -9,8 +9,13 @@
                 class="prose prose-xl max-w-4xl text-xl md:text-2xl text-white/90 pt-16 pb-12 highlight-links-lg md:leading-relaxed font-normal font-sans">
                 <slot />
             </div>
-            <div class="grid grid-cols-3 gap-8 content-start">
-                <div class="col-span-2 grid grid-cols-2 gap-8 content-start">
+            <div class="grid md:hidden gap-8">
+                <div v-for="testimonial in testimonials" >
+                    <Testimonial v-bind="testimonial" />
+                </div>
+            </div>
+            <div class="hidden md:grid grid-cols-1 md:grid-cols-3 gap-8 content-start">
+                <div class="col-span-2 grid grid-cols-1 md:grid-cols-2 gap-8 content-start">
                     <div  class="col-span-2">
                         <Testimonial v-if="featuredTestimonial" v-bind="featuredTestimonial" />
                     </div>

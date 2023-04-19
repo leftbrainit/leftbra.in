@@ -19,18 +19,11 @@ We've designed a range of modular services that can be customised, combined and 
 ~~~
 capability: "strategy"
 slogan: "Build the perfect beast"
+imageAlign: right
+backgroundImageUrl: /assets/globe-2.png
 ~~~
 
 Technology that's too complicated, poorly chosen or just plain broken, kills productivity and makes people sad. Our Strategists partner with our clients to create **beautifully simple** workplace technology experiences for their teams, so they always have the right set of tools, ready to get to work whenever (and wherever) they are.
-
-:::
-
-::: component ImageSection
-~~~
-portraitImage: /assets/219A4875.jpg
-landscapeImage: /assets/219A5113.jpg
-portraitFirst: true
-~~~
 
 :::
 
@@ -38,18 +31,11 @@ portraitFirst: true
 ~~~
 capability: "security"
 slogan: "Stay safe without slowing down"
+imageAlign: left
+backgroundImageUrl: /assets/globe-3.png
 ~~~
 
 Keeping your company and your data secure is a constant battle. Our Information Security Team take a holistic, flexible and modern approach, creating and evolving a bespoke security architecture for each environment.
-
-:::
-
-::: component ImageSection
-~~~
-portraitImage: /assets/219A4970.jpg
-landscapeImage: /assets/219A5485.jpg
-portraitFirst: false
-~~~
 
 :::
 
@@ -58,6 +44,8 @@ portraitFirst: false
 ~~~
 slogan: "By humans: for humans"
 capability: "support"
+imageAlign: right
+backgroundImageUrl: /assets/globe-2.png
 ~~~
 
 Getting tech support is rarely fun. Ticket numbers, long waits, missed appointments, "your call is important to us", bleh. Our Support team work to reduce friction, and make it as easy as possible for the people we support to get help when they need it.
@@ -65,19 +53,12 @@ Getting tech support is rarely fun. Ticket numbers, long waits, missed appointme
 :::
 
 
-::: component ImageSection
-~~~
-portraitImage: /assets/219A4875.jpg
-landscapeImage: /assets/219A5113.jpg
-portraitFirst: true
-~~~
-
-:::
-
 ::: component CapabilitySection
 ~~~
 slogan: "Failure is not an option"
 capability: "infrastructure"
+imageAlign: left
+backgroundImageUrl: /assets/globe-3.png
 ~~~
 
 Our Infrastructure team manage thousands of devices, on premise networks, cloud environments and SaaS apps: ensuring every component is secure, reliable and perfectly integrated.

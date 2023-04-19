@@ -5,6 +5,7 @@
 declare module 'vue' {
   export interface GlobalComponents {
     Avatar: typeof import('./src/components/Avatar.vue')['default']
+    BlogPostCard: typeof import('./src/components/BlogPostCard.vue')['default']
     BlogPostHeader: typeof import('./src/components/BlogPostHeader.vue')['default']
     BlogPosts: typeof import('./src/components/BlogPosts.vue')['default']
     Button: typeof import('./src/components/Button.vue')['default']
@@ -51,6 +52,7 @@ declare module 'vue' {
     StoryCard: typeof import('./src/components/StoryCard.vue')['default']
     SubElement: typeof import('./src/components/SubElement.vue')['default']
     SubFeature: typeof import('./src/components/SubFeature.vue')['default']
+    SubFeature2: typeof import('./src/components/SubFeature2.vue')['default']
     Tag: typeof import('./src/components/Tag.vue')['default']
     Tags: typeof import('./src/components/Tags.vue')['default']
     Team: typeof import('./src/components/Team.vue')['default']
