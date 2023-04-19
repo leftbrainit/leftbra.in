@@ -3,7 +3,7 @@
         <Prose class="max-w-prose">
             <slot />
         </Prose>
-        <div class="mt-12">
+        <div class="mt-12 pb-12">
             <div class="text-lg font-semibold w-full opacity-70 rounded-xl py-4 px-8 border-2 border-dotted border-opacity-10"
                 v-if="!stories.length">No customer stories. Check back soon!</div>
             <ul v-else class="grid md:grid-cols-2 gap-8 place-items-stretch">

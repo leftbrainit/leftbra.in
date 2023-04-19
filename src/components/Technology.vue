@@ -25,8 +25,8 @@
                     </div>
                     <div class="noborder border-red-500">
                         <div v-for="(feature, index) in features"
-                            class=" cursor-pointer  transition-all z-10 rounded-lg border border-white/0 -ml-8 px-8 scale-100 py-5 my-3 pr-96 hover:backdrop-blur-sm hover:border hover:scale-105 hover:border-white/20 hover:bg-white/10"
-                            :class="index === selected ? ' border-white/20 bg-white/10 backdrop-blur-sm' : 'bg-white/0'"
+                            class=" cursor-pointer  transition-all z-10 rounded-lg  -ml-8 px-8 scale-100 py-5 my-3 pr-96 hover:backdrop-blur-sm hover:border hover:scale-105 hover:border-white/20 hover:bg-white/10"
+                            :class="index === selected ? 'border border-white/20 bg-white/10 backdrop-blur-sm' : 'bg-white/0'"
                             >
                             
                             <div @click="selected = index" class="cursor-pointer">
@@ -53,23 +53,23 @@ const features = [
     {
         title: "Everything In One Place",
         description: "View, organise and understand your users, devices, services and infrastructure in our Dashboard.",
-        imageUrl: "/assets/dashboard-1.png"
+        imageUrl: "/assets/dashboard-01.png"
     },
     {
         title: "Share Knowledge",
         description: "Company admins and tech people can collaborate with the LeftBrain team on documentation, and share help articles with their teams.",
-        imageUrl: "/assets/dashboard-2.png",
+        imageUrl: "/assets/dashboard-02.png",
         new: true
     },
     {
         title: "Get Help Fast",
         description: "Chat live with our team, read help articles and manage your devices and services from the comfort of your desktop.",
-        imageUrl: "/assets/messenger-screenshot.png"
+        imageUrl: "/assets/dashboard-02.png"
     },
     {
         title: "Manage Your Account",
         description: "View and pay your invoices, add or remove services and manage your account, in our billing portal.",
-        imageUrl: "/assets/dashboard-3.png"
+        imageUrl: "/assets/dashboard-01.png"
     }
 ]
 </script>

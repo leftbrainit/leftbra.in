@@ -18,6 +18,7 @@ We’re on a mission to change the face of technology at work. Our team are as f
 ~~~
 title: "Life At LeftBrain"
 slogan: "Challenging (in a good way)"
+colour: "green"
 subFeatures:
   - title: "Flexible working"
     icon: "more_time"
