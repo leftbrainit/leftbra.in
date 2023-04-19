@@ -1,6 +1,6 @@
 <template>
     <Wrapper tight class="">
-        <div v-motion-slide-top class=" grid content-end  py-20" :class="props.fullHeight ? 'h-[90vh]' : 'h-[40em]'">
+        <div v-motion-slide-top class=" grid content-end  py-20" :class="props.fullHeight ? 'h-[90vh]' : 'h-auto pt-64'">
             <div class="">
             <h6 v-if="subtitle" v-html="subtitle" class="text-lg text-primary-500 uppercase font-mono font-medium pb-3"/>
             <h1

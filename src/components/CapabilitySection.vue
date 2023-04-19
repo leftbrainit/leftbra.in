@@ -1,5 +1,4 @@
 <template>
-        <div class="bg-cover " :style="`background-image: url(${props.backgroundImageUrl});`">
 <div v-if="capability.id" :id="capability.id"></div>
         <Wrapper class="py-12  md:py-24 lg:py-40">
             <div>
@@ -64,7 +63,6 @@
             </div> -->
         </div>
         </Wrapper>
-    </div>
 </template>
 
 <script setup lang="ts">

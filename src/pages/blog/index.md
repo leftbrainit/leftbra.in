@@ -10,8 +10,7 @@ wrap: false
 title: "Blog"
 ~~~
 
-We’re so busy with our mission to change the face of technology at work, we rarely get time to write down our thoughts (insightful as they may be). But when we do, you'll find them here.
-
+We are an interesting (and interested) bunch. Here you’ll find an eclectic mix of thoughts, experiences and opinions from the brains behind LeftBrain. 
 :::
 
 ::: component BlogPosts
