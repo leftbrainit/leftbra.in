@@ -4,7 +4,7 @@
         <Prose class="max-w-prose">
             <slot />
         </Prose>
-        <div class="mt-12">
+        <!-- <div class="mt-12">
             <div
                 class="text-lg font-semibold w-full opacity-70 rounded-xl py-4 px-8 border-2 border-dotted border-opacity-10"
                 v-if="!vacancies.length"
@@ -31,7 +31,7 @@
                     </li>
                 </router-link>
             </ul>
-        </div>
+        </div> -->
     </Wrapper>
 </template>
 

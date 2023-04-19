@@ -1,27 +1,23 @@
 <template>
-    <div>
+    <div class="">
         <div
-        class="text-5xl sm:text-6xl md:text-7xl font-bold sm:leading-none"
+        class="text-3xl sm:text-6xl md:text-7xl font-medium sm:leading-none font-title"
         v-html="frontmatter.title"
         />
-        <div class="flex flex-col md:flex-row md:gap-4 mt-3 mb-4">
-            <div class="flex flex-row items-center justify-start">
-                <div
-                    class="rounded-full bg-green-400 text-gray-50 py-0.5 px-2 text-sm font-semibold uppercase"
-                    v-for="(tag, index) in frontmatter.tags"
-                    :class="Number(index) > 0 ? 'ml-1.5' : ''"
-                >{{ tag }}</div>
-            </div>
-            <Avatar :name="frontmatter.authorName" />
-            <div class="flex flex-row items-center justify-start">
-                <span class="material-icons mr-1 opacity-60">event</span>
+        
+        <div class="flex flex-col md:flex-row md:gap-4 mt-3 mb-4 ">
+            <Tags :tags="frontmatter.tags" />
+            <Avatar v-if="frontmatter.authorName" :name="frontmatter.authorName" />
+            <!-- <div v-if="frontmatter.publishDate" class="flex flex-row items-center justify-start">
+                <span class="material-symbols-outlined mr-1 opacity-60">event</span>
                 <span class="opacity-90 font-medium">{{ frontmatter.publishDate }}</span>
-            </div>
+            </div> -->
         </div>
-        <div class="flex flex-col md:flex-row md:gap-4 -mb-10 -mt-10" v-if="frontmatter.image">
-            <img :src="frontmatter.image" :alt="frontmatter.title">
+        <div class="mt-6 w-full rounded-2xl h-64 md:h-[600px] bg-cover bg-center" :style="`background-image: url(${frontmatter.coverImage});`" v-if="frontmatter.coverImage">
         </div>
-        <slot />
+        
+
+        <slot class="" />
     </div>
 </template>
 

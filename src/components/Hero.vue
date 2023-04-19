@@ -1,16 +1,26 @@
 <template>
-    <Wrapper>
-        <div class="mb-20 py-10 md:py-24 lg:py-32">
-            <!-- <div class="pt-10 pb-24 md:pt-28 md:pb-40 lg:pt-36 lg:pb-"> -->
+    <Wrapper tight class="">
+        <div v-motion-slide-top class=" grid content-end  py-20" :class="props.fullHeight ? 'h-[90vh]' : 'h-[40em]'">
+            <div class="">
+            <h6 v-if="subtitle" v-html="subtitle" class="text-lg text-primary-500 uppercase font-mono font-medium pb-3"/>
             <h1
-                class="text-5xl sm:text-6xl md:text-7xl max-w-3xl font-bold sm:leading-none"
+                class="text-5xl sm:text-6xl md:text-7xl nomax-w-3xl font-medium sm:leading-none font-title"
                 v-html="title"
             />
             <div
-                class="prose prose-xl dark:prose-light max-w-3xl text-xl md:text-2xl mt-5 opacity-90 underline-links-lg md:leading-relaxed"
-            >
+
+            class="prose prose-xl max-w-4xl text-xl md:text-2xl opacity-100 pt-4 pb-8 text-white/90 highlight-links-lg md:leading-relaxed font-normal font-sans">
+            
                 <slot />
             </div>
+            <div class="" v-if="props.callToActionText && props.callToActionUrl">
+                <ButtonLink :text="props.callToActionText" :href="props.callToActionUrl" />
+            </div>
+            <div class="" v-else-if="props.callToActionText">
+                <ContactNewBusinessButton :text="props.callToActionText" />
+            </div>
+            </div>
+            
         </div>
     </Wrapper>
 </template>
@@ -21,6 +31,22 @@ const props = defineProps({
     title: {
         type: String,
         required: true
+    },
+    subtitle: {
+        type: String,
+        required: false
+    },
+    callToActionText: {
+        type: String,
+        required: false
+    },
+    callToActionUrl: {
+        type: String,
+        required: false
+    },
+    fullHeight: {
+        type: Boolean,
+        default: false
     }
 })
 

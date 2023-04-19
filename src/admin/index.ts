@@ -3,16 +3,16 @@ import { fetchVueComponentData, buildEditorComponent } from "./utils"
 
 declare global {
     interface Window {
-        NetlifyCmsApp: CMS;
+        CMS: CMS;
     }
 }
 
 async function init() {
     const vueComponents = await fetchVueComponentData()
-    window.NetlifyCmsApp.init();
+    window.CMS.init();
     vueComponents.map(vueComponent => {
         const editorComponent = buildEditorComponent(vueComponent)
-        window.NetlifyCmsApp.registerEditorComponent(editorComponent);
+        window.CMS.registerEditorComponent(editorComponent);
     })
 }
 

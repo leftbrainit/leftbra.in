@@ -4,6 +4,8 @@ description: Services for enterprise
 dark: true
 wrap: false
 isSubPage: false
+headerImageUrl: /assets/globe-1.png
+
 ---
 ::: component Hero
 ~~~
@@ -21,7 +23,7 @@ LeftBrain partners with enterprises and high-growth startups to make their inter
 ~~~
 title: "Staffing"
 slogan: "Support for support teams"
-colour: ""
+colour: "green"
 subFeatures:
   - title: "People On Demand"
     icon: "group_add"

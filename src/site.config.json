@@ -2,7 +2,8 @@
   "dashboardBaseURL": "https://dashboard.leftbrain.it",
   "googleMapsAPIKey": "AIzaSyDuj314L6_J7CY3xQBtqjU7S8Pp32dlDaM",
   "topNavigationItems": [
-    "enterprise",
+    "services",
+    "customers",
     "blog",
     "about",
     "contact"
@@ -10,7 +11,6 @@
   "footerCategories": [
     {
       "pages": [
-        "enterprise"
       ],
       "externalUrls": [],
       "name": "Services"
@@ -26,18 +26,20 @@
       "externalUrls": []
     },
     {
-      "pages": [],
+      "pages": [
+        "customers"
+      ],
       "externalUrls": [
         {
           "url": "https://intercom.help/leftbrain/en/",
           "title": "Help Centre"
         },
         {
-          "url": "https://dashboard.leftbrain.it",
+          "url": "https://dashboard.leftbra.in",
           "title": "Dashboard"
         }
       ],
-      "name": "Support"
+      "name": "Resources"
     },
     {
       "externalUrls": [],
@@ -49,7 +51,7 @@
       ]
     }
   ],
-  "copyrightNotice": "&copy; 2021 LeftBrain Ltd. All rights reserved.",
+  "copyrightNotice": "&copy; 2023 LeftBrain Ltd. All rights reserved.",
   "socialLinks": [
     {
       "title": "Instagram",

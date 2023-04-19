@@ -1,9 +1,13 @@
 ---
-show_on_website: false
-status: Done
-also_known_as: 
-description_dry: 
-copy_for_website: Build and evolve a library of help content to allow your team to get instant answers to common tech questions
+isSubPage: true
+dark: true
+title: "Knowledge Base Dev"
+notionUrl: "https://www.notion.so/Knowledge-Base-Dev-b77674462bd34fc89ead32a06ffcc7d5"
+icon: "edit_note"
+wrap: true
+coverImage: /assets/219A6049.jpg
+capability: strategy
+excerpt: "Build and evolve a library of help content to allow your team to get instant answers to common tech questions"
 teams: 
-name: Knowledge Base Dev
 ---
+Build and evolve a library of help content to allow your team to get instant answers to common tech questions

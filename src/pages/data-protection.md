@@ -8,6 +8,7 @@ description: LeftBrain provides technology services to businesses. Although we
   article details the data we hold, who has access, the measures we take to
   protect it, and how we get rid of it when it’s no longer of use.
 wrap: true
+dark: true
 ---
 ## Data Protection Policy
 

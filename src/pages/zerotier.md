@@ -4,6 +4,7 @@ isSubPage: false
 description: ZeroTier is a highly secure software defined networking service
   (SDN) that allows peer to peer connections between device over the internet.
 wrap: false
+dark: true
 ---
 ::: component Hero
 ~~~

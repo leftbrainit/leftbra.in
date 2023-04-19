@@ -1,8 +1,16 @@
 <template>
     <Wrapper>
-        <div class="pb-16" v-for="post in posts">
+        <div class="mt-12 pb-16">
+            <div class="text-lg font-semibold w-full opacity-70 rounded-xl py-4 px-8 border-2 border-dotted border-opacity-10"
+                v-if="!posts.length">No posts. Check back soon!</div>
+            <ul v-else class="grid md:grid-cols-2 gap-8 place-items-stretch">
+                <BlogPostCard v-for="post in posts" v-bind="post" />
+            </ul>
+        </div>
+        <!-- <div class="pb-16" v-for="post in posts">
+
             <div
-                class="opacity-90 text-4xl md:max-w-3xl sm:text-5xl md:text-6xl font-bold sm:leading-none"
+                class="opacity-90 text-3xl font-title sm:text-5xl md:text-5xl sm:leading-none"
             >
                 <router-link
                     class="whitespace-normal"
@@ -10,20 +18,10 @@
                 >{{ post.title }}</router-link>
             </div>
             <div class="flex flex-col md:flex-row md:gap-4 mt-4 mb-4">
-                <div class="flex flex-row items-center justify-start">
-                    <div
-                        class="rounded-full bg-green-400 text-gray-50 py-0.5 px-2 text-sm font-semibold uppercase"
-                        v-for="(tag, index) in post.tags"
-                        :class="Number(index) > 0 ? 'ml-1.5' : ''"
-                    >{{ tag }}</div>
-                </div>
-                <!-- <div class="flex flex-row items-center justify-start">
-                    <span class="material-icons mr-1 opacity-60">person</span>
-                    <span class="opacity-90 font-medium">{{ post.authorName }}</span>
-                </div> -->
+                <Tags :tags="post.tags" />
                 <Avatar :name="post.authorName" />
                 <div class="flex flex-row items-center justify-start">
-                    <span class="material-icons mr-1 opacity-60">event</span>
+                    <span class="material-symbols-outlined mr-1 opacity-60">event</span>
                     <span class="opacity-90 font-medium">{{ post.publishDate }}</span>
                 </div>
             </div>
@@ -34,17 +32,20 @@
             <div class="mt-2 text-lg opacity-60 font-semibold">
                 <router-link :to="{ name: post.routeName }">Read more &rarr;</router-link>
             </div>
-        </div>
+        </div> -->
     </Wrapper>
 </template>
 
 <script setup lang="ts">
 import { inject } from "vue";
 import { useRoute, useRouter } from "vue-router"
+import {getPagesByRoute} from "../utilities"
 
 const route = useRoute()
 const router = useRouter()
-const posts = router.getRoutes().filter(route => route.path.startsWith("/blog/")).map(route => {
+
+const posts = getPagesByRoute("/blog/", {sort: "desc"})
+const postsaa = router.getRoutes().filter(route => route.path.startsWith("/blog/")).map(route => {
     const frontmatter: any = route.meta.frontmatter ?? {}
     frontmatter.routeName = route.name ?? ""
     const title = frontmatter.title ?? ""
@@ -53,7 +54,9 @@ const posts = router.getRoutes().filter(route => route.path.startsWith("/blog/")
     const excerpt = frontmatter.excerpt ?? ""
     const tags = frontmatter.tags ?? []
     return {
-        ...frontmatter
+        ...frontmatter,
+        authorName,
+        publishDate
     }
 })
 

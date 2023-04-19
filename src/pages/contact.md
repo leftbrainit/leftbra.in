@@ -1,7 +1,7 @@
 ---
 name: Contact
 description: Yeah contact
-dark: false
+dark: true
 wrap: false
 isSubPage: false
 ---

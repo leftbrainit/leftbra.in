@@ -1,12 +1,11 @@
 <template>
-    <div
-        :class="colour === 'green' ? 'bg-lime-100' : colour === 'pink' ? 'bg-pink-100' : colour === 'yellow' ? 'bg-yellow-100' : ''"
-    >
+    <div 
+    >   <div v-if="props.anchor" :id="props.anchor"></div>
         <Wrapper>
-            <div class="relative flex flex-col py-12 md:py-24 lg:py-32">
+            <div class="relative flex flex-col py-12 md:py-24 lg:py-32 noborder-b border-gray-500/50">
                 <div class="flex flex-col justify-center">
                     <SectionHeading :colour="colour" :title="title" />
-                    <div class="max-w-3xl text-5xl mb-3 font-medium leading-tight">
+                    <div class="max-w-3xl text-5xl mb-3 font-medium leading-tight font-title">
                         <h4 v-html="slogan" />
                     </div>
                     <Prose class="max-w-prose">
@@ -38,6 +37,10 @@ const props = defineProps({
     slogan: {
         type: String,
         required: true
+    },
+    anchor: {
+        type: String,
+        required: false
     },
     colour: {
         type: String,

@@ -1,32 +1,46 @@
 <template>
-    <div :class="dark ? `dark` : ``">
+    <div class="bg-primary-50 bg-center bg-cover" :style="`background-image: url(/assets/gradient-5.svg);background-attachment: fixed;`" :class="dark ? `dark` : ``">
+
+        <!-- <HeaderAnimation  /> -->
+        <HeaderImage v-if="frontmatter.headerImageUrl" :headerImageUrl="frontmatter.headerImageUrl" />
+        <!-- <CoverImage v-if="frontmatter.coverImage" :headerImageUrl="frontmatter.coverImage" /> -->
         <div
-            :class="` bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-100 min-h-screen flex flex-col antialiased`"
+            :class="`nobg-primary-50 text-gray-800 dark:text-gray-100 min-h-screen flex bg-fixed flex-col antialiased z-10`"
+            
         >
-            <Navigation class="flex-none" />
-            <main class="flex-grow" :class="wrap ? 'py-12 md:py-32' : ''">
+
+        <div class="z-10 flex flex-col min-h-screen">
+            <Navigation class="flex-none z-30" />
+            <main class="flex-grow z-10" :class="wrap ? 'py-12 md:py-32' : ''">
                 <div
                     v-if="isSubPage && parentRoute"
-                    class="max-w-5xl m-auto px-4 mb-4 text-lg opacity-60 font-semibold"
+                    class=" z-10  max-w-7xl m-auto px-4 mb-4 text-lg opacity-60 font-semibold"
                 >
                     <router-link
                         :to="{ name: parentRoute.name }"
                     >&larr; Back to {{ parentRoute.niceName }}</router-link>
                 </div>
-                <Wrapper v-if="wrap" class="prose prose-xl dark:prose-light dark:prose-xl">
+                <Wrapper v-if="isSubPage" >
+                    <BlogPostHeader :frontmatter="frontmatter" />
+                </Wrapper>
+                <Wrapper v-if="wrap" tight class="z-10 prose prose-xl dark:prose-light dark:prose-xl max-w-4xl">
                     <slot />
+                    <template v-slot:sidebar>
+                        <Sidebar :frontmatter="frontmatter" />
+                    </template>
                 </Wrapper>
                 <div v-else>
                     <slot />
                 </div>
             </main>
-            <Footer class="flex-none" />
+            <Footer class="flex-none z-10" />
+        </div>
         </div>
     </div>
 </template>
 
 <script lang="ts">
-import { defineComponent, computed } from "vue";
+import { defineComponent, computed, ref } from "vue";
 import { useHead } from '@vueuse/head'
 import { useRoute, useRouter, RouteRecordNormalized } from "vue-router"
 import { getNiceRouteNames } from "../utilities"
@@ -61,6 +75,7 @@ export default defineComponent({
         }
         const name = mergedFrontmatter.name ?? mergedFrontmatter.name ?? route.name ?? "Page"
         const description = mergedFrontmatter.description ?? mergedFrontmatter.excerpt
+
         useHead({
             title: `${name} - LeftBrain`,
             meta: [

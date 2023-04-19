@@ -4,7 +4,7 @@ description: It is LeftBrain's policy to respect your privacy regarding any
   information we may collect from you across our
   website, [](https://state.ly/)https://leftbra.in, and other sites we own and
   operate.
-dark: false
+dark: true
 wrap: true
 isSubPage: false
 ---
