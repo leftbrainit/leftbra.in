@@ -41,6 +41,7 @@ declare module 'vue' {
     SectionHeading: typeof import('./src/components/SectionHeading.vue')['default']
     Service: typeof import('./src/components/Service.vue')['default']
     ServiceCategory: typeof import('./src/components/ServiceCategory.vue')['default']
+    ServiceListItem: typeof import('./src/components/ServiceListItem.vue')['default']
     Services: typeof import('./src/components/Services.vue')['default']
     ServicesAtoZ: typeof import('./src/components/ServicesAtoZ.vue')['default']
     Sidebar: typeof import('./src/components/Sidebar.vue')['default']
