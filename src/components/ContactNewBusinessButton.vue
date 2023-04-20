@@ -23,11 +23,6 @@ const props = defineProps({
 })
 
 const startNewBusinessIntercomConversation = () => {
-    if (route.query.test) {
-        console.log("Clicked button (test mode)")
-    } else {
-        //@ts-ignore
-        window.Intercom('showNewMessage', 'Hi, I clicked on contact new business.')
-    }
+    console.log("Contact New Business button pressed 🎉")
 }
 </script>
