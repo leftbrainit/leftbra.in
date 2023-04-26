@@ -11,6 +11,7 @@ declare module 'vue' {
     Button: typeof import('./src/components/Button.vue')['default']
     ButtonLink: typeof import('./src/components/ButtonLink.vue')['default']
     CallToAction: typeof import('./src/components/CallToAction.vue')['default']
+    CallToAction1: typeof import('./src/components/CallToAction1.vue')['default']
     Capabilities: typeof import('./src/components/Capabilities.vue')['default']
     CapabilityCard: typeof import('./src/components/CapabilityCard.vue')['default']
     CapabilitySection: typeof import('./src/components/CapabilitySection.vue')['default']
