@@ -25,14 +25,7 @@
                 <div class="not-prose text-[1rem] font-semibold text-white/50 mb-2">Services</div>
                 <ul>
                     <li v-for="service in services" class=" w-full flex flex-col items-start pb-2 noborder border-white/20  rounded-xl ">
-                        <router-link :to="{ name: service.routeName }">
-                            <div class="flex w-full items-center group">
-                                <div class="material-symbols-outlined text-white/40 group-hover:text-white/60 pr-2">{{service.icon}}</div>
-                                <div class="flex-grow">
-                                    <div class="not-prose leading-tight text-[1rem] font-medium text-white/70 group-hover:text-white/90">{{service.title}}</div>
-                                </div>
-                            </div>    
-                        </router-link>
+                        <ServiceListItem v-bind="service"/>
                     </li>
                 </ul>
             </div>

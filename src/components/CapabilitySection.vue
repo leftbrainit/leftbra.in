@@ -14,20 +14,20 @@
                     <div class=" mt-5">
                         <!-- <div class="not-prose text-lg font-semibold text-white/50  mt-2">Featured Services</div> -->
                         <div v-for="service in services">
-                        <router-link :to="{ name: service.routeName }">
-                            <li class="my-3 py-1 flex items-center group scale-100 transition-all hover:scale-105 border-l-2 border-primary-500 pl-3" >
-                                <div v-if="service.icon" class=" material-symbols-outlined text-white/50 group-hover:text-white/70">{{ service.icon }}</div>
+                        <!-- <router-link :to="{ name: service.routeName }"> -->
+                            <li class="my-3 py-1 flex items-center group scale-100 transition-all disabled-hover:scale-105 border-l-2 border-primary-500 pl-3" >
+                                <div v-if="service.icon" class=" material-symbols-outlined text-white/50 disabled-group-hover:text-white/70">{{ service.icon }}</div>
                                 <div>
                                 
-                                <div class="pl-3 text-xl font-semibold text-white/70 group-hover:text-white/90">
+                                <div class="pl-3 text-xl font-semibold text-white/70 disabled-group-hover:text-white/90">
                                     {{ service.title }}
                                 </div>
                             </div>
                             <div
-                                class="text-xl  group-hover:pl-2 scale-50 group-hover:scale-100 font-medium opacity-0 group-hover:opacity-100 transition-all text-right">
+                                class="text-xl  disabled-group-hover:pl-2 scale-50 disabled-group-hover:scale-100 font-medium opacity-0 disabled-group-hover:opacity-100 transition-all text-right">
                                 &rarr;</div>
                         </li>
-                        </router-link>
+                        <!-- </router-link> -->
                         </div>
                     </div>
                     <!-- <StoryCard v-bind="allStories[1]" orientation="portrait" subtitle="Customer Story" excerpt=""/> -->

@@ -17,14 +17,14 @@
                     <div class="divide-white/10 divide-y">
                         
                         <div v-for="service in serviceGroup.services">
-                        <router-link :to="{ name: service.routeName }">
+                        <!-- <router-link :to="{ name: service.routeName }"> -->
                         <li class="py-3 w-full flex" >
                             <div class="flex-grow">
                                 {{ service.title }}
                             </div>
                             <div v-if="service.icon" class=" material-symbols-outlined text-white/40">{{ service.icon }}</div>
                         </li>
-                        </router-link>
+                        <!-- </router-link> -->
                         </div>
                     </div>
                 </ol>
