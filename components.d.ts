@@ -10,6 +10,7 @@ declare module 'vue' {
     BlogPosts: typeof import('./src/components/BlogPosts.vue')['default']
     Button: typeof import('./src/components/Button.vue')['default']
     ButtonLink: typeof import('./src/components/ButtonLink.vue')['default']
+    Callout: typeof import('./src/components/Callout.vue')['default']
     CallToAction: typeof import('./src/components/CallToAction.vue')['default']
     CallToAction1: typeof import('./src/components/CallToAction1.vue')['default']
     Capabilities: typeof import('./src/components/Capabilities.vue')['default']

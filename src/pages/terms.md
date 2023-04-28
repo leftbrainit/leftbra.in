@@ -7,9 +7,11 @@ dark: true
 wrap: true
 ---
 
-<div class="p-4 bg-yellow-100 border border-yellow-200 text-yellow-800 mb-4">
-<b>Note:</b> These are the Terms Of Service for use of this website. Existing customers, please refer to our <a href="/ongoing-support-terms">Ongoing Support Terms</a>.
-</div>
+::: component Callout
+~~~
+~~~
+**Note:** These are the Terms Of Service for use of this website. Existing customers, please refer to our [Ongoing Support Terms](/ongoing-support-terms)
+:::
 
 # Terms of Service
 
