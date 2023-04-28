@@ -4,3 +4,9 @@ dist
 dist-ssr
 *.local
 components.d.ts
+src/pages/.obsidian/app.json
+src/pages/.obsidian/appearance.json
+src/pages/.obsidian/core-plugins-migration.json
+src/pages/.obsidian/core-plugins.json
+src/pages/.obsidian/hotkeys.json
+src/pages/.obsidian/workspace.json
