@@ -1,8 +1,8 @@
 <template>
     <div class="md:pl-8 w-full">
         <div class="not-prose sticky top-8 bg-black/10 border border-white/10 rounded-xl divide-y divide-white/10 w-full mt-10">
-            <div v-if="frontmatter.companyLogoUrl" class="items-center justify-center p-12">
-                <img class="min-h-12 max-h-12"  :src="frontmatter.companyLogoUrl" alt="" />
+            <div v-if="frontmatter.companyLogoUrl" class="items-center justify-center p-12 ">
+                <img class="min-h-12 max-h-12  block w-full"  :src="frontmatter.companyLogoUrl" alt="" />
             </div>
             <!-- <div v-if="frontmatter.authorName" class="items-center justify-center p-4">
                 <avatar :name="frontmatter.authorName"/>
