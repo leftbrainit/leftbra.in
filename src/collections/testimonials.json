@@ -16,15 +16,16 @@
       "companyName": "BrandMe",
       "companyLogoUrl": "/assets/brandme-logo.png",
       "body": "We love LeftBrain! Our IT has never run better since they took over. They have the answer for every IT and techie question we ever have. Their response time is super fast and to top it all, they are all really lovely people.",
-      "position": "column1"
+      "position": "column3"
     },
     {
-      "authorName": "Poppy Bryanton",
-      "authorAvatarUrl": "/assets/1517426463721.jpg",
-      "authorJobTitle": "Integration Manager",
-      "companyName": "Brainlabs",
-      "body": "What stood out to us about LeftBrain was that they could offer bespoke tech solutions that were right for our processes, our users and our clients. We spoke to various other IT providers, but they offered a one-size-fits-all approach.",
-      "position": "column2"
+      "authorName": "Ed Saper",
+      "authorAvatarUrl": "/assets/ed-saper.jpeg",
+      "authorJobTitle": "Co-Founder",
+      "companyName": "Pai Skincare",
+      "companyLogoUrl": "/assets/pai-logo.svg",
+      "body": "Pai has an incredibly capable back-end infrastructure, which LeftBrain has built. I’d be surprised to find another company of our size that has a fraction of the capabilities that we do. Working with LeftBrain has enabled us to punch above our weight.",
+      "position": "column3"
     },
     {
       "authorName": "Gary Clewlow",
@@ -33,15 +34,16 @@
       "companyName": "New Look",
       "companyLogoUrl": "/assets/new-look-logo.png",
       "body": "I've worked with LeftBrain for many years. The team really understands our working environment and does a great job of recommending what we need, when we need it. They resolve issues pretty darn quickly!",
-      "position": "column3"
+      "position": "column1"
     },
     {
       "authorName": "Carl Pearse",
       "authorAvatarUrl": "/assets/1643050359329.jpg",
       "authorJobTitle": "Chief Technology Officer",
       "companyName": "Super Payments",
+      "companyLogoUrl":"/assets/super-wordmark.svg",
       "body": "We were very pleased with the onboarding process, controls and ongoing operations. LeftBrain is a high calibre and responsive team.",
-      "position": "column3"
+      "position": "column2"
     }
   ]
 }
