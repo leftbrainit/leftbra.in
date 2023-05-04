@@ -56,20 +56,20 @@ const features = [
         imageUrl: "/assets/dashboard-01.png"
     },
     {
+        title: "Get Help Fast",
+        description: "Chat live with our team, read help articles and manage your devices and services from the comfort of your desktop.",
+        imageUrl: "/assets/dashboard-help-fast.png"
+    },
+    {
         title: "Share Knowledge",
         description: "Company admins and tech people can collaborate with the LeftBrain team on documentation, and share help articles with their teams.",
         imageUrl: "/assets/dashboard-02.png",
         new: true
     },
     {
-        title: "Get Help Fast",
-        description: "Chat live with our team, read help articles and manage your devices and services from the comfort of your desktop.",
-        imageUrl: "/assets/dashboard-02.png"
-    },
-    {
         title: "Manage Your Account",
         description: "View and pay your invoices, add or remove services and manage your account, in our billing portal.",
-        imageUrl: "/assets/dashboard-01.png"
+        imageUrl: "/assets/dashboard-billing.png"
     }
 ]
 </script>
