@@ -29,10 +29,13 @@ Previously, Forpeople had their own internal workplace tech team, but found when
 
 With their certification in place, we continue to support the team in London and Amsterdam to keep them in line with the latest cyber requirements. This requires us to always be ahead of the game, looking out for the latest security threats specific to their business. We also provide ongoing support for their cloud based infrastructure at a high level, working hand-in-hand with their in-house tech team so their creatives can focus on coming up with the visionary ideas they are here to make real!
 
-::: component NextSteps
+::: component CallToActionInline
 ~~~
+title: What’s your story?
+backgroundImageUrl: /assets/219A4875.jpg
+teamMemberName: Dustin Rhodes
 ~~~
-
+If your internal tech story’s turning into a thriller, tragedy or full on dystopian horror, let's write the next chapter together, and we’ll all live happily ever after.
 :::
 
 ::: component StoriesReadNext

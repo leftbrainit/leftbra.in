@@ -61,10 +61,13 @@ With their devices and cloud-based systems up and running, we now work with Supe
 
 Carl says: “I would highly recommend the LeftBrain team. They are fast, responsive and knowledgeable. Their help desk is easy to contact and issues are resolved quickly. In fact, I don’t hear much about our workplace tech, which is a good reflection that things are working well!”
 
-::: component NextSteps
+::: component CallToActionInline
 ~~~
+title: What’s your story?
+backgroundImageUrl: /assets/219A4875.jpg
+teamMemberName: Dustin Rhodes
 ~~~
-
+If your internal tech story’s turning into a thriller, tragedy or full on dystopian horror, let's write the next chapter together, and we’ll all live happily ever after.
 :::
 
 ::: component StoriesReadNext

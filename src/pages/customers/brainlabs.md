@@ -66,10 +66,13 @@ authorJobTitle: "Integration Manager"
 
 The love is mutual! Here at LeftBrain, we are incredibly proud to continue on this journey with Brainlabs, as they have gone from having little workplace infrastructure through to having their own in-house IT team, and robust set of core systems. We are poised and ready to help with the new and evolving challenges they face on their path to world domination.
 
-::: component NextSteps
+::: component CallToActionInline
 ~~~
+title: What’s your story?
+backgroundImageUrl: /assets/219A4875.jpg
+teamMemberName: Dustin Rhodes
 ~~~
-
+If your internal tech story’s turning into a thriller, tragedy or full on dystopian horror, let's write the next chapter together, and we’ll all live happily ever after.
 :::
 
 ::: component StoriesReadNext

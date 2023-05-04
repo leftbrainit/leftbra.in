@@ -50,11 +50,13 @@ Pai has an incredibly capable back-end infrastructure, which LeftBrain has built
 
 Going forward, LeftBrain continues to maintain Pai’s systems and monitor their cyber security whilst being on hand to support the team with day-to-day queries via the help desk. 
 
-
-::: component NextSteps
+::: component CallToActionInline
 ~~~
+title: What’s your story?
+backgroundImageUrl: /assets/219A4875.jpg
+teamMemberName: Dustin Rhodes
 ~~~
-
+If your internal tech story’s turning into a thriller, tragedy or full on dystopian horror, let's write the next chapter together, and we’ll all live happily ever after.
 :::
 
 ::: component StoriesReadNext

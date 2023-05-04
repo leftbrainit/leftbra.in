@@ -45,10 +45,13 @@ Having delivered so successfully over the years, New Look asked LeftBrain to ove
 
 LeftBrain continues to oversee the workplace technology for all of New Look’s Mac based devices and systems, keeping them up to date with the latest security guidelines and offering highly personal user support with twice weekly office visits. Our engineers also visit their of “I really do recommend LeftBrain,” says Gary. “We’ve got another project we’re hoping to work on with them later this year, and continue to have peace of mind that our new Mac starters have the prep, kit and support that they need”. 
 
-::: component NextSteps
+::: component CallToActionInline
 ~~~
+title: What’s your story?
+backgroundImageUrl: /assets/219A4875.jpg
+teamMemberName: Dustin Rhodes
 ~~~
-
+If your internal tech story’s turning into a thriller, tragedy or full on dystopian horror, let's write the next chapter together, and we’ll all live happily ever after.
 :::
 
 ::: component StoriesReadNext

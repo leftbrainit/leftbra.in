@@ -54,10 +54,13 @@ We love LeftBrain! Our IT has never run better since they took over. They have t
 Since the pandemic, BrandMe has kept a flexible working policy with many of their employees working from home on Mondays and Fridays. We continue to support the team with regular site visits, our rapid-response end user support and ongoing security monitoring. 
 
 
-::: component NextSteps
+::: component CallToActionInline
 ~~~
+title: What’s your story?
+backgroundImageUrl: /assets/219A4875.jpg
+teamMemberName: Dustin Rhodes
 ~~~
-
+If your internal tech story’s turning into a thriller, tragedy or full on dystopian horror, let's write the next chapter together, and we’ll all live happily ever after.
 :::
 
 ::: component StoriesReadNext

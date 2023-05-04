@@ -13,6 +13,7 @@ declare module 'vue' {
     Callout: typeof import('./src/components/Callout.vue')['default']
     CallToAction: typeof import('./src/components/CallToAction.vue')['default']
     CallToAction1: typeof import('./src/components/CallToAction1.vue')['default']
+    CallToActionInline: typeof import('./src/components/CallToActionInline.vue')['default']
     Capabilities: typeof import('./src/components/Capabilities.vue')['default']
     CapabilityCard: typeof import('./src/components/CapabilityCard.vue')['default']
     CapabilitySection: typeof import('./src/components/CapabilitySection.vue')['default']
