@@ -8,6 +8,7 @@ declare module 'vue' {
     BlogPostCard: typeof import('./src/components/BlogPostCard.vue')['default']
     BlogPostHeader: typeof import('./src/components/BlogPostHeader.vue')['default']
     BlogPosts: typeof import('./src/components/BlogPosts.vue')['default']
+    BlogPostsReadNext: typeof import('./src/components/BlogPostsReadNext.vue')['default']
     Button: typeof import('./src/components/Button.vue')['default']
     ButtonLink: typeof import('./src/components/ButtonLink.vue')['default']
     Callout: typeof import('./src/components/Callout.vue')['default']

@@ -54,3 +54,9 @@ Rosie Underwood is no stranger to switching things up, as she radically changed 
 
 > Know the basics. Something like the Security+ course is a great place to start, as it gives you a general overview of everything you need to know. I started out with very software specific training, which is good because it led to where I am now. But I do recommend starting basic, starting small and working your way up. As mentioned before, learning on the job is where it’s at! Try getting any tech job you can, whilst upskilling and specialising at the same time as being immersed in the industry.
 >
+
+::: component BlogPostsReadNext
+~~~
+~~~
+
+:::

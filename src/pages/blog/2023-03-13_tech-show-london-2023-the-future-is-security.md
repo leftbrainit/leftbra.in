@@ -23,3 +23,9 @@ As Chief Technology Officer at LeftBrain, I have seen an exponential increase in
 As we consider the future of technology, it is clear that it will continue to advance as fast as ever and we need work in staying ahead of the curve. As always with great advancements come great challenges, and security is something that needs constant attention. With more and more sensitive data being stored and transmitted online, cyber threats are becoming more advanced and intelligent. 
 
 I’m all about embracing new technologies, but we must also remain vigilant in protecting ourselves from cyber threats. By taking proactive measures such as encryption, robust security infrastructure, and secure DevOps practices, we can ensure that our data remains secure and our businesses protected.
+
+::: component BlogPostsReadNext
+~~~
+~~~
+
+:::

@@ -4,9 +4,10 @@
             <div v-if="frontmatter.companyLogoUrl" class="items-center justify-center p-12 ">
                 <img class="min-h-12 max-h-12  block w-full"  :src="frontmatter.companyLogoUrl" alt="" />
             </div>
-            <!-- <div v-if="frontmatter.authorName" class="items-center justify-center p-4">
-                <avatar :name="frontmatter.authorName"/>
-            </div> -->
+            <div v-if="frontmatter.authorName" class="items-center justify-center p-4">
+                <avatar :name="frontmatter.authorName" extended />
+            </div>
+            
             <div v-if="frontmatter.publishDate" class="flex flex-row items-center justify-start  p-4">
                 <span class="material-symbols-outlined mr-1 opacity-60">event</span>
                 <span class="not-prose leading-tight text-[1rem] font-medium text-white/70">{{ frontmatter.publishDate }}</span>

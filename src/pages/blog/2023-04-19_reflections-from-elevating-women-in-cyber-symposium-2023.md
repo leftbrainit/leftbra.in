@@ -48,3 +48,9 @@ Many of the women in the industry were recruited by men. This is most likely bec
 ## Go for it!
 
 Finally, I was particularly inspired by Dwan Jones, Director of Equity, Diversity and Inclusion at (ISC)², who talked about the importance of bringing diversity into the IT space and having the courage to apply for jobs above your skill set. In her words, “Be determined and go for what you want!”
+
+::: component BlogPostsReadNext
+~~~
+~~~
+
+:::
