@@ -20,20 +20,20 @@
       "pages": [
         "about",
         "contact",
-        "careers/index",
         "blog/index"
       ],
-      "externalUrls": []
+      "externalUrls": [
+        {
+          "url": "https://careers.leftbra.in",
+          "title": "Careers"
+        }
+      ]
     },
     {
       "pages": [
         "customers"
       ],
       "externalUrls": [
-        {
-          "url": "https://intercom.help/leftbrain/en/",
-          "title": "Help Centre"
-        },
         {
           "url": "https://dashboard.leftbra.in",
           "title": "Dashboard"

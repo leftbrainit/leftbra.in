@@ -1,5 +1,5 @@
 <template>
-    <Wrapper>
+    <Wrapper class="mb-24">
         <SectionHeading :title="title" />
         <Prose class="max-w-prose">
             <slot />
