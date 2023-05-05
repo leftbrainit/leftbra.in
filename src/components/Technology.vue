@@ -17,13 +17,31 @@
                 <slot />
             </div>
         </Wrapper>
+        <ul class="flex flex-row lg:hidden overflow-x-auto px-2 gap-1">
+                    <li v-for="(feature, index) in features" @click="selected = index" class="whitespace-nowrap   text-white  font-medium text-lg px-3 py-1.5 cursor-pointer hover:bg-white/20 border hover:border-white/20 hover:backdrop-blur-sm rounded-md" :class="index === selected ? 'bg-white/20  border-white/20 backdrop-blur-sm' : 'border-white/0'">
+                        {{ feature.title }}
+                    </li>
+                </ul>
         <Wrapper>
-            <div class="noborder-2 border-green-500 pb-16 ">
+            <div class="flex flex-col lg:hidden">
+                
+                <div>
+                    <div class="text-xl max-w-xl mt-8 mb-6 leading-normal">
+                        {{ selectedFeature.description }}
+                    </div>
+                    <div class="w-[150%]">
+                        <img class="w-full rounded-xl" :src="selectedFeature.imageUrl" alt="" />
+                    </div>
+                    <!-- <div v-for="(feature, index) in features" :class="index === selected ? 'opacity-100' : ''" class="transition-all opacity-0 z-20 noshadow-2xl noshadow-black rounded-tl-xl rounded-bl-2xl absolute right-0 md:ml-96 lg:ml-[10] overflow-hidden md:w-[65%] lg:w-[55%] h-[45em]" :style="`background-image: url(${feature.imageUrl}); background-size: auto 100%; background-position: left; background-repeat: no-repeat;`">
+                    </div> -->
+                </div>
+            </div>
+            <div class="hidden lg:flex border-green-500 pb-16 ">
                 <div class="noborder border-green-500 nooverflow-hidden min-h-[45em] flex items-center">
                     <div v-for="(feature, index) in features" :class="index === selected ? 'opacity-100' : ''" class="transition-all opacity-0 z-20 noshadow-2xl noshadow-black rounded-tl-xl rounded-bl-2xl absolute right-0 md:ml-96 lg:ml-[10] overflow-hidden md:w-[65%] lg:w-[55%] h-[45em]" :style="`background-image: url(${feature.imageUrl}); background-size: auto 100%; background-position: left; background-repeat: no-repeat;`">
                         <!-- <img class="nw-[80em] h-fit rounded-xl ml-8" :src="features[selected].imageUrl" alt=""> -->
                     </div>
-                    <div class="noborder border-red-500">
+                    <div class="noborder border-red-500 pl-8 2xl:pl-0">
                         <div v-for="(feature, index) in features"
                             class=" cursor-pointer  transition-all z-10 rounded-lg  -ml-8 px-8 scale-100 py-5 my-3 pr-96 hover:backdrop-blur-sm hover:border hover:scale-105 hover:border-white/20 hover:bg-white/10"
                             :class="index === selected ? 'border border-white/20 bg-white/10 backdrop-blur-sm' : 'bg-white/0'"
@@ -47,8 +65,9 @@
 </template>
 
 <script setup lang="ts">
-import {ref} from "vue"
+import {ref, computed} from "vue"
 const selected = ref(0)
+const selectedFeature = computed(() => features[selected.value])
 const features = [
     {
         title: "Everything In One Place",
