@@ -6,11 +6,6 @@
       "image": "/assets/alan.png"
     },
     {
-      "name": "Alex Betts-Charalambous",
-      "position": "Business Development Partner ",
-      "image": "/assets/img_6402.png"
-    },
-    {
       "name": "Ben Carrick",
       "position": "Strategist",
       "image": "/assets/ben.png"
@@ -61,11 +56,6 @@
       "image": "/assets/kaho.png"
     },
     {
-      "name": "Lewis Karume",
-      "position": "Support Engineer",
-      "image": "/assets/lewis.png"
-    },
-    {
       "name": "Mariam Mulla",
       "position": "Tech Support All Rounder",
       "image": "/assets/mariam-memoji.png"
@@ -81,19 +71,9 @@
       "image": "/assets/new-2022.png"
     },
     {
-      "name": "Neville Denness",
-      "position": "Senior Projects Specialist",
-      "image": "/assets/neville.png"
-    },
-    {
       "name": "Raj Ramdeo",
       "position": "JEDI",
       "image": "/assets/raj.png"
-    },
-    {
-      "name": "Rosie Underwood",
-      "position": "Junior Information Security Engineer",
-      "image": "/assets/rosie.png"
     },
     {
       "name": "Sean Lewis",
@@ -104,11 +84,6 @@
       "name": "Steven Hartmann",
       "position": "Senior Strategist",
       "image": "/assets/steven.png"
-    },
-    {
-      "name": "Thaafier Kamaldien",
-      "position": "JEDI",
-      "image": "/assets/thaafier-kamaldien.png"
     },
     {
       "name": "Troy Twumasi",
