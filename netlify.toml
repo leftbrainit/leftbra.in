@@ -1,7 +1,8 @@
 [[redirects]]
   from = "/*"
-  to = "/index.html"
-  status = 200
+  to = "https://leftbrain.io/:splat"
+  status = 301
+  force = true
 
 [[plugins]]
 package = "@netlify/plugin-sitemap"
